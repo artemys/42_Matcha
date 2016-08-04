@@ -376,3 +376,13 @@
 [03-Aug-2016 18:09:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 23
 [03-Aug-2016 18:16:31 Europe/Paris] PHP Fatal error:  Call to undefined function toggle_visibility() in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 166
 [03-Aug-2016 18:17:27 Europe/Paris] PHP Fatal error:  Call to undefined function toggle_visibility() in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 179
+[04-Aug-2016 16:06:38 Europe/Paris] PHP Notice:  Undefined variable: photo_number in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 149
+[04-Aug-2016 16:06:56 Europe/Paris] PHP Notice:  Undefined variable: photo_number in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 149
+[04-Aug-2016 18:26:29 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[04-Aug-2016 18:27:05 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[04-Aug-2016 18:27:08 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[04-Aug-2016 18:27:42 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[04-Aug-2016 18:27:42 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 48
+[04-Aug-2016 18:29:04 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 48
+[04-Aug-2016 18:29:45 Europe/Paris] PHP Fatal error:  Call to undefined function file_existe() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 46
+[04-Aug-2016 18:30:04 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 48

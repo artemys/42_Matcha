@@ -20,8 +20,8 @@ function get_existing_photo($db, $img_owner)
 		$stmt = $db->conn->prepare("SELECT * FROM photo WHERE :img_owner = photo_auteur");
 		$stmt->execute(array(':img_owner'=>$img_owner));
 		$userRow = $stmt->fetch(PDO::FETCH_ASSOC);
-		$photo_number = $stmt->rowCount();
-		return ($photo_number);
+		$new_photo_number = $stmt->rowCount();
+		return ($new_photo_number);
 	}
 	catch(PDOException $e)
 	{
@@ -32,16 +32,19 @@ function get_existing_photo($db, $img_owner)
 
 function check_photo()
 {
+
 	if (isset($_POST["ValidateUpload"]))
 	{
-    		file_put_contents("hello.txt", "txt");
+		file_put_contents("coucou.txt", "og");
+
 		$targetDir = "Uploads/";
 		$targetFile = $targetDir . basename($_FILES["fileToUpload"]["name"]);
 		$uploadOk = 1;
 		$imageFileType = pathinfo($targetFile, PATHINFO_EXTENSION);
-		if ($_FILES["fileToUpload"]["tmp_name"] != "")
+			file_put_contents("error.txt", $_FILES["fileToUpload"]["tmp_name"]);
+
+		if (file_exists($_FILES["fileToUpload"]["tmp_name"]))
 		{
-			file_put_contents("tmp_name.txt", $_FILES["fileToUpload"]["name"]);
 			$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
 			if ($check !== false)
 			{
@@ -70,9 +73,7 @@ function check_photo()
 			$error = "there is an error with your picture please try another";
 			return (false);
 		}
-	// else if (isset($_FILES["fileToUpload"]["name"]))
-	// {
-   		else if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $targetFile)) 
+   		else if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $targetFile))
     	{
         	$_SESSION['UploadedFile'] = $targetFile;
         	return (true);
@@ -85,12 +86,13 @@ function check_photo()
 }
 /* ***************************************************************************************** */
 
-function save_photo($db, $img_owner, $file_path, $img_height, $img_width, $img_weight, $photo_number)
+function save_photo($db, $img_owner, $file_path, $img_height, $img_width, $img_weight, $new_photo_number)
 {
     try
     {
-    	$stmt = $db->conn->prepare("INSERT INTO photo(photo_auteur, photo_path, photo_height, photo_width, photo_weight_bytes, photo_number) VALUES (:img_owner, :file_path, :img_height, :img_width, :img_weight, :photo_number)");
-    	$stmt->execute(array(':img_owner'=>$img_owner, ':file_path'=>$file_path, ':img_height'=>$img_height, ':img_width'=>$img_width, ':img_weight'=>$img_weight, ':photo_number'=>$photo_number));
+    	$stmt = $db->conn->prepare("INSERT INTO photo(photo_auteur, photo_path, photo_height, photo_width, photo_weight_bytes, photo_number) VALUES (:img_owner, :file_path, :img_height, :img_width, :img_weight, :new_photo_number)");
+    	$stmt->execute(array(':img_owner'=>$img_owner, ':file_path'=>$file_path, ':img_height'=>$img_height, ':img_width'=>$img_width, ':img_weight'=>$img_weight, ':new_photo_number'=>$new_photo_number));
+
 	}
 	catch(PDOException $e)
 	{
@@ -121,25 +123,45 @@ function get_path_file_by_number($db, $img_owner, $photo_number)
 	}
 }
 
+// function get_photo_number()
+function delete_picture($db, $img_owner, $photo_number)
+{
+	try
+	{
+		$stmt = $db->conn->prepare("DELETE FROM photo WHERE :img_owner = photo_auteur AND :photo_number = photo_number");
+		$stmt->execute(array(':img_owner'=>$img_owner, ':photo_number'=>$photo_number));
+		$userRow = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    	if (isset($userRow['photo_path']))
+		{
+			unlink($userRow['photo_path']);
+		}
+		else
+		{
+			//error
+		}
+		// $stmt = $db->
+	}
+	catch(PDOException $e)
+	{
+		echo $e->getMessage();
+	}
+}
+
 /* ***************************************************************************************** */
 $img_owner = $_SESSION['user'];
-$photo_number = get_existing_photo($db, $img_owner);
+$new_photo_number = get_existing_photo($db, $img_owner);
 
 
 if (check_photo() == true)
 {
 	$file_path = $_SESSION['UploadedFile'];
-	file_put_contents("filepath.txt", $file_path);
-
-
-		// $_FILES["file"] = NULL;
 }
 else
 {
 		//error
 }
-
-if (isset($_POST['PictureValidateBtn']) && $photo_number < 5 && isset($_SESSION['UploadedFile']))
+if (isset($_POST['PictureValidateBtn']) && $new_photo_number < 5 && isset($_SESSION['UploadedFile']))
 {
 	$file_path = $_SESSION['UploadedFile'];
 	if (exif_imagetype($file_path) ==  2)
@@ -153,9 +175,14 @@ if (isset($_POST['PictureValidateBtn']) && $photo_number < 5 && isset($_SESSION[
 	$img_height = imagesx($img);
     $img_width = imagesy($img);
     $img_weight = filesize($file_path);
-	save_photo($db, $img_owner, $file_path, $img_height, $img_width, $img_height, $photo_number);
+	save_photo($db, $img_owner, $file_path, $img_height, $img_width, $img_height, $new_photo_number);
 	$_SESSION['UploadedFile'] = NULL;
 
+}
+if (isset($_POST['Del']))
+{
+	$photo_number = $_POST['Del'];
+	delete_picture($db, $img_owner, $photo_number);
 }
 else
 {

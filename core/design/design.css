@@ -220,8 +220,8 @@ ul li
 	background-color: transparent;
 	border: none;
 	position: relative;
-    /*bottom: 406px;*/
-    left: 162px;
+    bottom: 24px;
+    left: 164px;
     border: none;
 
 }
@@ -267,10 +267,22 @@ button img
     float: right;
     bottom: 32px;
 }
-#DelPicture
+#DelPicture0
 {
 	position: relative;
-	bottom: 50px;
+	/*bottom: 50px;*/
+	z-index: 100;
+}
+.delbtn
+{
+	background: url("../../Image/delete.png") no-repeat;
+	height: 32px;
+    width: 32px;
+     border: none;
+    position: relative;
+    font-size:0px;
+    /*float: right;*/
+    /*bottom: 32px;*/
 }
 /* ***************************************************************************************** */
 /* INFORMATION	                                                                             */

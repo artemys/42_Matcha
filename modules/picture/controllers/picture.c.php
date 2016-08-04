@@ -41,20 +41,20 @@ function check_photo()
 		$targetFile = $targetDir . basename($_FILES["fileToUpload"]["name"]);
 		$uploadOk = 1;
 		$imageFileType = pathinfo($targetFile, PATHINFO_EXTENSION);
-			file_put_contents("error.txt", $_FILES["fileToUpload"]["tmp_name"]);
+		file_put_contents("error.txt", $_FILES["fileToUpload"]["tmp_name"]);
 
-		if (file_exists($_FILES["fileToUpload"]["tmp_name"]))
-		{
-			$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-			if ($check !== false)
-			{
-				$uploadOk = 1;
-			}
-			else
-			{
-				$uploadOk = 0;
-			}
-		}
+		// if (file_exists($_FILES["fileToUpload"]["tmp_name"]))
+		// {
+		// 	$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+		// 	if ($check !== false)
+		// 	{
+		// 		$uploadOk = 1;
+		// 	}
+		// 	else
+		// 	{
+		// 		$uploadOk = 0;
+		// 	}
+		// }
 		if ($_FILES["fileToUpload"]["size"] > 500000)
 		{
    			$uploadOk = 0;
@@ -129,9 +129,7 @@ function delete_picture($db, $img_owner, $photo_number)
 	try
 	{
 		$stmt = $db->conn->prepare("DELETE FROM photo WHERE :img_owner = photo_auteur AND :photo_number = photo_number");
-		$stmt->execute(array(':img_owner'=>$img_owner, ':photo_number'=>$photo_number));
 		$userRow = $stmt->fetch(PDO::FETCH_ASSOC);
-
     	if (isset($userRow['photo_path']))
 		{
 			unlink($userRow['photo_path']);
@@ -140,6 +138,8 @@ function delete_picture($db, $img_owner, $photo_number)
 		{
 			//error
 		}
+		$stmt->execute(array(':img_owner'=>$img_owner, ':photo_number'=>$photo_number));
+		
 		// $stmt = $db->
 	}
 	catch(PDOException $e)

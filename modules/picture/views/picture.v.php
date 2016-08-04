@@ -17,26 +17,26 @@
 
 	<form method="post" action="index.php?nav=Home">
 		<img class="photo" id="ProfilPicture"  <?php echo get_path_file_by_number($db, $_SESSION['user'], 0); ?>/>
-		<input id="DelPicture" type="submit" name="Del" value="0" title="Delete Picture">
+		<input class="delbtn" id="DelPicture0" type="submit" name="Del" value="0" title="Delete Picture">
 
 		<section class="appercu">
 			<img class="miniature" id="Min1" <?php echo get_path_file_by_number($db, $_SESSION['user'], 1); ?>>
-			<input id="DelPicture" type="submit" name="Del" value="1" title="Delete Picture">
+			<input class="delbtn" id="DelPicture1" type="submit" name="Del" value="1" title="Delete Picture">
 
 			<img class="miniature" id="Min2" <?php echo get_path_file_by_number($db, $_SESSION['user'], 2); ?>></br>
-			<input id="DelPicture" type="submit" name="Del" value="2" title="Delete Picture">
+			<input class="delbtn"id="DelPicture2" type="submit" name="Del" value="2" title="Delete Picture">
 
 			<img class="miniature" id="Min3" <?php echo get_path_file_by_number($db, $_SESSION['user'], 3); ?>>
-			<input id="DelPicture" type="submit" name="Del" value="3" title="Delete Picture">
+			<input class="delbtn"id="DelPicture3" type="submit" name="Del" value="3" title="Delete Picture">
 
 			<img class="miniature" id="Min4" <?php echo get_path_file_by_number($db, $_SESSION['user'], 4); ?>>
-			<input id="DelPicture" type="submit" name="Del" value="4" title="Delete Picture">
+			<input class="delbtn"id="DelPicture4" type="submit" name="Del" value="4" title="Delete Picture">
 		</section>
 
 		<!-- <input id="ChangePicturePriority" type="submit" name="SetAsProfil"> -->
 	</form>
 		<button id="PicturePopUpBtn" onclick="toggle_visibility('PicturePopUp'); changeImage('image0'); " title="Add picture"><img id="image0" src="Image/add.png"/></button>
-	
+
 </section>
 
 		

@@ -1,0 +1,55 @@
+[07-Jul-2016 18:28:00 Europe/Paris] PHP Fatal error:  Call to undefined function ft_error() in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 159
+[07-Jul-2016 18:36:11 Europe/Paris] PHP Fatal error:  Call to undefined function ft_register() in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 157
+[07-Jul-2016 18:36:40 Europe/Paris] PHP Notice:  Undefined variable: db in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 157
+[07-Jul-2016 18:36:40 Europe/Paris] PHP Warning:  Missing argument 7 for ft_register(), called in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 157 and defined in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 30
+[07-Jul-2016 18:36:40 Europe/Paris] PHP Notice:  Trying to get property of non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 36
+[07-Jul-2016 18:36:40 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 36
+[07-Jul-2016 18:44:09 Europe/Paris] PHP Warning:  Missing argument 7 for ft_register(), called in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 157 and defined in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 30
+[07-Jul-2016 18:44:09 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 36
+[07-Jul-2016 18:44:21 Europe/Paris] PHP Warning:  Missing argument 7 for ft_register(), called in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 157 and defined in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 30
+[07-Jul-2016 18:44:21 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 36
+[07-Jul-2016 18:44:22 Europe/Paris] PHP Warning:  Missing argument 7 for ft_register(), called in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 157 and defined in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 30
+[07-Jul-2016 18:44:22 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 36
+[07-Jul-2016 18:44:22 Europe/Paris] PHP Warning:  Missing argument 7 for ft_register(), called in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 157 and defined in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 30
+[07-Jul-2016 18:44:22 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 36
+[07-Jul-2016 18:44:23 Europe/Paris] PHP Warning:  Missing argument 7 for ft_register(), called in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 157 and defined in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 30
+[07-Jul-2016 18:44:23 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 36
+[07-Jul-2016 18:54:22 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 36
+[07-Jul-2016 19:02:54 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 36
+[07-Jul-2016 19:12:11 Europe/Paris] PHP Notice:  Undefined variable: pseudo in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 37
+[07-Jul-2016 19:12:11 Europe/Paris] PHP Notice:  Undefined variable: firstname in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 37
+[07-Jul-2016 19:12:11 Europe/Paris] PHP Notice:  Undefined variable: lastname in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 37
+[07-Jul-2016 19:12:11 Europe/Paris] PHP Notice:  Undefined variable: email in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 37
+[08-Jul-2016 12:05:07 Europe/Paris] PHP Notice:  Undefined variable: pseudo in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 115
+[08-Jul-2016 12:05:07 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php:115
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php(115): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php(157): ft_check_is_already_taken(Object(Database), 'aurore.012@hotm...', 'pony', 'pony', 'aurore.012@hotm...', '12345678')
+#2 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/index.php(14): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/signup.v.php(17): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/controllers/signup.c.php(18): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/index.php(64): incl in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 115
+[08-Jul-2016 12:06:31 Europe/Paris] PHP Notice:  Undefined variable: pseudo in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 115
+[08-Jul-2016 12:06:31 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php:115
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php(115): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php(157): ft_check_is_already_taken(Object(Database), 'aurore.012@hotm...', 'pony', 'pony', 'aurore.012@hotm...', '12345678')
+#2 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/index.php(14): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/signup.v.php(17): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/controllers/signup.c.php(18): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/index.php(64): incl in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 115
+[08-Jul-2016 12:06:35 Europe/Paris] PHP Notice:  Undefined variable: pseudo in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 115
+[08-Jul-2016 12:06:35 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'field list'' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php:115
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php(115): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php(157): ft_check_is_already_taken(Object(Database), 'aurore.012@hotm...', 'pony', 'pony', 'aurore.012@hotm...', '12345678')
+#2 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/index.php(14): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/signup.v.php(17): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/controllers/signup.c.php(18): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/index.php(64): incl in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 115
+[08-Jul-2016 12:10:55 Europe/Paris] PHP Notice:  Undefined variable: email in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 122
+[08-Jul-2016 12:11:45 Europe/Paris] PHP Notice:  Undefined variable: username in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 87
+[08-Jul-2016 12:12:05 Europe/Paris] PHP Notice:  Undefined variable: username in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 87
+[08-Jul-2016 12:12:51 Europe/Paris] PHP Notice:  Undefined variable: username in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 87
+[08-Jul-2016 12:13:39 Europe/Paris] PHP Warning:  Missing argument 7 for ft_send_validation_mail(), called in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 128 and defined in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 85
+[08-Jul-2016 12:13:39 Europe/Paris] PHP Notice:  Undefined variable: password_a in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 87

@@ -1,0 +1,477 @@
+/* ***************************************************************************************** */
+/*                                                                                           */
+/*                                                                       :::      ::::::::   */
+/*   design.css                                                        :+:      :+:    :+:   */
+/*                                                                   +:+ +:+         +:+     */
+/*   By: aliandie <aliandie@student.42.fr>                         +#+  +:+       +#+        */
+/*                                                               +#+#+#+#+#+   +#+           */
+/*   Created: 2015/10/10 10:00:00 by aliandie                         #+#    #+#             */
+/*   Updated: 2015/10/10 10:00:00 by aliandie                        ###   ########.fr       */
+/*                                                                                           */
+/* ***************************************************************************************** */
+
+
+
+/* ***************************************************************************************** */
+/* HEADER                                                                                    */
+/* ***************************************************************************************** */
+
+#Header
+{
+	height: 150px;
+	background: rgba(0, 0, 0, 0.50);
+}
+
+#Header h1
+{
+	text-align: center;
+	line-height: 150px;
+	margin: 0;
+}
+
+/* ***************************************************************************************** */
+/* REGISTATION                                                                               */
+/* ***************************************************************************************** */
+
+#Registration
+{
+
+}
+
+/* ***************************************************************************************** */
+/* UTILITISES                                                                                */
+/* ***************************************************************************************** */
+.margin_top_100
+{
+	margin-top: 100px;
+}
+ul li
+{
+	list-style: none;
+
+}
+.title
+{
+	border-bottom: solid rgba(0, 0, 0, 0.50);
+	/*border-width: 10px;*/
+	width: 80%;
+	left: 10%;
+	text-align: center;
+	position: relative;
+	height: 50px;
+	font-size: 25px;
+}
+.boutton
+{
+	position: relative;
+    float: right;
+    width: 80px;
+    height: 60px;
+    border: solid;
+    background-color: white;
+    margin: 5px;
+    top:20px;
+}
+.boutton:focus
+{
+	outline: none;
+}
+/* ***************************************************************************************** */
+/* SIDE                                                                                   */
+/* ***************************************************************************************** */
+.module
+{
+	/*text-align: center;*/
+}
+#side
+{
+	background: rgba(0, 0, 0, 0.50);
+	display: block;
+	position: absolute;
+	float: left;
+	/*margin-left: -50px;*/
+	padding: 15px 20px 10px 0;
+	list-style: none;
+	position: relative;
+	left: -64px;
+	min-width: 150px;
+
+	/*list-style-type: none;*/
+
+	/*top: -40px;*/
+}
+.menu
+{
+	padding :96px;
+}
+@media(max-width: 1271px)
+{
+	.menu
+	{
+		/*padding: 54px;*/
+		left: -75px;
+	}
+
+}
+#btn
+{
+	position: relative;
+	top: -110px;
+	float: left;
+	left: 128px;
+}
+
+/* ***************************************************************************************** */
+/* REGISTATION                                                                               */
+/* ***************************************************************************************** */
+#Match
+{
+	/*background-color: pink*/
+}
+/* ***************************************************************************************** */
+/* HOME		                                                                                 */
+/* ***************************************************************************************** */
+#Home
+{
+	border: solid black;
+	height: 1000px;
+	/*width: 800px;*/
+	position: absolute;
+	margin-top: 20px;
+	left: 20px;
+}
+/* ***************************************************************************************** */
+/* PICTURE		                                                                             */
+/* ***************************************************************************************** */
+
+#Picture
+{
+	/*background-color: red;*/
+    width: 50%;
+    height: 25%;
+	/*background-color: red;*/
+}
+.photo
+{
+	border : solid black;
+	height: 205px;
+	width: 200px;
+	position: absolute;
+}
+.miniature
+{
+	/*border : solid black;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	*/
+	border: solid black;
+    height: 100px;
+    width: 100px;
+    /*position: absolute;*/
+    /*bottom: 340px;*/
+	/*height: 100px;*/
+	/*width: 100px;*/
+	position: relative;
+	/*bottom: 200px;*/
+	/*left: 205px;*/
+}
+.miniature:nth-child(1), .miniature:nth-child(2)
+{
+	margin-bottom: 5px;
+}
+.appercu
+{
+	/*position: relative;*/
+	/*bottom: 205px;*/
+	/*left: 205px;*/
+	/*background-color: yellow;*/
+    /*width: 204px;*/
+    /* bottom: 205px; */
+    /* left: 205px; */
+	position: relative;
+    /*background-color: yellow;*/
+    width: 50%;
+    float: right;
+}
+#fileToUpload
+{
+
+	position: relative;
+
+}
+#PicturePopUp
+{
+	background-color: white;
+	border: solid black;
+	display: none;
+	position: absolute;
+	height: 750px;
+    width: 750px;
+    z-index: 100;
+    bottom: 120px;
+    left: 220px;
+    float: left;
+}
+#PicturePopUpBtn 
+{
+	height: 32px;
+	width: 32px;
+	background-color: transparent;
+	border: none;
+	position: relative;
+    /*bottom: 406px;*/
+    left: 162px;
+    border: none;
+
+}
+#PicturePopUpBtn:focus
+{
+	outline: none;
+}
+#ImageUploader
+{
+	position: relative;
+	top: 48px;
+}
+#UploadedFile
+{
+	border: solid black;
+	position: relative;
+    left: 30px;
+    top: 46px;
+}
+button img
+{
+	border: none;
+}
+#PictureUploadBtn
+{
+	background: url("../../Image/upload.png") no-repeat;
+	padding-left: 16px;
+    height: 64px;
+    width: 70px;
+    border: none;
+    position: relative;
+    float: right;
+    bottom: 32px;
+}
+#PicCheckBtn
+{
+	background: url("../../Image/checked.png") no-repeat;
+	padding-left: 16px;
+    height: 64px;
+    width: 70px;
+    border: none;
+    position: relative;
+    float: right;
+    bottom: 32px;
+}
+/* ***************************************************************************************** */
+/* INFORMATION	                                                                             */
+/* ***************************************************************************************** */
+
+#InfoPopUp
+{
+	border: solid black;
+	display: none;
+	background-color: white;
+	/*position: relative;*/
+    height: 500px;
+    width: 500px;
+    z-index: 100;
+    bottom: 170px;
+    left: 220px;
+    float: left;
+    position: absolute;
+}
+#UserInfo
+{
+	border: solid black;
+    height: 230px;
+    width: 405px;
+    float: right;
+    position: relative;
+    bottom: 17px;
+    /*bottom: 210px;*/
+    /*z-index: 1;*/
+    /*left: 560px;*/
+    /*position: absolute;*/
+}
+#InfoBtn
+{
+	height: 32px;
+	width: 32px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+    /*bottom: 397px;*/
+    /*left: 373px;*/
+    border: none;
+    float: left;
+    bottom: 192px;
+}
+#InfoBtn:focus
+{
+	outline: none;
+}
+
+@media(max-width: 1740px)
+{
+	#InfoPopUp
+	{
+		left:15px;
+		position: relative;
+		bottom: 370px;
+	}
+
+}
+/* ***************************************************************************************** */
+/* DESCRIPTION 	                                                                             */
+/* ***************************************************************************************** */
+
+#Description
+{
+	border: solid black;
+    height: 230px;
+    width: 724px;
+    float: left;
+    position: absolute;
+    bottom: 512px;
+}
+#BioPopUp
+{
+	display: none;
+	border: solid black;
+    position: relative;
+    left: 246px;
+    background-color: white;
+    width: 700px;
+    top: 85px;
+}
+#BioBtn
+{
+	height: 32px;
+	width: 32px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+    /*bottom: 397px;*/
+    /*left: 373px;*/
+    /*border: none;*/
+    /*float: left;*/
+    bottom: 192px;
+}
+#BioBtn:focus
+{
+	outline: none;
+}
+#CheckedBtn
+{
+	background-color: transparent;
+
+	border: none;
+
+}
+#UserBio
+{
+	 width: 500px;
+    height: 100px;
+    left: 106px;
+    position: relative;
+    top: 18px;
+}
+
+@media(max-width: 1760px)
+{
+	#Description
+	{
+		/*left:15px;*/
+		width: 45%;
+		position: relative;
+		bottom: 540px;
+	}
+		#UserInfo
+	{
+		position: relative;
+		width: 45%;
+	}
+}
+/* ***************************************************************************************** */
+/* TAG 			                                                                             */
+/* ***************************************************************************************** */
+#Tag
+{
+	position: relative;
+    top: 252px;
+    border: solid black;
+    width: 100%;
+    height: 15%;
+}
+#TagBtn
+{
+	height: 32px;
+	width: 32px;
+	background-color: transparent;
+	border: none;
+	position: absolute;
+	bottom: 110px;
+}
+#TagBtn:focus
+{
+	outline: none;
+}
+#TagPopUp
+{
+	border: solid black;
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    position: relative;
+    bottom: 240px;
+    left: 330px;
+    display: none;
+}
+/* ***************************************************************************************** */
+/* ONLINE 			                                                                         */
+/* ***************************************************************************************** */
+#Online
+{
+	position: relative;
+	left: 550px;
+	top:	50px;
+}
+/* ***************************************************************************************** */
+/* LOGOUT 			                                                                         */
+/* ***************************************************************************************** */
+#LogoutBtn
+{
+	border: none;
+    background-color: transparent;
+    position: relative;
+    float: right;
+    bottom: 115px;
+    right: 80px;
+}
+#LogoutBtn
+{
+
+	/*display: none;*/
+	background: url("../../Image/logout.png") no-repeat;
+	padding-left: 16px;
+    height: 64px;
+    width: 70px;
+    border: none;
+    position: relative;
+    float: right;
+    bottom: 130px;
+    right: 60px;
+}
+#LogoutBtn:focus
+{
+	outline: none;
+
+}
+
+
+

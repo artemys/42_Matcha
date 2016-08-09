@@ -20,7 +20,7 @@
 
 <section class="module col-xs-2" id="side">
     <ul >
-        <li id="Homebtn"   class="menu col-xs-1"><a  href="index.php?nav=Home"        ><img src="Image/home.png"/></a></li>
+        <li id="Homebtn"   class="menu col-xs-1"><a href="index.php?nav=Home"        ><img src="Image/home.png"/></a></li>
         <li id="Searchbtn" class="menu col-xs-1"><a href="index.php?nav=Search"       ><img src="Image/search.png"/></a></li>
         <li id="Matchbtn"  class="menu col-xs-1"><a href="index.php?nav=Match"        ><img src="Image/match.png"/></a></li>
         <li id="Notifbtn"  class="menu col-xs-1"><a href="index.php?nav=Notification" ><img src="Image/notif.png"/></a></li>

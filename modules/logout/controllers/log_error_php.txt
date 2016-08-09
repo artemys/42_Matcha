@@ -388,3 +388,19 @@
 [04-Aug-2016 18:30:04 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 48
 [04-Aug-2016 18:53:00 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 48
 [04-Aug-2016 18:53:48 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 46
+[05-Aug-2016 12:27:22 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 113
+[05-Aug-2016 16:54:36 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[05-Aug-2016 16:54:36 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 20
+[09-Aug-2016 10:23:45 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 41
+[09-Aug-2016 10:23:45 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 41
+[09-Aug-2016 10:24:33 Europe/Paris] PHP Fatal error:  Call to undefined function is_loggedin() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 41
+[09-Aug-2016 10:30:15 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 41
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 19
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 24
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 28
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 32
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[09-Aug-2016 10:45:15 Europe/Paris] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 52
+[09-Aug-2016 10:46:56 Europe/Paris] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 52
+[09-Aug-2016 10:47:56 Europe/Paris] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 31

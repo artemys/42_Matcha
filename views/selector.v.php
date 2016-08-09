@@ -14,7 +14,7 @@
 
 <section class="content" id="Selector">
 
- <div class="btn col-xs-6 col-sm-3 col-md-2 col-sm-offset-3 col-md-offset-4 text-right" id="signin" onclick="(window.location='?nav=signin')">Sign In</div>
- <div class="btn col-xs-6 col-sm-3 col-md-2 text-left" id="signup" onclick="(window.location='?nav=signup')" >Sign Up</div>
+ <div class="btn col-xs-6 col-sm-3 col-md-2 col-sm-offset-3 col-md-offset-4 text-right" id="signin" onclick="(window.location='?nav=Signin')">Sign In</div>
+ <div class="btn col-xs-6 col-sm-3 col-md-2 text-left" id="signup" onclick="(window.location='?nav=Signup')" >Sign Up</div>
 
 </section>

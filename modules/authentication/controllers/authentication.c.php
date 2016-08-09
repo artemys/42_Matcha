@@ -67,7 +67,7 @@ if (isset($_POST['validate']))
 	{
 		$_SESSION['user'] = $username;
 		echo $_SESSION['user'];
-		redirect('?nav=home');
+		redirect('?nav=Home');
 	}
 	else
 	{

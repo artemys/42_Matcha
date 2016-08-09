@@ -14,7 +14,7 @@
 
 <section class="module col-xs-4 col-xs-offset-4 margin_top_100" id="Registration">
 
-	<form method="post" action="index.php?nav=signup">
+	<form method="post" action="index.php?nav=Signup">
 
 		<table>
 			<tr>

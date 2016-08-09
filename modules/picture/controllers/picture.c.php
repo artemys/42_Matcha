@@ -99,6 +99,8 @@ function save_photo($db, $img_owner, $file_path, $img_height, $img_width, $img_w
 			echo $e->getMessage();
 	}
 }
+
+// function display()
 /* ***************************************************************************************** */
 
 function get_path_file_by_number($db, $img_owner, $photo_number)

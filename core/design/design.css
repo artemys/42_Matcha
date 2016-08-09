@@ -176,6 +176,16 @@ ul li
 	/*bottom: 200px;*/
 	/*left: 205px;*/
 }
+/*#Min3
+{
+	position: relative;
+	bottom: 25px;
+}
+#Min4
+{
+	position: relative;
+	bo
+}*/
 .miniature:nth-child(1), .miniature:nth-child(2)
 {
 	margin-bottom: 5px;
@@ -281,9 +291,30 @@ button img
      border: none;
     position: relative;
     font-size:0px;
+    display: none;
     /*float: right;*/
     /*bottom: 32px;*/
 }
+#ShowMore
+{
+	position: relative;
+	bottom: 50px;
+	/*display: block;*/
+
+}
+.sh
+{
+	display: none;
+	position: relative;
+}
+.sh:nth-child(1), .sh:nth-child(2)
+{
+	margin-bottom: 5px;
+}
+/*.display*/
+/*{*/
+	/*display: none;*/
+/*}*/
 /* ***************************************************************************************** */
 /* INFORMATION	                                                                             */
 /* ***************************************************************************************** */

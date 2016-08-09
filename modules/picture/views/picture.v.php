@@ -17,20 +17,25 @@
 
 	<form method="post" action="index.php?nav=Home">
 		<img class="photo" id="ProfilPicture"  <?php echo get_path_file_by_number($db, $_SESSION['user'], 0); ?>/>
+		<a><img id="ShowMore" src="Image/add.png" onmouseover="show_more('DelPicture0');" onmouseout="show_less('DelPicture0')"; ></a>
 		<input class="delbtn" id="DelPicture0" type="submit" name="Del" value="0" title="Delete Picture">
 
 		<section class="appercu">
-			<img class="miniature" id="Min1" <?php echo get_path_file_by_number($db, $_SESSION['user'], 1); ?>>
+			<img class="miniature" id="Min1"<?php echo get_path_file_by_number($db, $_SESSION['user'], 1); ?>>
+			<a><img class="sh" id="ShowMore1" src="Image/add.png" onmouseover="show_more('DelPicture1');" onmouseout="show_less('DelPicture1')"; ></a>
 			<input class="delbtn" id="DelPicture1" type="submit" name="Del" value="1" title="Delete Picture">
 
-			<img class="miniature" id="Min2" <?php echo get_path_file_by_number($db, $_SESSION['user'], 2); ?>></br>
-			<input class="delbtn"id="DelPicture2" type="submit" name="Del" value="2" title="Delete Picture">
+			<img class="miniature" id="Min2" <?php echo get_path_file_by_number($db, $_SESSION['user'], 2); ?>>
+			<a><img class="sh" id="ShowMore2" src="Image/add.png" onmouseover="show_more('DelPicture2');" onmouseout="show_less('DelPicture2')"; ></a>
+			<input class="delbtn" id="DelPicture2" type="submit" name="Del" value="2" title="Delete Picture">
 
 			<img class="miniature" id="Min3" <?php echo get_path_file_by_number($db, $_SESSION['user'], 3); ?>>
-			<input class="delbtn"id="DelPicture3" type="submit" name="Del" value="3" title="Delete Picture">
+			<a><img class="sh" id="ShowMore3" src="Image/add.png" onmouseover="show_more('DelPicture3');" onmouseout="show_less('DelPicture3')"; ></a>
+			<input class="delbtn" id="DelPicture3" type="submit" name="Del" value="3" title="Delete Picture">
 
 			<img class="miniature" id="Min4" <?php echo get_path_file_by_number($db, $_SESSION['user'], 4); ?>>
-			<input class="delbtn"id="DelPicture4" type="submit" name="Del" value="4" title="Delete Picture">
+			<a><img class="sh" id="ShowMore4" src="Image/add.png" onmouseover="show_more('DelPicture4');" onmouseout="show_less('DelPicture4s')"; ></a>
+			<input class="delbtn" id="DelPicture4" type="submit" name="Del" value="4" title="Delete Picture" >
 		</section>
 
 		<!-- <input id="ChangePicturePriority" type="submit" name="SetAsProfil"> -->
@@ -86,6 +91,18 @@ function del_image(id)
   	x.removeAttribute("src");
 }
 
+function show_more(id)
+{
+	var e = document.getElementById(id);
+	e.style.display = 'block';
+
+}
+function show_less(id)
+{
+	var e = document.getElementById(id);
+	e.style.display = 'none';
+}
+
 function changeImage(id)
 {
   var x = document.getElementById(id);
@@ -97,6 +114,17 @@ function changeImage(id)
   x.setAttribute("src", v);	
 }
 
+function delbtn(delId, picId)
+{
+	var e = document.getElementById(picId);
+	var b = document.getElementById(delId);
+
+	var s = e.getAttribute("src");
+	console.log(s);
+	if (s != null)
+		b.setAttribute("style", "display:block")
+}
+
  </script>
 <?php
 if(isset($_POST['ValidateUpload']))
@@ -104,6 +132,18 @@ if(isset($_POST['ValidateUpload']))
 	?>
 	<script>
 		toggle_visibility("PicturePopUp");
+	</script>
+	<?php
+}
+if(isset($_POST['PictureValidateBtn']))
+{
+	?>
+	<script>
+	delbtn('ShowMore1', 'Min1');
+	delbtn('ShowMore2', 'Min2');
+	delbtn('ShowMore3', 'Min3');
+	delbtn('ShowMore4', 'Min4');
+
 	</script>
 	<?php
 }

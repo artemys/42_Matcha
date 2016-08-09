@@ -14,7 +14,7 @@
 
 <section class="module col-xs-4 col-xs-offset-4 margin_top_100" id="Authentication">
 	
-		<form method="post" action="index.php?nav=signin">
+		<form method="post" action="index.php?nav=Signin">
 
 			<table>
 				<tr>

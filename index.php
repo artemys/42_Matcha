@@ -55,13 +55,17 @@ require_once('core/php/user.class.php');
 	<body>
 		<?php 
 		include(HEADER);
+	
+		if (!isset($_GET['nav']) || $_GET['nav'] == 'Signin' || $_GET['nav'] == 'Signup')
+		{
+			include(CONTROLLERS.'/selector.c.php');
 
-		if (!isset($_GET['nav']) || $_GET['nav'] == 'signin' || $_GET['nav'] == 'signup')
-				include(CONTROLLERS.'/selector.c.php');
-		include (SIDE);
-		// echo ' <div class="user_log" />Bienvenue ' . $_SESSION['user'] . ' ! </div>';
-
-		include (LOGOUT);
+		}
+		if ($_GET['nav'] != 'Signin' && $_GET['nav'] != 'Signup')
+		{
+			include (SIDE);
+			include (LOGOUT);
+		}
 		?>
 
 		<section id="Content">
@@ -72,15 +76,13 @@ require_once('core/php/user.class.php');
 				{
 					switch($_GET['nav'])
 					{
-						case 'signin' 		: include(CONTROLLERS.'/signin.c.php'		); break;
-						case 'signup' 		: include(CONTROLLERS.'/signup.c.php'		); break;
-						case 'Home'			: include(CONTROLLERS.'/home.c.php'	 		); break;
-						// case 'home'			: include(CONTROLLERS.'/home.c.php'	 		); break;
-						case 'Search'		: include(CONTROLLERS.'/search.c.php' 		); break;
-						case 'Match'		: include(CONTROLLERS.'/match.c.php'		); break;
-						case 'Notification'	: include(CONTROLLERS.'/notification.c.php'	); break;
-						case 'information'  : include(CONTROLLERS.'/information.c.php'  ); break;
-						// case 'logout'		: include(CONTROLLERS.'/logout.c.php'		); break;
+							case 'Signin' 		: include(CONTROLLERS.'/signin.c.php'		); break;
+							case 'Signup' 		: include(CONTROLLERS.'/signup.c.php'		); break;
+							case 'Home'			: include(CONTROLLERS.'/home.c.php'	 		); break;
+							case 'Search'		: include(CONTROLLERS.'/search.c.php' 		); break;
+							case 'Match'		: include(CONTROLLERS.'/match.c.php'		); break;
+							case 'Notification'	: include(CONTROLLERS.'/notification.c.php'	); break;
+							case 'information'  : include(CONTROLLERS.'/information.c.php'  ); break;
 						default :
 
 							include(CONTROLLERS.'/selector.c.php');
@@ -88,19 +90,6 @@ require_once('core/php/user.class.php');
 						break;
 					}
 				}
-				// else if (isset($_GET['action']))
-				// {
-					// switch($_GET['action'])
-					// {
-						// case 'logout'			: include (CONTROLLERS.'/logout.c.php'		); break;
-						// case 'upload_picture'	: include (CONTROLLERS.'')
-					// }
-				// }
-				// else
-				// {
-					// include (CONTROLLERS.'/selector.c.php');
-					// include(CONTROLLERS.'/home.c.php');
-				// }
 			?>
 
 		</section>

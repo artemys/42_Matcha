@@ -404,3 +404,9 @@
 [09-Aug-2016 10:45:15 Europe/Paris] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 52
 [09-Aug-2016 10:46:56 Europe/Paris] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 52
 [09-Aug-2016 10:47:56 Europe/Paris] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 31
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 18
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 23
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 28
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 32
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36

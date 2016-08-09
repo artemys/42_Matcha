@@ -16,29 +16,28 @@
 
 
 		<img class="photo" id="ProfilPicture"  <?php echo get_path_file_by_number($db, $_SESSION['user'], 0); ?>/>
-		<a><img id="ShowMore" src="Image/add.png" onmouseover="show_more('DelPicture0');" onmouseout="show_less('DelPicture0')"; ></a>
-		<input class="delbtn" id="DelPicture0" type="submit" name="Del" value="0" title="Delete Picture">
+		<!-- <a><img id="ShowMore" src="Image/add.png" onmouseover="show_more('DelPicture0');" onmouseout="show_less('DelPicture0')"; ></a> -->
+		<!-- <input class="delbtn" id="DelPicture0" type="submit" name="Del" value="0" title="Delete Picture"> -->
 
 		<section class="appercu">
-			<a onclick="toggle_visibility('PicGallery'); set_img_src('Min1'); "><img class="miniature" id="Min1" <?php echo get_path_file_by_number($db, $_SESSION['user'], 1); ?>></a>
+			<a onclick="set_img_src('Min1'); toggle_visibility('PicGallery');  "><img class="miniature" id="Min1" <?php echo get_path_file_by_number($db, $_SESSION['user'], 1); ?>></a>
 
 			<!-- <a><img class="sh" id="ShowMore1" src="Image/add.png" onmouseover="show_more('DelPicture1');" onmouseout="show_less('DelPicture1')"; ></a> -->
 			<!-- <input class="delbtn" id="DelPicture1" type="submit" name="Del" value="1" title="Delete Picture"> -->
 
-			<a onclick="toggle_visibility('PicGallery'); " ><img class="miniature" id="Min2" <?php echo get_path_file_by_number($db, $_SESSION['user'], 2); ?>></a>
+			<a onclick="set_img_src('Min2'); toggle_visibility('PicGallery');  " ><img class="miniature" id="Min2" <?php echo get_path_file_by_number($db, $_SESSION['user'], 2); ?>></a>
 			<!-- <a><img class="sh" id="ShowMore2" src="Image/add.png" onmouseover="show_more('DelPicture2');" onmouseout="show_less('DelPicture2')"; ></a> -->
 			<!-- <input class="delbtn" id="DelPicture2" type="submit" name="Del" value="2" title="Delete Picture"> -->
 
-			<a onclick="toggle_visibility('PicGallery'); " ><img class="miniature" id="Min3" <?php echo get_path_file_by_number($db, $_SESSION['user'], 3); ?>></a>
+			<a onclick="set_img_src('Min3'); toggle_visibility('PicGallery');  " ><img class="miniature" id="Min3" <?php echo get_path_file_by_number($db, $_SESSION['user'], 3); ?>></a>
 			<!-- <a><img class="sh" id="ShowMore3" src="Image/add.png" onmouseover="show_more('DelPicture3');" onmouseout="show_less('DelPicture3')"; ></a> -->
 			<!-- <input class="delbtn" id="DelPicture3" type="submit" name="Del" value="3" title="Delete Picture"> -->
 
-			<a onclick="toggle_visibility('PicGallery'); " ><img class="miniature" id="Min4" <?php echo get_path_file_by_number($db, $_SESSION['user'], 4); ?>></a>
+			<a onclick="set_img_src('Min4'); toggle_visibility('PicGallery');  " ><img class="miniature" id="Min4" <?php echo get_path_file_by_number($db, $_SESSION['user'], 4); ?>></a>
 			<!-- <a><img class="sh" id="ShowMore4" src="Image/add.png" onmouseover="show_more('DelPicture4');" onmouseout="show_less('DelPicture4s')"; ></a> -->
 			<!-- <input class="delbtn" id="DelPicture4" type="submit" name="Del" value="4" title="Delete Picture" > -->
 		</section>
 
-		<!-- <input id="ChangePicturePriority" type="submit" name="SetAsProfil"> -->
 		<button id="PicturePopUpBtn" onclick="toggle_visibility('PicturePopUp'); changeImage('image0'); " title="Add picture"><img id="image0" src="Image/add.png"/></button>
 
 </section>
@@ -74,14 +73,16 @@
 
 	<img id="PicPopup" class="galerie" src="" width="650" height="650">
 
-	<a><img class="sh" id="ShowMore" src="Image/add.png" onmouseover="show_more('More');"></a>
+<!-- 	<a><img id="ShowMore" src="Image/add.png" onmouseover="show_more('More');"></a>
 	<section id='More'>
 		<form method="post" action="index.php?nav=Home">
-			<input class="delbtn" id="DelPicture1" type="submit" name="Del" value="1" title="Delete Picture">
+			<input class="delbtn" id="DelPicture" type="submit" name="Del" value="" title="Delete Picture">
+			<input id="ChangePicturePriority" type="submit" name="SetAsProfil" value="">
 		</form>
-	</section>
-
+	</section> -->
 	<button id="NextButton" onclick="get_next_img();"></button>
+	<button id="PrevButton" onclick="get_prev_img();"></button>
+
 </section>
 
  <script type="text/javascript">
@@ -136,12 +137,13 @@ function changeImage(id)
 function set_img_src(picId, popId)
 {
 	var newsrc = document.getElementById(picId).getAttribute('src');
-	var newid = document.getElementById(picId).getAttribute('id').charAt(3);
+	// var newid = document.getElementById(picId).getAttribute('id').charAt(3);
 	// var to_set = document.getElementById(.attr('id').replace(/Min/, ''));
 	// var newid = chaine.charAt(i)
 	// windows.alert(to_set);
 	// console.log(newid);
-	document.getElementById('PicPopup').src = newsrc;
+	var PicPopup = document.getElementById('PicPopup');
+	PicPopup.setAttribute("src", newsrc);
 	// document.getElementById('PicPopup').id = newid;
 
 }
@@ -151,7 +153,7 @@ function get_next_img()
 	var min = document.getElementsByClassName('miniature');
 	var popup = document.getElementById('PicGallery');
 	var src = document.getElementById('PicPopup').src;
-	// var delId = document.getElementById('DelPicture1');
+	var delId = document.getElementById('DelPicture1');
 	var i = 0;
 
 	for (i = 0; i <= 3; i++)
@@ -176,14 +178,52 @@ function get_next_img()
 			break ;
 		}
 	}
-	
-	// var currentid = id.charAt(3) + 1;
-	console.log(currentid);
+	document.getElementById('PicPopup').src = newsrc;
+	delId.setAttribute("value", currentid);
+}
+
+// function class_lengh(cl)
+// {
+// 	var cl = document.getElementsByClassName(cl);
+// 	i = 0;
+// 	while (cl[i])
+// 	{
+// 		i++;
+// 	}
+// }
+
+function get_prev_img()
+{
+	var min = document.getElementsByClassName('miniature');
+	var popup = document.getElementById('PicGallery');
+	var src = document.getElementById('PicPopup').src;
+	var delId = document.getElementById('DelPicture1');
+	var i = 0;
+	var l = class_lengh('miniature');
+	for (i = 0; i <= 3; i++)
+	{
+		if (min[i].src == src && i != 0 && min[i - 1].style.display != 'none')
+		{
+			var newsrc = min[i - 1].src;
+			var id = min[i].id;
+			var currentid = i - 1;
+			break ;
+		}
+		else if (src == document.getElementById('ProfilPicture').src)
+		{
+			var newsrc = document.getElementById('Min').src;
+			var currentid = 1;
+			break ;
+		}
+		if (i == 1 || min[i].style.display == 'none')
+		{
+			var newsrc = document.getElementById('ProfilPicture').src;
+			var currentid = 0;
+			break ;
+		}
+	}
 	document.getElementById('PicPopup').src = newsrc;
 	// delId.setAttribute("value", currentid);
-	// console.log(min[i].id).charAt(3);
-	// document.getElementById('DelPicture1').value = min[i + 1].id.charAt(3) ;
-
 }
 
  </script>

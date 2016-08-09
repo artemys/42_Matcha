@@ -61,7 +61,7 @@ require_once('core/php/user.class.php');
 			include(CONTROLLERS.'/selector.c.php');
 
 		}
-		if ($_GET['nav'] != 'Signin' && $_GET['nav'] != 'Signup')
+		if (isset($_GET['nav']) && $_GET['nav'] != 'Signin' && $_GET['nav'] != 'Signup')
 		{
 			include (SIDE);
 			include (LOGOUT);
@@ -90,6 +90,11 @@ require_once('core/php/user.class.php');
 						break;
 					}
 				}
+				// else
+				// {
+				// 	include(CONTROLLERS.'/selector.c.php');
+				// }
+
 			?>
 
 		</section>

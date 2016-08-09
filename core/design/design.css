@@ -146,10 +146,8 @@ ul li
 
 #Picture
 {
-	/*background-color: red;*/
     width: 50%;
     height: 25%;
-	/*background-color: red;*/
 }
 .photo
 {
@@ -160,32 +158,13 @@ ul li
 }
 .miniature
 {
-	/*border : solid black;
-	height: 100px;
-	width: 100px;
-	position: absolute;
-	*/
+	
 	border: solid black;
     height: 100px;
     width: 100px;
-    /*position: absolute;*/
-    /*bottom: 340px;*/
-	/*height: 100px;*/
-	/*width: 100px;*/
 	position: relative;
-	/*bottom: 200px;*/
-	/*left: 205px;*/
+
 }
-/*#Min3
-{
-	position: relative;
-	bottom: 25px;
-}
-#Min4
-{
-	position: relative;
-	bo
-}*/
 .miniature:nth-child(1), .miniature:nth-child(2)
 {
 	margin-bottom: 5px;
@@ -277,11 +256,9 @@ button img
     float: right;
     bottom: 32px;
 }
-#DelPicture0
+#DelPicture
 {
 	position: relative;
-	/*bottom: 50px;*/
-	z-index: 100;
 }
 .delbtn
 {
@@ -291,7 +268,6 @@ button img
      border: none;
     position: relative;
     font-size:0px;
-    display: none;
     /*float: right;*/
     /*bottom: 32px;*/
 }
@@ -300,16 +276,12 @@ button img
 	position: relative;
 	bottom: 50px;
 	/*display: block;*/
-
 }
-.sh
+#More
 {
-	display: none;
 	position: relative;
-}
-.sh:nth-child(1), .sh:nth-child(2)
-{
-	margin-bottom: 5px;
+	display: none;
+	background-color: white;
 }
 
 #PicGallery
@@ -329,12 +301,44 @@ button img
 {
 	border: solid black;
 	position: relative;
-    left: 30px;
-    top: 46px;
+    left: 45px;
+    top: 45px;
 }
 #NextButton
 {
 	position: relative;
+	background: url("../../Image/next.png") no-repeat;
+	width: 64px;
+	height: 64px;
+	border: none;
+	background-color: rgba(255, 250, 250, 0.47);
+	padding: 15px;
+	border-radius: 31px;
+	top: 25px;
+
+
+}
+#NextButton:focus
+{
+	outline: none;
+}
+#PrevButton
+{
+	position: relative;
+	background: url("../../Image/back.png") no-repeat;
+	width: 64px;
+	height: 64px;
+	border: none;
+	background-color: rgba(255, 250, 250, 0.47);
+	padding: 15px;
+	border-radius: 31px;
+	bottom: 346px;
+    left: 24px;
+
+}
+#PrevButton:focus
+{
+	outline: none;
 }
 /*.display*/
 /*{*/

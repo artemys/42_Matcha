@@ -101,3 +101,4 @@
 [09-Aug-2016 11:04:16 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 76
 [09-Aug-2016 11:05:40 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 76
 [09-Aug-2016 11:05:47 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 76
+[09-Aug-2016 17:49:15 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 76

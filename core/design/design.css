@@ -311,6 +311,31 @@ button img
 {
 	margin-bottom: 5px;
 }
+
+#PicGallery
+{
+	background-color: white;
+	border: solid black;
+	display: none;
+	position: absolute;
+	height: 750px;
+    width: 750px;
+    z-index: 100;
+    bottom: 120px;
+    left: 220px;
+    float: left;
+}
+#PicPopup
+{
+	border: solid black;
+	position: relative;
+    left: 30px;
+    top: 46px;
+}
+#NextButton
+{
+	position: relative;
+}
 /*.display*/
 /*{*/
 	/*display: none;*/

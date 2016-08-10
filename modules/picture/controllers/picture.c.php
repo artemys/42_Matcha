@@ -125,13 +125,14 @@ function get_path_file_by_number($db, $img_owner, $photo_number)
 	}
 }
 
-// function get_photo_number()
 function delete_picture($db, $img_owner, $photo_number)
 {
 	try
 	{
-		$stmt = $db->conn->prepare("DELETE FROM photo WHERE :img_owner = photo_auteur AND :photo_number = photo_number");
+		$stmt = $db->conn->prepare("SELECT * FROM photo WHERE :img_owner = photo_auteur AND :photo_number = photo_number");
+		$stmt->execute(array(':img_owner'=>$img_owner, ':photo_number'=>$photo_number));
 		$userRow = $stmt->fetch(PDO::FETCH_ASSOC);
+
     	if (isset($userRow['photo_path']))
 		{
 			unlink($userRow['photo_path']);
@@ -140,9 +141,11 @@ function delete_picture($db, $img_owner, $photo_number)
 		{
 			//error
 		}
+		$stmt = $db->conn->prepare("DELETE FROM photo WHERE :img_owner = photo_auteur AND :photo_number = photo_number");
 		$stmt->execute(array(':img_owner'=>$img_owner, ':photo_number'=>$photo_number));
 		
-		// $stmt = $db->
+		$stmt = $db->conn->prepare("UPDATE photo SET photo_number = photo_number - 1 WHERE :photo_number < photo_number ");
+		$stmt->execute(array(':photo_number'=>$photo_number));
 	}
 	catch(PDOException $e)
 	{
@@ -151,6 +154,22 @@ function delete_picture($db, $img_owner, $photo_number)
 }
 
 /* ***************************************************************************************** */
+
+function set_pic_as_profil_picture($db, $img_owner, $photo_number)
+{
+	try
+	{
+		$stmt = $db->conn->prepare("UPDATE photo AS rule1 JOIN photo AS rule2 ON ( rule1.photo_number = 0 AND rule2.photo_number = :photo_number ) SET rule1.photo_number = rule2.photo_number, rule2.photo_number = 0 WHERE rule1.photo_auteur = :img_owner AND rule2.photo_auteur = :img_owner"); // SA MERE LA TEPUUUUU
+		$stmt->execute(array(':photo_number'=>$photo_number, ':img_owner'=>$img_owner));
+	}
+	catch(PDOException $e)
+	{
+		echo $e->getMessage();
+	}
+}
+
+/* ***************************************************************************************** */
+
 $img_owner = $_SESSION['user'];
 $new_photo_number = get_existing_photo($db, $img_owner);
 
@@ -185,6 +204,11 @@ if (isset($_POST['Del']))
 {
 	$photo_number = $_POST['Del'];
 	delete_picture($db, $img_owner, $photo_number);
+}
+if (isset($_POST['SetAsProfil']))
+{
+	$photo_number = $_POST['SetAsProfil'];
+	set_pic_as_profil_picture($db, $img_owner, $photo_number);
 }
 else
 {

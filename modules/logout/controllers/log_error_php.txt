@@ -410,3 +410,4 @@
 [09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 28
 [09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 32
 [09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[10-Aug-2016 15:53:27 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 163

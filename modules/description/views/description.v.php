@@ -19,9 +19,9 @@
 	<div type="text" ></div>
 
 	<section id="BioPopUp">
-		<form methode="post" action="">
-			<input type="text" id="UserBio"></br>
-			<button id="CheckedBtn"><img id=image3.png src="Image/checked.png"/></button>
+		<form method="post" action="index.php?nav=Home">
+			<input type="text" id="UserBio" name="BioDescr"></br>
+			<button id="CheckedBtn" name="Bio"><img id=image3.png src="Image/checked.png"/></button>
 		</form>
 	</section>
 

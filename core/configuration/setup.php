@@ -56,7 +56,7 @@ try
 	`user_id`  INT( 11 ) NOT NULL,
 	`user_gender` INT( 11 ),
 	`user_sexuality` INT( 11 ),
-	`user_bio` VARCHAR( 255 ) NOT NULL,
+	`user_bio` VARCHAR( 255 ),
 	`user_tags` VARCHAR( 255 ))";
 	$conn->exec($sql_create_profils_table);
 	echo "Table profils created successfuly.\n";

@@ -414,3 +414,6 @@
 [10-Aug-2016 17:33:54 Europe/Paris] PHP Notice:  Undefined index: BioDescr in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 17
 [10-Aug-2016 19:01:37 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 34
 [10-Aug-2016 19:02:07 Europe/Paris] PHP Fatal error:  Call to undefined function execute() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 19
+[11-Aug-2016 10:38:49 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 19
+[11-Aug-2016 12:05:31 Europe/Paris] PHP Fatal error:  Call to undefined function get_user_desc() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/views/description.v.php on line 19
+[11-Aug-2016 12:08:28 Europe/Paris] PHP Notice:  Undefined index: bio_descr in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 39

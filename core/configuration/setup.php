@@ -31,6 +31,7 @@ try
    `pseudo` VARCHAR( 255 ) NOT NULL ,
    `firstname` VARCHAR( 255 ) NOT NULL ,
    `lastname` VARCHAR( 255 ) NOT NULL ,
+   `birthdate` DATE NOT NULL , 
    `location` VARCHAR( 255 ),
    `email` VARCHAR( 60 ) NOT NULL ,
    `password` VARCHAR( 255 ) NOT NULL ,
@@ -54,8 +55,8 @@ try
 {
 	$sql_create_profils_table = "CREATE TABLE `$DB_name`.`profils`(
 	`user_id`  INT( 11 ) NOT NULL,
+	`user_sexuality` INT( 11 ) DEFAULT 3,
 	`user_gender` INT( 11 ),
-	`user_sexuality` INT( 11 ),
 	`user_bio` VARCHAR( 255 ),
 	`user_tags` VARCHAR( 255 ))";
 	$conn->exec($sql_create_profils_table);

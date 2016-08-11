@@ -33,6 +33,11 @@
 			</tr>
 
 			<tr>
+				<td><label for="birthdate">Last Name</label></td>
+				<td><input type="date" name="birthdate" required /></td>
+			</tr>
+
+			<tr>
 				<td><label for="mail">Mail</label></td>
 				<td><input type="text" name="mail" required /></td>
 			</tr>

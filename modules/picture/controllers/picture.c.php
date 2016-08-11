@@ -41,7 +41,6 @@ function check_photo()
 		$targetFile = $targetDir . basename($_FILES["fileToUpload"]["name"]);
 		$uploadOk = 1;
 		$imageFileType = pathinfo($targetFile, PATHINFO_EXTENSION);
-		file_put_contents("error.txt", $_FILES["fileToUpload"]["tmp_name"]);
 
 		// if (file_exists($_FILES["fileToUpload"]["tmp_name"]))
 		// {

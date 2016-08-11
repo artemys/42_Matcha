@@ -446,13 +446,14 @@ button img
 }
 #BioPopUp
 {
-	display: none;
-	border: solid black;
+display: none;
+    border: solid black;
     position: relative;
-    left: 246px;
+    left: 89px;
     background-color: white;
-    width: 700px;
-    top: 85px;
+    width: 709px;
+    top: -6px;
+    z-index: 100;
 }
 #BioBtn
 {
@@ -486,7 +487,17 @@ button img
     position: relative;
     top: 18px;
 }
-
+#Bio
+{
+	position: relative;
+    padding: 15px;
+    width: 350px;
+    text-align: center;
+    left: 30px;
+    top: 15px;
+    height: 134px;
+    border: solid #189c20;
+}
 @media(max-width: 1760px)
 {
 	#Description

@@ -16,7 +16,7 @@
 	<section class="title">Description</section>
 	<button  id="BioBtn" onclick="toggle_visibility('BioPopUp'); changeImage('image2'); "><img id="image2" src="Image/add.png"/></button>
 
-	<div type="text" ></div>
+	<div id="Bio" type="text" ><?php echo get_user_desc($db, $_SESSION['user']); ?></div>
 
 	<section id="BioPopUp">
 		<form method="post" action="index.php?nav=Home">

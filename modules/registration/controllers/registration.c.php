@@ -27,14 +27,15 @@ function ft_error($string)
 
 /* ***************************************************************************************** */
 
-function ft_register($db, $username, $name_a, $name_b, $mail, $password, $activate)
+function ft_register($db, $username, $name_a, $name_b, $birthdate, $mail, $password, $activate)
 {
 	try
 	{
+		
 		$new_password = password_hash($password, PASSWORD_DEFAULT);
 
-		$stmt = $db->conn->prepare("INSERT INTO users(pseudo, firstname, lastname, email, password, activate) VALUES(:username, :name_a, :name_b, :mail, :new_password, :activate)");
-		$stmt->execute(array(":username"=>$username, ":name_a"=>$name_a, ":name_b"=>$name_b, ":mail"=>$mail, ":new_password"=>$new_password, ":activate"=>$activate));
+		$stmt = $db->conn->prepare("INSERT INTO users(pseudo, firstname, lastname, birthdate, email, password, activate) VALUES(:username, :name_a, :name_b, :birthdate, :mail, :new_password, :activate)");
+		$stmt->execute(array(":username"=>$username, ":name_a"=>$name_a, ":name_b"=>$name_b, ":birthdate"=>$birthdate, ":mail"=>$mail, ":new_password"=>$new_password, ":activate"=>$activate));
 		$stmt = $db->conn->prepare("INSERT INTO profils(user_id) SELECT user_id FROM users WHERE pseudo = :username AND email = :mail");
 		$stmt->execute(array(":username"=>$username, ":mail"=>$mail));
 		return $stmt;
@@ -84,9 +85,9 @@ function ft_password($password_a, $password_b)
 
 /* ***************************************************************************************** */
 
-function ft_send_validation_mail($db, $username, $mail, $name_a, $name_b, $mail, $password_a)
+function ft_send_validation_mail($db, $username, $mail, $name_a, $name_b, $birthdate, $mail, $password_a)
 {
-	if (ft_register($db, $username, $name_a, $name_b, $mail, $password_a, 0))
+	if (ft_register($db, $username, $name_a, $name_b, $birthdate, $mail, $password_a, 0))
 	{
 		$cle = md5(microtime(TRUE) * 100000);
 		save_register_key($db, $username, $cle);
@@ -110,7 +111,7 @@ function ft_send_validation_mail($db, $username, $mail, $name_a, $name_b, $mail,
 
 /* ***************************************************************************************** */
 
-function ft_check_is_already_taken($db, $username, $mail, $name_a, $name_b, $mail, $password_a)
+function ft_check_is_already_taken($db, $username, $mail, $name_a, $name_b, $birthdate, $mail, $password_a)
 {
 	try
 	{
@@ -128,7 +129,7 @@ function ft_check_is_already_taken($db, $username, $mail, $name_a, $name_b, $mai
 		}
 		else
 		{
-			ft_send_validation_mail($db, $username, $mail, $name_a, $name_b, $mail, $password_a);
+			ft_send_validation_mail($db, $username, $mail, $name_a, $name_b, $birthdate, $mail, $password_a);
 		}
 	}
 	catch(PDOExeption $e)
@@ -142,13 +143,14 @@ function ft_check_is_already_taken($db, $username, $mail, $name_a, $name_b, $mai
 
 if (isset($_POST['validate']))
 {
-	if (isset($_POST['username']) && isset($_POST['name_a']) && isset($_POST['name_b']) && isset($_POST['mail']))
+	if (isset($_POST['username']) && isset($_POST['name_a']) && isset($_POST['name_b']) && isset($_POST['birthdate']) && isset($_POST['mail']))
 	{
 		if (isset($_POST['password_a']) && isset($_POST['password_b']))
 		{
 			$username   = trim(htmlentities($_POST['username'  ]));
 			$name_a     = trim(htmlentities($_POST['name_a'    ]));
 			$name_b     = trim(htmlentities($_POST['name_b'    ]));
+			$birthdate	= trim(htmlentities($_POST['birthdate' ]));
 			$mail       = trim(htmlentities($_POST['mail'      ]));
 			$password_a = trim(htmlentities($_POST['password_a']));
 			$password_b = trim(htmlentities($_POST['password_b']));
@@ -157,7 +159,7 @@ if (isset($_POST['validate']))
 			{
 				if (filter_var($mail, FILTER_VALIDATE_EMAIL))
 				{
-					if (ft_check_is_already_taken($db, $username, $mail, $name_a, $name_b, $mail, $password_a))
+					if (ft_check_is_already_taken($db, $username, $mail, $name_a, $name_b, $birthdate, $mail, $password_a))
 						ft_error("operationreussie");
 				}
 				else ft_error("Please enter a validate email");

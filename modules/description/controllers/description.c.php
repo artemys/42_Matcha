@@ -15,8 +15,33 @@ function save_user_description($db, $bio_descr, $bio_owner)
 {
 	try
 	{
-		$stmt = $db->conn->prepare("INSERT INTO profils(user_bio) VALUES(:bio_descr) WHERE user_id = SELECT user_id FROM users WHERE  pseudo = :bio_owner");
+		$stmt = $db->conn->prepare("UPDATE profils SET user_bio = :bio_descr WHERE user_id = (SELECT user_id FROM users WHERE  pseudo = :bio_owner)");
 		$stmt->execute(array(':bio_descr'=>$bio_descr, ':bio_owner'=>$bio_owner));
+	}
+	catch(PDOException $e)
+	{
+		echo $e->getMessage();
+	}
+}
+
+/* ***************************************************************************************** */
+
+function get_user_desc($db, $bio_owner)
+{
+	try
+	{
+		$stmt = $db->conn->prepare("SELECT user_bio FROM profils WHERE user_id = (SELECT user_id FROM users WHERE  pseudo = :bio_owner)");
+		$stmt->execute(array(':bio_owner'=>$bio_owner));
+		$useRow = $stmt->fetch(PDO::FETCH_ASSOC);
+
+		if (isset($useRow['user_bio']))
+		{
+			return($useRow['user_bio']);
+		}
+		else
+		{
+			return("Description");
+		}
 	}
 	catch(PDOException $e)
 	{

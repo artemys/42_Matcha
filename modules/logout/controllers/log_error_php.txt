@@ -433,3 +433,5 @@ Stack trace:
 #3 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/index.php(14): include('/nfs/2014/a/ali...')
 #4 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/views/home.v.php(27): i in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php on line 34
 [11-Aug-2016 13:58:00 Europe/Paris] PHP Fatal error:  Call to undefined function save_user_informations() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php on line 99
+[11-Aug-2016 15:46:06 Europe/Paris] PHP Notice:  Undefined index: user_tags in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 32
+[11-Aug-2016 15:49:31 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 33

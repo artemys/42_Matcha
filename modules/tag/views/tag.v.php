@@ -18,9 +18,9 @@
 
 
 	<section id="TagPopUp">
-		<form methode="post" action="index.php?nav=Home">
-			<input type="text" id="UserNewTag"></br>
-			<button id="Tbtn"></button>
+		<form method="post" action="index.php?nav=Home">
+			<input type="text" id="UserNewTag" name=newtag></br>
+			<button id="Tbtn" name="tagbtn"></button>
 		</form>
 	</section>
 </section>

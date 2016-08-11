@@ -58,7 +58,7 @@ try
 	`user_sexuality` INT( 11 ) DEFAULT 3,
 	`user_gender` INT( 11 ),
 	`user_bio` VARCHAR( 255 ),
-	`user_tags` VARCHAR( 255 ))";
+	`user_tags` VARCHAR( 2000 ))";
 	$conn->exec($sql_create_profils_table);
 	echo "Table profils created successfuly.\n";
 }
@@ -89,8 +89,8 @@ catch(PDOException $e)
 try
 {
 	$sql_create_tags_table = "CREATE TABLE `$DB_name`.`tags`(
-	`tags_id` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	`tags_name` VARCHAR( 225 ) NOT NULL)";
+	`tag_id` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`tag_name` VARCHAR( 225 ) NOT NULL)";
 	$conn->exec($sql_create_tags_table);
 	echo "Table tags created successfuly.\n";
 

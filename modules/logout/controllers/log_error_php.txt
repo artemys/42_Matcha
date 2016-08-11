@@ -417,3 +417,19 @@
 [11-Aug-2016 10:38:49 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 19
 [11-Aug-2016 12:05:31 Europe/Paris] PHP Fatal error:  Call to undefined function get_user_desc() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/views/description.v.php on line 19
 [11-Aug-2016 12:08:28 Europe/Paris] PHP Notice:  Undefined index: bio_descr in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 39
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 172
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 16
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 19
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 20
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 21
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 22
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/views/description.v.php on line 19
+[11-Aug-2016 13:51:07 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php on line 66
+[11-Aug-2016 13:56:54 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT user_id FROM users WHERE  pseudo = 'poney')' at line 1' in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php:34
+Stack trace:
+#0 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php(34): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/views/information.v.php(22): get_user_gender(Object(Database), 'poney')
+#2 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php(109): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/index.php(14): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/views/home.v.php(27): i in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php on line 34
+[11-Aug-2016 13:58:00 Europe/Paris] PHP Fatal error:  Call to undefined function save_user_informations() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php on line 99

@@ -14,36 +14,38 @@
 
 <section class="module" id="Information">
 
-
-
 	<section id="UserInfo" class="col-xs-offset-3 col-xs-offset-3">
 		<section class="title">Information</section>
 		<button  id="InfoBtn" onclick="toggle_visibility('InfoPopUp'); changeImage('image1'); "><img id="image1" src="Image/add.png"/></button>
 		
-		<section id="Gender"></section>
-		<section id="Sexuality"></section>
+		<section id="Placeinfo">
+			<section id="Gender">
+				<div type="text">I consider myself as being <?php echo get_user_gender($db, $_SESSION['user']); ?></div>
+			</section>
+
+			<section id="Sexuality">
+				<div type="text">I seek someone who <?php echo get_user_sexuality($db, $_SESSION['user']); ?></div>
+			</section>
+		</section>
 	</section>
 
 	<section id="InfoPopUp" >
-		<form methode="post" action="index.php?nav=information">
-
-				<select id="Gender">
-						<option name = "1" value ="Men"	 >Men</option>
-						<option name = "2" value ="Woman">Woman</option>
-						<option name = "3" value ="Other">Other</option>
+		<form method="post" action="index.php?nav=Home">
+				I consider myself as being
+				<select id="Gender" name="gender">
+						<option value ="1" >a men</option>
+						<option value ="2" >a woman</option>
+						<option value ="3" >of my own kind</option>
 				</select></br>
 
-				<select id="Sexuality">
-						<option name = "1" value ="Men"	 >Men</option>
-						<option name = "2" value ="Woman">Woman</option>
-						<option name = "3" value ="Other">Other</option>
+				I seek someone who
+				<select id="Sexuality" name="sexuality">
+						<option value ="1" >is a man</option>
+						<option value ="2" >is a woman</option>
+						<option value ="3" >either are own kind</option>
 				</select></br>
 
-				<input type="text" name="tags"></br>
-
-				<!-- <input id="btno" type="submit" value="validate"/> -->
-				<button id="CheckedBtn"><img id=image3.png src="Image/checked.png"/></button>
-
+				<button id="Ibtn" name="info"></button>
 		</form>
 	</section>
 

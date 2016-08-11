@@ -379,16 +379,19 @@ button img
 #InfoPopUp
 {
 	border: solid black;
-	display: none;
-	background-color: white;
-	/*position: relative;*/
-    height: 500px;
-    width: 500px;
+    display: none;
+    background-color: white;
+    position: relative;
+    height: 83px;
+    width: 296px;
     z-index: 100;
-    bottom: 170px;
-    left: 220px;
-    float: left;
-    position: absolute;
+    bottom: 157px;
+    /* left: 220px; */
+    float: right;
+    /* position: absolute; */
+    /* left: 35px; */
+    /* top: 68px; */
+    right: 20px;
 }
 #UserInfo
 {
@@ -421,7 +424,29 @@ button img
 	outline: none;
 }
 
-@media(max-width: 1740px)
+#Ibtn
+{
+	border: none;
+    background: url("../../Image/checked.png") no-repeat;
+    width: 40px;
+    height: 31px;
+    left: 123px;
+    position: relative;
+}
+
+#Placeinfo
+{
+	position: relative;
+    padding: 15px;
+    width: 350px;
+    text-align: center;
+    left: 30px;
+    top: 15px;
+    height: 134px;
+    border: solid #189c20;
+}
+
+/*@media(max-width: 1740px)
 {
 	#InfoPopUp
 	{
@@ -430,7 +455,7 @@ button img
 		bottom: 370px;
 	}
 
-}
+}*/
 /* ***************************************************************************************** */
 /* DESCRIPTION 	                                                                             */
 /* ***************************************************************************************** */
@@ -547,6 +572,15 @@ display: none;
     bottom: 240px;
     left: 330px;
     display: none;
+}
+#Tbtn
+{
+	border: none;
+    background: url("../../Image/checked.png") no-repeat;
+    width: 40px;
+    height: 31px;
+    left: 123px;
+    position: relative;
 }
 /* ***************************************************************************************** */
 /* ONLINE 			                                                                         */

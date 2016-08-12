@@ -76,6 +76,10 @@ if (isset($_POST['validate']))
 	}
 	echo '<div class="margin_top_20 text-center col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 alert alert-danger">'.$error.'</div>';
 }
+if (isset($_POST['forgotpass']))
+{
+	file_put_contents("coucou.txt", 'coucou');
+}
 
 
 /* ***************************************************************************************** */

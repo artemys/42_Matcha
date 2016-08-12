@@ -38,6 +38,8 @@ define('LIKE',			 MODULES.'/like/index.php',			  false);
 define('CHAT',			 MODULES.'/chat/index.php',			  false);
 define('BLOC',			 MODULES.'/bloc_signal/index.php',	  false);
 define('ONLINE',		 MODULES.'/online/index.php',		  false);
+define('FORGOTPASS',	 MODULES.'/forgotpass/index.php',	  false);
+define('SEARCHBAR',		 MODULES.'/searchbar/index.php',	  false);
 
 
 

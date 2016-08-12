@@ -32,4 +32,5 @@
 					<td colspan="2"><input type="submit" name="validate" value="Connect"/></td>
 				</tr>
 			</table>
+		</form>
 </section>

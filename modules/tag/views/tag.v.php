@@ -15,6 +15,12 @@
 <section class="" id="Tag">
 	<section class="title">Tag</section>
 	<button  id="TagBtn" onclick="toggle_visibility('TagPopUp'); changeImage('image4'); "><img id="image4" src="Image/add.png"/></button>
+  
+  <!-- <section id="Taglist"> -->
+    <!-- <table> -->
+    <?php get_user_tag($db, $_SESSION['user']); ?>
+    <!-- </table> -->
+  <!-- </section> -->
 
 
 	<section id="TagPopUp">

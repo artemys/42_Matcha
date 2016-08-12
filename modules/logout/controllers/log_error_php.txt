@@ -435,3 +435,46 @@ Stack trace:
 [11-Aug-2016 13:58:00 Europe/Paris] PHP Fatal error:  Call to undefined function save_user_informations() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php on line 99
 [11-Aug-2016 15:46:06 Europe/Paris] PHP Notice:  Undefined index: user_tags in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 32
 [11-Aug-2016 15:49:31 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 33
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 172
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 16
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 19
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 20
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 21
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 22
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/views/information.v.php on line 23
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/views/information.v.php on line 27
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/views/description.v.php on line 19
+[12-Aug-2016 11:25:24 Europe/Paris] PHP Warning:  str_split() expects parameter 2 to be long, string given in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 85
+[12-Aug-2016 11:27:04 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 91
+[12-Aug-2016 11:27:04 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['0']' at line 1' in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php:91
+Stack trace:
+#0 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(91): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/views/tag.v.php(20): get_user_tag(Object(Database), 'coucou')
+#2 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(129): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/index.php(14): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/views/home.v.php(30): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/controllers/home.c.php(18): include('/n in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 91
+[12-Aug-2016 11:27:57 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php:91
+Stack trace:
+#0 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(91): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/views/tag.v.php(20): get_user_tag(Object(Database), 'coucou')
+#2 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(129): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/index.php(14): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/views/home.v.php(30): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/controllers/home.c.php(18): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/index.php(81): include('/nfs/2014/a/a in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 91
+[12-Aug-2016 11:28:58 Europe/Paris] PHP Notice:  Undefined offset: 1 in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 87
+[12-Aug-2016 11:33:23 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php:91
+Stack trace:
+#0 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(91): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/views/tag.v.php(20): get_user_tag(Object(Database), 'poney')
+#2 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(129): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/index.php(14): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/views/home.v.php(30): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/controllers/home.c.php(18): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/index.php(81): include('/nfs/2014/a/al in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 91
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94

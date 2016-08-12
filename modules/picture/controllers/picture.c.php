@@ -35,8 +35,6 @@ function check_photo()
 
 	if (isset($_POST["ValidateUpload"]))
 	{
-		file_put_contents("coucou.txt", "og");
-
 		$targetDir = "Uploads/";
 		$targetFile = $targetDir . basename($_FILES["fileToUpload"]["name"]);
 		$uploadOk = 1;

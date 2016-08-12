@@ -2,7 +2,7 @@
 /* ***************************************************************************************** */
 /*                                                                                           */
 /*                                                                       :::      ::::::::   */
-/*   signin.v.php                                                      :+:      :+:    :+:   */
+/*   forgotpass.v.php                                                  :+:      :+:    :+:   */
 /*                                                                   +:+ +:+         +:+     */
 /*   By: aliandie <aliandie@student.42.fr>                         +#+  +:+       +#+        */
 /*                                                               +#+#+#+#+#+   +#+           */
@@ -12,11 +12,6 @@
 /* ***************************************************************************************** */
 ?>
 
-<section class="content" id="Signin">
-
-	<?php 
-		include(AUTHENTICATION); 
-		include(FORGOTPASS);
-	?>
-
+<section>
+	<a href="index.php?nav=Signin&forgot">Forgot password ?</a> 
 </section>

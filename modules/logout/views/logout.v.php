@@ -2,7 +2,7 @@
 /* ***************************************************************************************** */
 /*                                                                                           */
 /*                                                                       :::      ::::::::   */
-/*   logout.v.php                                                       :+:      :+:    :+:   */
+/*   logout.v.php                                                      :+:      :+:    :+:   */
 /*                                                                   +:+ +:+         +:+     */
 /*   By: aliandie <aliandie@student.42.fr>                         +#+  +:+       +#+        */
 /*                                                               +#+#+#+#+#+   +#+           */
@@ -11,7 +11,27 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 ?>
- <form method="post" action= <?php MODULES.'/logout/'.CONTROLLERS.'/logout.c.php' ?>>
-	<input id="LogoutBtn" type="submit" name="logout" value=""/>
-</form>
-<!-- coucou -->
+
+<section  class="module" id="Logout">
+ <?php
+
+  if (isset($_SESSION['user']))
+  {
+   echo '
+   <section class="right">
+
+    <ul>
+     <li>
+      <a href="index.php?nav=Logout" alt="Disconnect">
+
+       <img src="'.ASSETS.'/disconnect.png" alt="Disconnect" />
+
+      </a>
+     </li>
+    </ul>
+
+   </section>';
+  }
+
+ ?>
+</section>

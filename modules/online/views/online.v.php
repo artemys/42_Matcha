@@ -10,23 +10,26 @@
 /*   Updated: 2015/10/10 10:00:00 by aliandie                        ###   ########.fr       */
 /*                                                                                           */
 /* ***************************************************************************************** */
+
+if (isset($_GET['id'])) //marche pas//
+{
+	$user = $_GET['id'];
+}
+else
+{
+	$user = get_user_id($db, $user);
+}
+if (get_online_user($db, $user) == true)
+{
+	$img = "online.png";
+}
+else
+{
+	$img = "outline.png";
+}
 ?>
 
 <section class="" id="Online">
-	<img id="OnlineIndex" src="online.png"> 
+	<img id="OnlineIndex" src="Image/<?php echo $img; ?>" />
 </section>
 
-<script>
-function change_log_indicator(id)
-{
-	var x = document.getElementById(id);
-  	var v = x.getAttribute("src");
-	if (!<?php echo isset($_SESSION['user']) ? 'true' : 'false'; ?>) {
-		v = "Image/outline.png";
-	}
-	else
-		v = "Image/online.png";
-		x.setAttribute("src", v); 
-}
-change_log_indicator("OnlineIndex");
-</script>	

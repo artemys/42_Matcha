@@ -16,7 +16,6 @@
 
 	<?php 
 		include(AUTHENTICATION); 
-		include(FORGOTPASS);
 	?>
 
 </section>

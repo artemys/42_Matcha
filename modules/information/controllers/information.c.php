@@ -30,13 +30,19 @@ function get_user_gender($db, $info_owner)
 {
 	if (isset($info_owner))
 	{
-		$stmt = $db->conn->prepare("SELECT user_gender FROM profils WHERE user_id = (SELECT user_id FROM users WHERE  pseudo = :info_owner)");
+		if (is_numeric($info_owner))
+		{
+			$stmt = $db->conn->prepare("SELECT user_gender FROM profils WHERE user_id = :info_owner");
+		}
+		else
+		{
+			$stmt = $db->conn->prepare("SELECT user_gender FROM profils WHERE user_id = (SELECT user_id FROM users WHERE  pseudo = :info_owner)");
+		}
 		$stmt->execute(array(':info_owner'=>$info_owner));
 		$useRow = $stmt->fetch(PDO::FETCH_ASSOC);
 
 		if (isset($useRow['user_gender']))
 		{
-			file_put_contents("gender.txt", $useRow['user_gender']);
 			if ($useRow['user_gender'] == 1)
 			{
 				return("a men.");
@@ -52,7 +58,7 @@ function get_user_gender($db, $info_owner)
 		}
 		else
 		{
-			return("");
+			return("NOT DEFINED");
 		}
 	}
 }
@@ -63,7 +69,14 @@ function get_user_sexuality($db, $info_owner)
 {
 	if (isset($info_owner))
 	{
-		$stmt = $db->conn->prepare("SELECT user_sexuality FROM profils WHERE user_id = (SELECT user_id FROM users WHERE  pseudo = :info_owner)");
+		if (is_numeric($info_owner))
+		{
+			$stmt = $db->conn->prepare("SELECT user_sexuality FROM profils WHERE user_id = :info_owner");
+		}
+		else
+		{
+			$stmt = $db->conn->prepare("SELECT user_sexuality FROM profils WHERE user_id = (SELECT user_id FROM users WHERE  pseudo = :info_owner)");
+		}
 		$stmt->execute(array(':info_owner'=>$info_owner));
 		$useRow = $stmt->fetch(PDO::FETCH_ASSOC);
 
@@ -90,13 +103,14 @@ function get_user_sexuality($db, $info_owner)
 }
 /* ***************************************************************************************** */
 
-if (isset($_POST['info']))
+if (isset($_POST['validate']))
 {
 	$user_sexuality = $_POST['sexuality'];
 	$user_gender	= $_POST['gender'];
 	if (isset($_SESSION['user']))
 	{
 		$info_owner	= $_SESSION['user'];
+		file_put_contents("mdr.mdr.txt", "FUCKKKUALLLLLL");
 		save_user_informations($db, $user_sexuality, $user_gender, $info_owner);
 	}
 	else

@@ -27,18 +27,20 @@ try
 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 	$sql_create_utable = "CREATE TABLE `$DB_name`.`users`(
-   `user_id` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
-   `pseudo` VARCHAR( 255 ) NOT NULL ,
-   `firstname` VARCHAR( 255 ) NOT NULL ,
-   `lastname` VARCHAR( 255 ) NOT NULL ,
-   `birthdate` DATE NOT NULL , 
-   `location` VARCHAR( 255 ),
-   `email` VARCHAR( 60 ) NOT NULL ,
-   `password` VARCHAR( 255 ) NOT NULL ,
-   `last_connection` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-   `activate` SMALLINT,
-   `restore_key` VARCHAR(255),
-   `register_key` VARCHAR(255),
+   `user_id` 		 	INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+   `pseudo` 		 	VARCHAR( 255 ) NOT NULL ,
+   `firstname` 		 	VARCHAR( 255 ) NOT NULL ,
+   `lastname` 		 	VARCHAR( 255 ) NOT NULL ,
+   `birthdate`			DATE NOT NULL ,
+   `location` 		 	VARCHAR( 255 ),
+   `email` 			 	VARCHAR( 60 ) NOT NULL ,
+   `password` 		 	VARCHAR( 255 ) NOT NULL ,
+   `last_connection` 	TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   `last_deconnection` 	TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   `user_ip`			VARCHAR( 15 ),
+   `activate` 		 	SMALLINT,
+   `restore_key` 	 	VARCHAR( 255 ),
+   `register_key` 	 	VARCHAR( 255 ),
     UNIQUE (`firstname`),
     UNIQUE (`lastname`),
     UNIQUE (`email`)
@@ -54,11 +56,21 @@ catch(PDOException $e)
 try
 {
 	$sql_create_profils_table = "CREATE TABLE `$DB_name`.`profils`(
-	`user_id`  INT( 11 ) NOT NULL,
-	`user_sexuality` INT( 11 ) DEFAULT 3,
-	`user_gender` INT( 11 ),
-	`user_bio` VARCHAR( 255 ),
-	`user_tags` VARCHAR( 2000 ))";
+	`user_id`  		  		INT( 11 ) NOT NULL,
+	`user_sexuality`  		INT( 11 ) DEFAULT 3,
+	`user_gender` 	  		INT( 11 ),
+	`user_bio` 		 		VARCHAR( 255 ),
+	`user_tags` 	  		VARCHAR( 2000 ),
+   	`user_score`  	  		INT ( 11 ),
+   	`user_like`		  		VARCHAR( 2000 ),
+   	`user_true_long`		VARCHAR( 255 ),
+   	`user_true_lat`			VARCHAR( 255 ),
+   	`user_true_city`		VARCHAR( 255 ),
+   	`user_true_city_code` 	INT( 11 ),
+   	`user_true_country`		VARCHAR( 5 ),
+   	`user_public_city`		VARCHAR( 255 ),
+   	`user_public_city_code`	INT( 11),
+   	`user_public_country`	VARCHAR(5))";
 	$conn->exec($sql_create_profils_table);
 	echo "Table profils created successfuly.\n";
 }
@@ -70,14 +82,14 @@ catch(PDOException $e)
 try
 {
 	$sql_create_ptable = "CREATE TABLE `$DB_name`.`photo`(
-	`photo_id` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
-	`photo_auteur` VARCHAR( 255 ) NOT NULL,
-	`photo_path` VARCHAR( 255 ) NOT NULL,
-	`photo_height` INT( 11 ) NOT NULL,
-	`photo_width` INT( 11 ) NOT NULL,
+	`photo_id` 			 INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`photo_auteur` 		 INT( 11 ) NOT NULL,
+	`photo_path` 		 VARCHAR( 255 ) NOT NULL,
+	`photo_height` 		 INT( 11 ) NOT NULL,
+	`photo_width` 		 INT( 11 ) NOT NULL,
 	`photo_weight_bytes` INT( 11 ) NOT NULL,
-	`photo_date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-	`photo_number` INT( 11 ) NOT NULL)";
+	`photo_date` 		 TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+	`photo_number` 		 INT( 11 ) NOT NULL)";
 	$conn->exec($sql_create_ptable);
 	echo "Table photo created successfuly.\n";
 }
@@ -89,7 +101,7 @@ catch(PDOException $e)
 try
 {
 	$sql_create_tags_table = "CREATE TABLE `$DB_name`.`tags`(
-	`tag_id` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`tag_id`   INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	`tag_name` VARCHAR( 225 ) NOT NULL)";
 	$conn->exec($sql_create_tags_table);
 	echo "Table tags created successfuly.\n";
@@ -102,10 +114,10 @@ catch(PDOException $e)
 
 try
 {
-	$sql_create_like_table = "CREATE TABLE `$DB_name`.`like`(
-	`profils_id` INT( 11 ) NOT NULL,
-	`user_name` VARCHAR( 225 ) NOT NULL,
-	`profils_jaime` INT( 11 ))";
+	$sql_create_like_table = "CREATE TABLE `$DB_name`.`score`(
+	`profils_id` 	INT( 11 ) NOT NULL,
+	`user_name` 	VARCHAR( 225 ) NOT NULL,
+	`profils_score` INT( 11 ))";
 	$conn->exec($sql_create_like_table);
 	echo "Table like created successfuly.\n";
 }

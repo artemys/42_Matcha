@@ -11,13 +11,14 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 
-define('MODULES',     'modules',         false);
-define('VIEWS',       'views',           false);
-define('CONTROLLERS', 'controllers',     false);
-define('CONTENT',     'content',         false);
-define('DESIGN',      'core/design',     false);
-define('PHP',         'core/php',        false);
-define('JAVASCRIPT',  'core/javascript', false);
+define('MODULES',     'modules',        			false);
+define('VIEWS',       'views',           			false);
+define('CONTROLLERS', 'controllers',     			false);
+define('CONTENT',     'content',         			false);
+define('DESIGN',      'core/design',     			false);
+define('PHP',         'core/php',        			false);
+define('JAVASCRIPT',  'core/javascript', 			false);
+define('ASSETS',	  '/core/design/matcha/assets', false);
 
 /* ***************************************************************************************** */
 
@@ -40,6 +41,8 @@ define('BLOC',			 MODULES.'/bloc_signal/index.php',	  false);
 define('ONLINE',		 MODULES.'/online/index.php',		  false);
 define('FORGOTPASS',	 MODULES.'/forgotpass/index.php',	  false);
 define('SEARCHBAR',		 MODULES.'/searchbar/index.php',	  false);
+define('SETTINGS',		 MODULES.'/settings/index.php',		  false);
+define('PROFILS',		 MODULES.'/profils/index.php',		  false);
 
 
 

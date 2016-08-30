@@ -10,62 +10,87 @@
 /*   Updated: 2015/10/10 10:00:00 by aliandie                        ###   ########.fr       */
 /*                                                                                           */
 /* ***************************************************************************************** */
+
+if (isset($_GET['id']))
+{
+	$img_owner = $_GET['id'];
+}
+else
+{
+	$img_owner = get_user_id($db, $_SESSION['user']);
+}
 ?>
 
 <section class="module" id="Picture">
-		<img class="photo" id="ProfilPicture"  <?php echo get_path_file_by_number($db, $_SESSION['user'], 0); ?>/>
+	<section id="Userpictures">
+			<img class="photo" id="ProfilPicture" <?php echo get_path_file_by_number($db, $img_owner, 0); ?>/>
 
-		<section class="appercu">
-			<a onclick="set_img_src('Min1'); toggle_visibility('PicGallery');  "><img class="miniature" id="Min1" <?php echo get_path_file_by_number($db, $_SESSION['user'], 1); ?>></a>
-			<a onclick="set_img_src('Min2'); toggle_visibility('PicGallery');  " ><img class="miniature" id="Min2" <?php echo get_path_file_by_number($db, $_SESSION['user'], 2); ?>></a>
-			<a onclick="set_img_src('Min3'); toggle_visibility('PicGallery');  " ><img class="miniature" id="Min3" <?php echo get_path_file_by_number($db, $_SESSION['user'], 3); ?>></a>
-			<a onclick="set_img_src('Min4'); toggle_visibility('PicGallery');  " ><img class="miniature" id="Min4" <?php echo get_path_file_by_number($db, $_SESSION['user'], 4); ?>></a>
+		<section id="Appercu">
+			<a onclick="set_img_src('Min1'); overlay('PicGallery', 'open');" ><img class="miniature" id="Min1" 	<?php echo get_path_file_by_number($db, $img_owner, 1); ?>></a>
+			<a onclick="set_img_src('Min2'); overlay('PicGallery', 'open');" ><img class="miniature" id="Min2" 	<?php echo get_path_file_by_number($db, $img_owner, 2); ?>></a>
+			<a onclick="set_img_src('Min3'); overlay('PicGallery', 'open');" ><img class="miniature" id="Min3" 	<?php echo get_path_file_by_number($db, $img_owner, 3); ?>></a>
+			<a onclick="set_img_src('Min4'); overlay('PicGallery', 'open');" ><img class="miniature" id="Min4" 	<?php echo get_path_file_by_number($db, $img_owner, 4); ?>></a>
+		</section>
+	</section>
+	<?php if (!isset($_GET['id'])) { ?>
+		<button id="PicturePopUpBtn" onclick="overlay('Overlay','open');" title="Add picture">Add picture</button>
+		<?php } ?>
+		<section id="Overlay" class="overlay">
+
+			<a href="javascript:void(0)" class="close" onclick="overlay('Overlay', 'close')">&times;</a>
+
+			<section class="body">
+
+					<section>
+						<img id="UploadedFile"
+						<?php
+							if (isset($_SESSION['UploadedFile']) && file_exists($_SESSION['UploadedFile'])) 
+							{
+								echo "src=". $_SESSION['UploadedFile'];
+							}
+							else
+							{
+								echo "src=Image/user.png";
+							}	 
+						?> 
+						width="450" height="450" />
+					</section>
+
+					<section id="ImageUploader">
+						<form  method="post"  enctype="multipart/form-data" action="index.php?nav=Home">
+			  				Select image to upload:
+			  				<input 	id="fileToUpload"       type="file"     name="fileToUpload" >
+			  				<input 	id="PictureUploadBtn" 	type="submit"  	name="ValidateUpload" 		value="Upload" title="Upload Picture">
+			  				<input 	id="PicCheckBtn" 		type="submit" 	name="PictureValidateBtn" 	value="Valide" title="Select as picture">
+						</form>
+					</section>
+
+			</section>
+
 		</section>
 
-		<button id="PicturePopUpBtn" onclick="toggle_visibility('PicturePopUp'); changeImage('image0'); " title="Add picture"><img id="image0" src="Image/add.png"/></button>
-</section>
-		
-<section id="PicturePopUp" class="col-xs-12">
-	<section>
-		<img id="UploadedFile" 
-		<?php
-			if (isset($_SESSION['UploadedFile']) && file_exists($_SESSION['UploadedFile'])) 
-			{
-				echo "src=". $_SESSION['UploadedFile'];
-			}
-			else
-			{
-				echo "src=Image/user.png";
-			} 
-		?> 
-		width="650" height="650">
+	<section id="PicGallery" class="overlay">
+		<a href="javascript:void(0)" class="close" onclick="overlay('PicGallery', 'close')">&times;</a>
+		<section class="body">
+
+			<section id="Picplacecenter">
+				<img id="PicPopup" class="galerie" src="" width="650" height="650">
+			</section>
+
+			<section id='More'>
+				<form method="post" action="index.php?nav=Home">
+					<input id="DelPicture" 			  type="submit" name="Del"         value="Delete" 		 title="Delete Picture">
+					<input id="ChangePicturePriority" type="submit" name="SetAsProfil" value="Set as profil" title="Set as profil" >
+				</form>
+			</section>
+			
+			<button id="PrevButton" onclick="get_prev_img();">Prev</button>
+			<button id="NextButton" onclick="get_next_img();">Next</button>
+		</section>
 	</section>
 
-	<section id="ImageUploader">
-		<form  method="post"  enctype="multipart/form-data" action="index.php?nav=Home">
-	  			Select image to upload:
-	  			<input 	type="file" name="fileToUpload" id="fileToUpload">
-	  			<input 	id="PictureUploadBtn" type="submit" value="" name="ValidateUpload" title="Upload Picture">
-	  			<input 	id="PicCheckBtn" type="submit" name="PictureValidateBtn" value="" title="Select as picture">
-		</form>
-	</section>
 </section>
 
-<section id="PicGallery">
-
-	<img id="PicPopup" class="galerie" src="" width="650" height="650">
-
-	<a id="HandelMore"  ><img id="ShowMore" src="Image/add.png" onmouseout="show_less('More');" onmouseover="show_more('More');"></a>
-	<section id='More' onmouseout="show_less('More'); " onmouseover="show_more('More');">
-		<form method="post" action="index.php?nav=Home">
-			<input class="delbtn" id="DelPicture" type="submit" name="Del" value="" title="Delete Picture" >
-			<input id="ChangePicturePriority" type="submit" name="SetAsProfil" value="" >
-		</form>
-	</section>
-	<button id="NextButton" onclick="get_next_img();"></button>
-	<button id="PrevButton" onclick="get_prev_img();"></button>
-
-</section>
 
  <script type="text/javascript">
 
@@ -232,11 +257,15 @@ function get_prev_img()
 
 }
 
-// function change_picture_src()
-// {
-// 	var delId = document.getElementById('DelPicture').getAttribute('value');
+function overlay(id, command)
+{
+	switch(command)
+	{
+		case 'open' : document.getElementById(id).style.height = "100%"; break;
+		case 'close': document.getElementById(id).style.height = "0%"  ; break;
+	}
+}
 
-// }
 
  </script>
 <?php
@@ -244,7 +273,7 @@ if(isset($_POST['ValidateUpload']))
 {
 	?>
 	<script>
-		toggle_visibility("PicturePopUp");
+		overlay("Overlay","open");
 	</script>
 	<?php
 }

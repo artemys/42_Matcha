@@ -11,9 +11,20 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 ?>
-
 <header class="module" id="Header">
-	
-	<h1> <?php echo isset($_GET['nav']) ? $_GET['nav'] : 'Matcha'?></h1>
-	
+
+	<section class="left">
+
+		<!-- CODE -->
+
+	</section>									
+
+	<?php
+
+		if (isset($_SESSION['user'])) 
+		{
+		 	include (LOGOUT); 
+		} 
+	?>
+
 </header>

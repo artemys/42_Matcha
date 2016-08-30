@@ -14,6 +14,6 @@
 
 <section class="content" id="logout">
 
-	<?php include(LOGOUT); ?>
+
 
 </section>

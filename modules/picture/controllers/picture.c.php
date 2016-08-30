@@ -11,6 +11,23 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 
+function get_user_id($db, $img_owner)
+{
+	try
+	{
+		$stmt = $db->conn->prepare("SELECT user_id FROM users WHERE :img_owner = pseudo");
+		$stmt->execute(array(':img_owner'=>$img_owner));
+		$row = $stmt->fetch(PDO::FETCH_ASSOC);
+		file_put_contents("niketamere.txt" , $row['user_id']);
+		return ($row['user_id']);
+	}	
+	catch(PDOException $e)
+	{
+		echo $e->getMessage();
+	}
+}
+
+/* ***************************************************************************************** */
 
 
 function get_existing_photo($db, $img_owner)
@@ -97,21 +114,25 @@ function save_photo($db, $img_owner, $file_path, $img_height, $img_width, $img_w
 	}
 }
 
-// function display()
 /* ***************************************************************************************** */
 
 function get_path_file_by_number($db, $img_owner, $photo_number)
 {
 	try
 	{
-		$stmt = $db->conn->prepare("SELECT * FROM photo WHERE :img_owner = photo_auteur AND :photo_number = photo_number");
+	
+		$stmt = $db->conn->prepare("SELECT * FROM photo WHERE photo_auteur = :img_owner AND photo_number = :photo_number");
 		$stmt->execute(array(':img_owner'=>$img_owner, ':photo_number'=>$photo_number));
 		$userRow = $stmt->fetch(PDO::FETCH_ASSOC);
 		if (isset($userRow['photo_path']))
 		{
 			return ("src=". $userRow['photo_path']);
 		}
-		else
+		if ($photo_number == 0)
+		{
+			return("src=Image/user.png");
+		}
+		else 
 		{
 			return("style=display:none");
 		}
@@ -167,7 +188,7 @@ function set_pic_as_profil_picture($db, $img_owner, $photo_number)
 
 /* ***************************************************************************************** */
 
-$img_owner = $_SESSION['user'];
+$img_owner = get_user_id($db, $_SESSION['user']);
 $new_photo_number = get_existing_photo($db, $img_owner);
 
 
@@ -217,6 +238,7 @@ else
 /* ***************************************************************************************** */
 
 include(MODULES.'/picture/'.VIEWS.'/picture.v.php');
+
 
 /* ***************************************************************************************** */
 

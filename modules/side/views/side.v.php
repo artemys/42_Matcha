@@ -11,35 +11,22 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 ?>
+<section class="module" id="Side">
 
-<?php 
-    if ($user->is_loggedin())
-    { 
-?>
-    <img id='btn' class='sidebtn' onclick="toggle_visibility('side')" src="Image/menu.png"></img>
+    <?php
 
-<section class="module col-xs-2" id="side">
-    <ul >
-        <li id="Homebtn"   class="menu col-xs-1"><a href="index.php?nav=Home"        ><img src="Image/home.png"/></a></li>
-        <li id="Searchbtn" class="menu col-xs-1"><a href="index.php?nav=Search"       ><img src="Image/search.png"/></a></li>
-        <li id="Matchbtn"  class="menu col-xs-1"><a href="index.php?nav=Match"        ><img src="Image/match.png"/></a></li>
-        <li id="Notifbtn"  class="menu col-xs-1"><a href="index.php?nav=Notification" ><img src="Image/notif.png"/></a></li>
-    </ul>
+        echo '<ul><li>'.$elem_a.'</li>';
+
+        if (isset($_SESSION['user']))
+        {
+            echo '
+            <li>'.$elem_b.'</li>
+            <li>'.$elem_c.'</li>
+            <li>'.$elem_d.'</li>
+            <li>'.$elem_e.'</li>';
+        }
+        echo '</ul>';
+
+    ?>
 
 </section>
-<?php
-    }
-?>
-
- <script type="text/javascript">
-
-function toggle_visibility(id) {
-    var e = document.getElementById(id);
-    if (e.style.display == 'block')
-       e.style.display = 'none';
-    else
-       e.style.display = 'block';
-    }
-
- </script>
-

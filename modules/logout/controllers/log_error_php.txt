@@ -478,3 +478,9 @@ Stack trace:
 [12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
 [12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
 [12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 15:34:44 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:34:44 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:39:16 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:39:16 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:39:19 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:39:19 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24

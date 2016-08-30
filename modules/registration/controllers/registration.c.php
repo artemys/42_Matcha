@@ -22,8 +22,9 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 
 function ft_error($string)
 {
-	echo $string;
+	echo "<div class='margin_top_20 text-center col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 alert alert-danger'>".$string."</div>";
 }
+
 
 /* ***************************************************************************************** */
 
@@ -63,9 +64,6 @@ function save_register_key($db, $username, $cle)
 
 /* ***************************************************************************************** */
 
-
-
-
 function ft_password($password_a, $password_b)
 {
 	if ($_POST['password_a'] == $_POST['password_b'])
@@ -94,8 +92,8 @@ function ft_send_validation_mail($db, $username, $mail, $name_a, $name_b, $birth
 		$headers = "Content-type: text/html; charset=UTF-8";
 		$nav = "signup";
 		$statut = "activate";
-		$sujet = "Activer votre compte Camagrue";
-		$message = "Bienvenue sur Camagrue, </br>
+		$sujet = "Activer votre compte";
+		$message = "Bienvenue sur MATCHA, </br>
 		 
 		 	Pour activer votre compte, veuillez cliquer sur le lien ci dessous. </br>
 		 
@@ -104,7 +102,6 @@ function ft_send_validation_mail($db, $username, $mail, $name_a, $name_b, $birth
 											--------------- </br>
 		</br>
 			Ceci est un mail automatique, Merci de ne pas y répondre.";
-
 		mail($mail, $sujet, $message, $headers);
 	}
 }
@@ -155,6 +152,7 @@ if (isset($_POST['validate']))
 			$password_a = trim(htmlentities($_POST['password_a']));
 			$password_b = trim(htmlentities($_POST['password_b']));
 
+
 			if (ft_password($password_a, $password_b))
 			{
 				if (filter_var($mail, FILTER_VALIDATE_EMAIL))
@@ -167,8 +165,6 @@ if (isset($_POST['validate']))
 			else
 			{ 
 				ft_error("Password must match");
-				ft_error($password_a);
-				ft_error($password_b);
 			}
 		}
 		else 

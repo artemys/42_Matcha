@@ -14,17 +14,32 @@
 
 <section class="" id="Description">
 	<section class="title">Description</section>
-	<button  id="BioBtn" onclick="toggle_visibility('BioPopUp'); changeImage('image2'); "><img id="image2" src="Image/add.png"/></button>
 
-	<div id="Bio" type="text" ><?php echo get_user_desc($db, $_SESSION['user']); ?></div>
+	<div id="Bio" type="text" >
+  <?php 
+    if (isset($_GET['id']))
+    {
+      echo get_user_desc($db, $_GET['id']);
+    }
+    else
+    {
+      echo get_user_desc($db, $_SESSION['user']); 
+    }
+  ?>
+  </div>
 
-	<section id="BioPopUp">
-		<form method="post" action="index.php?nav=Home">
-			<input type="text" id="UserBio" name="BioDescr"></br>
-			<button id="CheckedBtn" name="Bio"><img id=image3.png src="Image/checked.png"/></button>
-		</form>
-	</section>
-
+  <?php if (!isset($_GET['id']))
+  { ?>
+    <button  id="BioBtn" name="modifier" onclick="toggle_visibility('BioPopUp');">Modifier</button>
+  	<section id="BioPopUp">
+  		<form method="post" action="index.php?nav=Home">
+  			<input type="text" id="UserBio" name="BioDescr" placeholder="your description ..."></br>
+  			<input type="submit" name="Bio">
+  		</form>
+  	</section>
+<?php
+  }
+  ?>
 </section>
 
  <script type="text/javascript">

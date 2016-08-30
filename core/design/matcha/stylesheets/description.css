@@ -1,0 +1,71 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   description.css                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aliandie <aliandie@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/10/10 10:00:00 by aliandie          #+#    #+#             */
+/*   Updated: 2015/10/10 10:00:00 by aliandie         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#Description
+{
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.20);
+	background: rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+#BioPopUp
+{
+	display:none;
+}
+
+#Bio
+{
+	padding: 15px;
+}
+
+#UserBio
+{
+	height: 150px;
+}
+
+#Description input 
+{
+	width: 300px;
+	font-family: 'Arial';
+	font-weight: bold;
+	color: rgb(220, 220, 220);
+	padding: 5px 9px 7px 9px;
+	border-radius: 3px;
+	border: 1px solid rgba(255, 255, 255, 0.20);
+	background: rgba(0, 0, 0, 0.05);
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+#Description input[type="submit"]
+{
+	width: 320px;
+	border: none;
+	border: 1px solid rgb(145, 30, 65);
+	background: rgb(100, 0, 35);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+}
+
+button
+{
+	width: 320px;
+	border: none;
+	border: 1px solid rgb(145, 30, 65);
+	background: rgb(100, 0, 35);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.10);
+	font-family: 'Arial';
+	font-weight: bold;
+	color: rgb(220, 220, 220);
+	padding: 5px 9px 7px 9px;
+	border-radius: 3px;
+}

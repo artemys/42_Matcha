@@ -11,7 +11,20 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 
-
+if ($user->is_loggedin() == true)
+{
+	try
+	{
+		$stmt = $db->conn->prepare("UPDATE users SET last_deconnection = NOW() WHERE pseudo = :user");
+		$stmt->execute(array(':user'=>$_SESSION['user']));
+	}
+	catch(PDOExeption $e)
+	{
+			echo $e->getMessage();
+	}
+    $user->logout();
+	$user->redirect("index.php");
+}
 
 /* ***************************************************************************************** */
 

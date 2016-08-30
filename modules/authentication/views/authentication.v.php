@@ -10,27 +10,27 @@
 /*   Updated: 2015/10/10 10:00:00 by aliandie                        ###   ########.fr       */
 /*                                                                                           */
 /* ***************************************************************************************** */
+
 ?>
 
-<section class="module col-xs-4 col-xs-offset-4 margin_top_100" id="Authentication">
-	
-		<form method="post" action="index.php?nav=Signin">
+<section class="module" id="Authentication">
 
-			<table>
-				<tr>
-					<td><label for="username">Pseudo</label></td>
-					<td><input type="text" name="username" placeholder="Pseudo" required /></td>
+	<form method="post" action="index.php?nav=Signin">
 
-				</tr>
+		<table>
 
-				<tr>
-					<td><label for="password">Password</label></td>
-					<td><input type="password" name="password" placeholder="Password" required /></td>
-				</tr>
+			<tr><td colspan="2"><input type="text"     name="username" required /></td></tr>
+			<tr><td colspan="2"><input type="password" name="password" required /></td></tr>
+			<tr><td colspan="2"><input type="submit"   name="validate"          /></td></tr>
 
-				<tr>
-					<td colspan="2"><input type="submit" name="validate" value="Connect"/></td>
-				</tr>
-			</table>
-		</form>
+			<tr>
+				<td class="left" ><a href="#"                      	/>Forgotten password ?</a></td>
+				<td class="right"><a href="index.php?nav=Signup" 	/>Register            </a></td>
+			</tr>
+
+		</table>
+
+	</form>
+
 </section>
+

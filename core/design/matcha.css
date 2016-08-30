@@ -1,0 +1,48 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   matcha.css                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aliandie <aliandie@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/10/10 10:00:00 by aliandie          #+#    #+#             */
+/*   Updated: 2015/10/10 10:00:00 by aliandie         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+@import url('matcha/stylesheets/header.css'        );
+@import url('matcha/stylesheets/footer.css'        );
+@import url('matcha/stylesheets/side.css' 		   );
+@import url('matcha/stylesheets/authentication.css');
+@import url('matcha/stylesheets/registration.css'  );
+@import url('matcha/stylesheets/picture.css'  	   );
+@import url('matcha/stylesheets/information.css'   );
+@import url('matcha/stylesheets/description.css'   );
+
+
+/* ************************************************************************** */
+
+html, body, #Content
+{
+	height: 100%;
+}
+
+html
+{
+	font-family: 'Arial';
+	font-size: 14px;
+	color: rgb(220, 220, 220);
+	background: url('matcha/assets/background_b.png') repeat;
+}
+
+body
+{
+	margin: 0;
+}
+
+.content
+{
+	padding: 20px 20px 20px 121px;
+}
+
+/* ************************************************************************** */

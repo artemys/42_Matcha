@@ -11,16 +11,32 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 ?>
-<form >
-    <input type="text" id="recherche"/>
-</form>
 
+<div id="searcher" class="searcher">
+	<input type="text" id="field" onkeyup="search('field')">
+	<div id="res"></div>
+</div>
 
-<script type="text/javascript">
+<script>
 
+function search(id)
+{
+	var str = document.getElementById(id);
+	
+	var data = "str=" + str.value;
+	$.ajax({
+	       type: "POST",
+	       url: "modules/searchbar/controllers/s.php",
+	       data: data,
+	       cache: false,
+	       dataType : 'html',
+	       success: function(html)
+	       		{
+	              $("#res").html(html).show();
+	           	}
+	   });
+	         return false;
 
-$('#recherche').autocomplete({
-    source : "index.php?nav=Search"
-});
+} 
 
 </script>

@@ -16,7 +16,7 @@
 
 	<?php 
 	// include(SEARCH); 
-		  // include (SEARCHBAR);
+		  include (SEARCHBAR);
 		  ?>
 	
 

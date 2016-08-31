@@ -306,3 +306,4 @@ Stack trace:
 [30-Aug-2016 17:14:34 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
 [30-Aug-2016 17:43:52 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
 [30-Aug-2016 17:49:23 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[31-Aug-2016 14:48:19 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112

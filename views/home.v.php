@@ -23,7 +23,7 @@
 		include(INFORMATION);
 		include(DESCRIPTION);
 		// include(BLOC);
-		// include(TAG);
+		include(TAG);
 	?>
 
 </section>

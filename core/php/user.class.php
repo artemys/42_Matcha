@@ -49,6 +49,31 @@ class User
 			echo $e->getMessage();
 		}
 	}
+	/* ***************************************************************** */
+	function get_user_pic($db, $user_id)
+	{
+		try
+		{
+			if (isset($user_id))
+			{
+				$stmt = $db->conn->prepare("SELECT * FROM photo WHERE photo_auteur = :user_id");
+				$stmt->execute(array(':user_id'=>$user_id));
+				$count = $stmt->rowCount();
+				if ($count > 0)
+				{
+					return (true);
+				}
+				else
+				{
+					return (false);
+				}
+			}
+		}
+		catch(PDOException $e)
+		{
+			echo $e->getMessage();
+		}
+	}
 
 }
 ?>

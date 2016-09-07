@@ -10,8 +10,45 @@
 /*   Updated: 2015/10/10 10:00:00 by aliandie                        ###   ########.fr       */
 /*                                                                                           */
 /* ***************************************************************************************** */
+$user_id = $_SESSION['user_id'];
+
 ?>
 
-<section class="module col-xs-4 col-xs-offset-4 margin_top_100" id="Match">
-	Match stuff
+<section class="" id="Match">
+	<div id="searcher" class="searcher">
+	<input type="text" id="field" onkeyup="search('field');">
+		<div id="res"></div>
 </section>
+
+<script>
+
+function search(id)
+{
+	var str = document.getElementById(id);
+	var i = 0;
+	var x = event.keyCode;
+	var id = '<?php echo $user_id; ?>';
+		
+	var data = "str=" + str.value + "&user_id=" + id;
+	$.ajax({
+	       type: "POST",
+	       url: "modules/match/controllers/s.php",
+	       data: data,
+	       cache: false,
+	       dataType : 'html',
+	       success: function(html)
+	       		{
+	              $("#res").html(html).show();
+	           	}
+	   });
+	    return false;
+}
+function go_toprofils($user_id)
+{
+	window.location='index.php?nav=Profils&id=' + $user_id;
+
+}
+function setId(id) {
+    cur_id = id;
+}
+</script>

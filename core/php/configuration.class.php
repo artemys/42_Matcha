@@ -43,6 +43,7 @@ define('FORGOTPASS',	 MODULES.'/forgotpass/index.php',	  false);
 define('SEARCHBAR',		 MODULES.'/searchbar/index.php',	  false);
 define('SETTINGS',		 MODULES.'/settings/index.php',		  false);
 define('PROFILS',		 MODULES.'/profils/index.php',		  false);
+define('SCORE',		 	 MODULES.'/score/index.php',  		  false);
 
 
 

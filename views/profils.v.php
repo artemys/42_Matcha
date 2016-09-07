@@ -15,13 +15,19 @@
 <section class="content" id="Search">
 
 <?php
+
+ 	$usero = new User();
 	//ne pas oublier de checker si l'id existe et si c'est pas l'id du gars qui est co//
-		include(ONLINE);
+	include(ONLINE);
+	if ($usero->get_user_pic($db, $_GET['id']))
+	{
 		include(LIKE);
 		include(CHAT);
-		include(PICTURE); 
-		include(INFORMATION);
-		include(DESCRIPTION);
+	}
+	include(PICTURE); 
+	include(SCORE);
+	include(INFORMATION);
+	include(DESCRIPTION);
 	?>
 	
 </section>

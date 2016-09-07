@@ -16,13 +16,9 @@
 
 	<?php
 		// echo ' <div class="user_log" />Bienvenue ' . $_SESSION['user'] . ' ! </div>';
-		// include(ONLINE);
-		// include(LIKE);
-		// include(CHAT);
 		include(PICTURE); 
 		include(INFORMATION);
 		include(DESCRIPTION);
-		// include(BLOC);
 		include(TAG);
 	?>
 
@@ -46,10 +42,5 @@
 	req.open('POST', 'index.php?nav=Home', true);
 	req.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
 	req.send(user_loc);
-
-  console.log(data);
-  console.log(user_loc);
-  // alert(data['loc']);
-
 })
 </script>

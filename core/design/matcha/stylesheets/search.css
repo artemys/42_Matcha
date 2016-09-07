@@ -13,9 +13,10 @@
 .resultats
 {
 
-		position:absolute;
-		width:320px;
+		/*position:absolute;*/
+		width:130px;
 		border:1px #CDCDCD solid;
-		background-color: white;
-		color: black;
+		/*background-color: white;*/
+		/*color: black;*/
 }
+

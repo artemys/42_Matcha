@@ -18,7 +18,6 @@ function update_user_tags($db, $tag, $tag_owner)
 		$stmt = $db->conn->prepare("SELECT tag_id FROM tags WHERE tag_name = :tag");
 		$stmt->execute(array(':tag'=>$tag));
 		$useRow = $stmt->fetch(PDO::FETCH_ASSOC);
-
 		if (isset($useRow['tag_id']))
 		{
 			$tag_id = $useRow['tag_id'];
@@ -30,7 +29,6 @@ function update_user_tags($db, $tag, $tag_owner)
 			if (strstr($old_tag_list['user_tags'], $tag_id) == false)
 			{
 				if (isset($old_tag_list['user_tags']))
-			
 				{
 					$new_tags_list = $old_tag_list['user_tags'] . $tag_id . ",";
 				}
@@ -38,6 +36,9 @@ function update_user_tags($db, $tag, $tag_owner)
 				{
 					$new_tags_list = $tag_id . ",";
 				}
+					$tmp = explode(",", $new_tags_list);
+					arsort($tmp);
+					$new_tags_list = implode(',', $tmp);
 				$stmt = $db->conn->prepare("UPDATE profils SET user_tags = :new_tags_list WHERE user_id = (SELECT user_id FROM users WHERE  pseudo = :tag_owner)");
 				$stmt->execute(array(':new_tags_list'=>$new_tags_list, ':tag_owner'=>$tag_owner));
 			}
@@ -63,8 +64,18 @@ function save_new_tag($db, $tag)
 {
 	try
 	{
-		$stmt = $db->conn->prepare("INSERT INTO tags(tag_name) VALUES(:tag)");
+		$stmt = $db->conn->prepare("SELECT * FROM tags WHERE tag_name LIKE :tag");
 		$stmt->execute(array(':tag'=>$tag));
+		$row = $stmt->fetch(PDO::FETCH_ASSOC);
+		if ($row == "")
+		{
+			$stmt = $db->conn->prepare("INSERT INTO tags(tag_name) VALUES(:tag)");
+			$stmt->execute(array(':tag'=>$tag));
+		}
+		else
+		{
+			echo 'tag already existe';
+		}
 	}
 	catch(PDOException $e)
 	{
@@ -88,17 +99,23 @@ function get_user_tag($db, $tag_owner)
 	}
 	if (isset($tag_list['user_tags']))
 	{
-		$tag_tab = explode( ',', $tag_list['user_tags']);
+		$tag_tab = explode(',', $tag_list['user_tags']);
 		$i = 0;
-		while($tag_tab[$i])
+
+		while($i < count($tag_tab))
 		{
 			$str = $tag_tab[$i];
+
 			$stmt = $db->conn->prepare("SELECT tag_name FROM tags WHERE tag_id = :str");
 			$stmt->execute(array(':str'=>$str));
 			$tag_name = $stmt->fetch(PDO::FETCH_ASSOC);
-			echo "#".$tag_name['tag_name']."&nbsp";
-			if ($i % 4 == 0)
-				echo "</br>";
+
+			if (isset($tag_name['tag_name']))
+			{
+				echo "#".$tag_name['tag_name']."&nbsp";
+				if ($i % 4 == 0)
+					echo "</br>";
+			}
 			$i++;
 		}
 	}
@@ -122,10 +139,12 @@ if (isset($_SESSION['user']))
 			save_new_tag($db, $tag);
 			update_user_tags($db, $tag, $tag_owner);
 		}
-		else
-		{
-			//error
-	}	}
+	}
+	else if (isset($_POST['tag']))	 
+	{
+		$tag = $_POST['tag'];
+		update_user_tags($db, $tag, $tag_owner);
+	}
 }
 else
 {

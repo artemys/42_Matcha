@@ -25,7 +25,9 @@ ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
 
 require_once('core/php/configuration.class.php');
 require_once('core/php/database.class.php');
+
 require_once('core/php/user.class.php');
+
 require_once('core/php/geoip/geoip.inc');
 
 
@@ -69,6 +71,10 @@ require_once('core/php/geoip/geoip.inc');
 		// if (isset($_GET['nav']) && $_GET['nav'] != 'Signin' && $_GET['nav'] != 'Signup')
 		// {
 		// 	include (SIDE);
+		// if (isset($user))
+		// {
+		// 	echo "coucou";
+		// }
 		// }
 		?>
 

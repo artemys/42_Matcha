@@ -42,6 +42,8 @@ function like($db, $user_id, $scored)
 			$stmt->execute(array(':new_like_list'=>$new_like_list, ':scored'=>$scored));
 			$stmt = $db->conn->prepare("UPDATE profils SET user_score = user_score + 10 WHERE user_id = :scored");
 			$stmt->execute(array(':scored'=>$scored));
+			$row = $stmt->fetch(PDO::FETCH_ASSOC);
+			file_put_contents("test1236", $scored);
 		}
 	}
 	catch(PDOException $e)

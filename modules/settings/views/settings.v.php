@@ -10,6 +10,8 @@
 /*   Updated: 2015/10/10 10:00:00 by aliandie                        ###   ########.fr       */
 /*                                                                                           */
 /* ***************************************************************************************** */
+$user_id = $_SESSION['user_id'];
+
 ?>
 
 <section class='module' id='settings'> <!-- changer en unrequire-->
@@ -38,8 +40,7 @@
 				</tr>
 
 				<tr>
-					<td><label for="geoloc">Ma position</label></td>
-					<td><input type="text" 		name="geoloc" required /></td>
+					
 				</tr>
 
 				<tr>
@@ -57,7 +58,12 @@
 				</tr>
 			</table>
 		</form>
+		<div id="searcher" class="search">
+			<input type="text" id="field" onkeyup="search('field')">
+			<div id="res"></div>
+		</div>
 	</section>
+
 </section>
 
 <script type="text/javascript">
@@ -71,4 +77,45 @@ function toggle_visibility(id) {
        e.style.display = 'block';
     }
 
-</script>  
+function search(id)
+{
+	var str = document.getElementById(id);
+	
+	var data = "str=" + str.value;
+	$.ajax({
+	       type: "POST",
+	       url: "modules/settings/controllers/s.php",
+	       data: data,
+	       cache: false,
+	       dataType : 'html',
+	       success: function(html)
+	       		{
+	              $("#res").html(html).show();
+	           	}
+	   });
+	         return false;
+
+}
+function send_data()
+{
+	var new_loc = document.getElementById(cur_id).value;
+	var res = document.getElementById('field');
+
+	var id = '<?php echo $user_id; ?>';
+	$.ajax({
+	       type: "POST",
+	       url: "modules/settings/controllers/save_new_location.php",
+	       data: "new_loc=" + new_loc + "&user_id=" + id,
+	       success: function(html)
+	       {
+	       		$("#res").html(html).hide();
+	            res.value = "";
+
+	       }
+	   });
+}
+function setId(id) {
+    cur_id = id;
+}
+
+</script>

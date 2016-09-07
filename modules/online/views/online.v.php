@@ -17,7 +17,7 @@ if (isset($_GET['id'])) //marche pas//
 }
 else
 {
-	$user = get_user_id($db, $user);
+	$user = $user->get_user_id($db, $user);
 }
 if (get_online_user($db, $user) == true)
 {

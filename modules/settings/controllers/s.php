@@ -14,7 +14,7 @@ error_reporting(E_ALL);
         $i = 0;
         if ($search_keyword != "")
         {
-	        $stmt = $conn->prepare("SELECT ville_nom FROM villes_france_free WHERE ville_nom LIKE :search_keyword LIMIT 8");
+	        $stmt = $conn->prepare("SELECT ville_nom, ville_departement FROM villes_france_free WHERE ville_nom LIKE :search_keyword LIMIT 8");
 			$stmt->execute(array(':search_keyword'=>$search_keyword . '%'));
 	        if ($stmt->rowCount() > 0)
 	        {
@@ -22,7 +22,7 @@ error_reporting(E_ALL);
 	        	{
 					if ($row['ville_nom'])
 					{
-	        			echo '<input readonly type="select" value="'.$row["ville_nom"].'" id="'.$i.'" class="resultats"  onfocus="this.select();"  onBlur="setId(this.id)" onclick="this.select();" />';
+	        			echo '<input readonly type="select" value="'.$row["ville_nom"]." ".$row["ville_departement"].'" id="'.$i.'" class="resultats"  onfocus="this.select();"  onBlur="setId(this.id)" onclick="this.select();" />';
                         $i++;
 					}
 	        	}

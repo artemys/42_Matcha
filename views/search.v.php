@@ -15,8 +15,7 @@
 <section class="content" id="Search">
 
 	<?php 
-		include(SEARCH); 
-		include (SEARCHBAR);
+		include (SEARCH); 
 	?>
 	
 

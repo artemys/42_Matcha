@@ -9,7 +9,9 @@ if (isset($_POST['new_loc']))
 	$conn = new PDO('mysql:host='. $host.';dbname='.$name, $user, $pass);
 	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-	$new_loc = htmlentities($_POST['new_loc']);
+	$new_loc_tmp = htmlentities($_POST['new_loc']);
+
+	$new_loc = substr($new_loc_tmp, 0, strlen($new_loc_tmp) - 3);
 	$country = "FR";
 	try
 	{

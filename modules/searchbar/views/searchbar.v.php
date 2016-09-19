@@ -12,12 +12,10 @@
 /* ***************************************************************************************** */
 ?>
 
-<div id="searcher" class="searcher">
+<div id="searcher" name="searchbox">
 	<input type="text" id="field" onkeyup="search('field');">
-		<div id="res"></div>
 </div>
-<div id="selected">
-</div>
+<div id="selected"></div>
 <script>
 
 var array = new Array();

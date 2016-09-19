@@ -39,6 +39,7 @@ function ft_register($db, $username, $name_a, $name_b, $birthdate, $mail, $passw
 		$stmt->execute(array(":username"=>$username, ":name_a"=>$name_a, ":name_b"=>$name_b, ":birthdate"=>$birthdate, ":mail"=>$mail, ":new_password"=>$new_password, ":activate"=>$activate));
 		$stmt = $db->conn->prepare("INSERT INTO profils(user_id) SELECT user_id FROM users WHERE pseudo = :username AND email = :mail");
 		$stmt->execute(array(":username"=>$username, ":mail"=>$mail));
+		// $stmt = $db->conn->prepare("INSERT INTO photo(photo_path, ")
 		return $stmt;
 	}
 	catch(PDOException $e)

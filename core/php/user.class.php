@@ -74,6 +74,31 @@ class User
 			echo $e->getMessage();
 		}
 	}
+	/* ***************************************************************** */
 
-}
+	function print_res($tab, $db)
+	{
+	$i = 0;
+	while ($i <= count($tab))
+	{
+		try
+		{
+			$stmt = $db->conn->prepare("SELECT pseudo, birthdate FROM users INNER JOIN profils ON  users.user_id = profils.user_id WHERE users.user_id = :id");
+			$stmt->execute(array(":id"=>$tab[$i]));
+			$row = $stmt->fetch(PDO::FETCH_ASSOC);
+			if (isset($row))
+			{
+				echo '<section id="test">'.$row['pseudo']. '</section>';
+			}
+		$i++;
+		}
+		catch(PDOExeption $e)
+		{
+			echo $e->getMessage();
+		}
+	}
+	// echo 'coucou';
+	}
+
+	}
 ?>

@@ -127,7 +127,18 @@ catch(PDOException $e)
 {
 	echo $e->getMessage() . "\n";
 }
-
+try
+{
+  $sql_creat_associative_tag_table ="CREATE TABLE `$DB_name`.`assoc_tag`(
+  `user__id`  INT( 11 ) NOT NULL,
+  `tag_id`    INT( 11 ) NOT NULL)";
+  $conn->exec($sql_creat_associative_tag_table);
+  echo "Table assoc_tag created successfuly.\n";
+}
+catch(PDOException $e)
+{
+  echo $e->getMessage() . "\n";
+}
 try
 {
 	$sql_create_city_table = "CREATE TABLE IF NOT EXISTS `villes_france_free` (

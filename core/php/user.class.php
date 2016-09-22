@@ -75,6 +75,19 @@ class User
 		}
 	}
 	/* ***************************************************************** */
+	function notify_entry($db, $owner_id, $guest_id, $content)
+	{
+		try
+		{
+			$stmt = $db->conn->prepare("INSERT INTO notif(owner_id, guest_id, content, seen) VALUES(:owner_id, :guest_id, :content, :seen)");
+			$stmt->execute(array(":owner_id"=>$owner_id, ":guest_id"=>$guest_id, ":content"=>$content, ":seen"=>1));
+		}
+		catch(PDOException $e)
+		{
+			echo $e->getMessage();
+		}
+	}
+	/* ***************************************************************** */
 
 	function print_res($tab, $db)
 	{

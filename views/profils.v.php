@@ -28,6 +28,8 @@
 	include(SCORE);
 	include(INFORMATION);
 	include(DESCRIPTION);
+	$usero->notify_entry($db, $_GET['id'], $_SESSION['user_id'], 'visite');
 	?>
+
 	
 </section>

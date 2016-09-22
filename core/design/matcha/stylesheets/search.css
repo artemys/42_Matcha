@@ -24,7 +24,7 @@
 	display: inline;
 }
 
-.ScreenBy button
+/*.ScreenBy button
 {
 	width: 320px;
 	border: none;
@@ -36,4 +36,10 @@
 	color: blue;
 	padding: 5px 9px 7px 9px;
 	border-radius: 3px;
+}
+*/
+.tableaux
+{
+	display:inline-block;
+  	vertical-align:top;
 }

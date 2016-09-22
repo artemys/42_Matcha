@@ -90,7 +90,7 @@ require_once('core/php/geoip/geoip.inc');
 							case 'Signup' 		: include(CONTROLLERS.'/signup.c.php'		); break;
 							case 'Search'		: include(CONTROLLERS.'/search.c.php' 		); break;
 							case 'Match'		: include(CONTROLLERS.'/match.c.php'		); break;
-							case 'Notification'	: include(CONTROLLERS.'/notification.c.php'	); break;
+							case 'Notifications': include(CONTROLLERS.'/notification.c.php'	); break;
 							case 'Information'  : include(CONTROLLERS.'/information.c.php'  ); break;
 							case 'Logout'		: include(CONTROLLERS.'/logout.c.php'		); break;
 							case 'Settings'		: include(CONTROLLERS.'/settings.c.php'		); break;

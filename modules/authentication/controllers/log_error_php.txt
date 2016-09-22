@@ -375,3 +375,13 @@ Stack trace:
 [19-Sep-2016 12:16:05 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
 [19-Sep-2016 13:59:23 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
 [19-Sep-2016 14:08:42 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[21-Sep-2016 10:49:15 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[21-Sep-2016 11:12:06 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[21-Sep-2016 11:16:37 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[21-Sep-2016 12:39:40 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[22-Sep-2016 16:00:38 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[22-Sep-2016 16:01:10 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[22-Sep-2016 16:05:01 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[22-Sep-2016 16:05:22 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[22-Sep-2016 16:05:59 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112
+[22-Sep-2016 16:06:27 Europe/Paris] PHP Notice:  Undefined variable: error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/authentication/controllers/authentication.c.php on line 112

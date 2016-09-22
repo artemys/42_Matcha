@@ -13,10 +13,10 @@
 $user_id = $_SESSION['user_id'];
 ?>
 <section class="content" id="Search">
-	<table>
+	<table class="tableaux">
 		<tr>
 			<td><label for="score_interval_less">Score-</label></td>
-			<td><input id="Sml" type="number" name="score_interval_less" placeholder="Enter a minimum score" min="0"></td>
+			<td><input id="Sml" type="number" name="score_interval_less" placeholder="Enter a minimum score" min="0" ></td>
 			<td><label for="score_interval_more">Score+</label></td>
 			<td><input id="Smm" type="number" name="score_interval_more" placeholder="Enter a maximun score" min="0" ></td>
 		</tr>
@@ -41,28 +41,30 @@ $user_id = $_SESSION['user_id'];
 	</table>
 
 	<div id="res"></div>
-	<input type="submit" id="lauchsearch" name="valider" value="Valider" onclick="send_tag_list(); process_data(show_result);"/>
+	<input type="submit" id="lauchsearch" name="valider" value="Valider" onclick="send_tag_list(); process_data(show_result, 'order_res', 'user_public_lat DESC');"/>
 	<input hidden type="text" id="selectiontags" name="selection" value="">
 
-	<button id="Order" style="display: none" onclick="visibility('OrderBy', 'block'); visibility('ScreenBy', 'none'); visibility('Screen', 'block'); visibility('Order', 'none');">Order By</button>
-	<button id="Screen" onclick="visibility('ScreenBy', 'block'); visibility('OrderBy', 'none'); visibility('Order', 'block'); visibility('Screen', 'none');">Screen By</button>
 
-	<table id="OrderBy" style="display: none">
+	<button id="Order"  style="display: block" onclick="visibility('Screen', 'block'); visibility('ScreenBy', 'block'); visibility('Order', 'none');  visibility('OrderBy', 'none'); process_data(show_result, 'screen_res', null);">Order By</button>
+	<button id="Screen" style="display: none"  onclick="visibility('Screen', 'none');  visibility('ScreenBy', 'none');  visibility('Order', 'block'); visibility('OrderBy', 'block'); ">Screen By</button>
+
+
+	<table class="tableaux" id="OrderBy" style="display: block">
 		<tr>
-			<td><button id="scr"  onclick="orderby('scr_res', 'age_res', 'loc_res', 'tag_res');">Score</button></td>
+			<td><button id="O_scr"  onclick="process_data(show_result, 'order_res', 'user_score DESC');">Score</button></td>
 		</tr>
 		<tr>
-			<td><button id="age"  onclick="orderby('age_res', 'scr_res', 'loc_res', 'tag_res');">Age</button></td>
+			<td><button id="O_age"  onclick="process_data(show_result, 'order_res', 'birthdate');" >Age</button></td>
 		</tr>
 		<tr>
-			<td><button id="loc"  onclick="orderby('loc_res', 'scr_res', 'age_res', 'tag_res');">Location</button></td>
+			<td><button id="O_loc"  onclick="process_data(show_result, 'order_res', 'user_public_lat');">Location</button></td>
 		</tr>
 		<tr>
-			<td><button id="tag"  onclick="orderby('tag_res', 'scr_res', 'age_res', 'loc_res');">Tag</button></td>
+			<td><button id="O_tag"  onclick="process_data(show_result, 'order_res', 'user_tags');">Tag</button></td>
 		</tr>
 	</table>
 
-	<table id="ScreenBy" style="display: none">
+	<table class="tableaux" id="ScreenBy" style="display: none">
 		<tr>
 			<td><button id="scr"  onclick="screenby('scr_res', 'age_res', 'loc_res', 'tag_res');">Score</button></td>
 		</tr>
@@ -82,14 +84,13 @@ $user_id = $_SESSION['user_id'];
 <script type="text/javascript">
 function show_result(result)
 {
-	console.log(result);
-	 $("#test").html(result).show();
-
+	$("#test").html(result).show();
 }
 
-function process_data(callback)
+function process_data(callback, display, order)
 {
 	var id = '<?php echo $user_id; ?>';
+
 	name1  = document.getElementById('Sml').name;
 	name2  = document.getElementById('Smm').name;
 	name3  = document.getElementById('Aml').name;
@@ -104,12 +105,18 @@ function process_data(callback)
 	value5 = document.getElementById('Kml').value;
 	value6 = document.getElementById('Kmm').value;
 
+	tags   = document.getElementById('selectiontags').value;
+
 	data   = name1 + "=" + value1 + "&" + 
 			 name2 + "=" + value2 + "&" + 
 			 name3 + "=" + value3 + "&" + 
 			 name4 + "=" + value4 + "&" + 
 			 name5 + "=" + value5 + "&" + 
-			 name6 + "=" + value6 + "&id=" + id;
+			 name6 + "=" + value6 + 
+
+			 "&id="    + id    + 
+			 "&order=" + order + 
+			 "&tags="  + tags;
 			 
 	var xhr = new XMLHttpRequest();
 	    xhr.onreadystatechange = function()
@@ -120,11 +127,10 @@ function process_data(callback)
 				callback(xhr.responseText);
 		}
 	};
-  	xhr.open('POST', "modules/search/controllers/print_res.php", true);
+  	xhr.open('POST', "modules/search/controllers/" + display +".php", true);
   	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
   	xhr.send(data);
 }
-
 function screenby(show, hide1, hide2, hide3)
 {
 	show  = document.getElementById(show);
@@ -142,26 +148,9 @@ function screenby(show, hide1, hide2, hide3)
 	hide4.style.display = 'none';
 
 }
-function orderby()
-{
-
-}
 function visibility(id, state) 
 {
     var e = document.getElementById(id);
        e.style.display = state;
 }
-function disable_visibility(id)
-{
-	   var e = document.getElementById(id);
-       e.style.display = 'none';
-}
-
-function toggle_visibility(id) {
-    var e = document.getElementById(id);
-    if (e.style.display == 'block')
-       e.style.display = 'none';
-    else
-       e.style.display = 'block';
-    }
 </script>

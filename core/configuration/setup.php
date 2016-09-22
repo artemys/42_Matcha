@@ -196,6 +196,21 @@ catch(PDOException $e)
 	echo $e->getMessage() . "\n";
 }
 
+try
+{
+  $sql_create_notif_table = "CREATE TABLE `$DB_name`.`notif`(
+  `notif_id`       INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `owner_id`  INT( 11 ) NOT NULL,
+  `guest_id`  INT( 11 ) NOT NULL,
+  `content`   VARCHAR( 22 ),
+  `seen`      INT( 11 ))";
+  $conn->exec($sql_create_notif_table);
+  echo "Table notif created successfuly.\n";
+}
+catch(PDOException $e)
+{
+  echo $e->getMessage() . "\n";
+}
 system("mkdir ../../Uploads");
 
 if (!file_exists("../../Uploads/"))

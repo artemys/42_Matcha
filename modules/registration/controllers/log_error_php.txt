@@ -58,3 +58,7 @@ Stack trace:
 [11-Aug-2016 11:11:38 Europe/Paris] PHP Notice:  Undefined variable: activate in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 37
 [11-Aug-2016 11:13:14 Europe/Paris] PHP Warning:  Missing argument 8 for ft_register(), called in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 89 and defined in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 30
 [11-Aug-2016 11:13:14 Europe/Paris] PHP Notice:  Undefined variable: activate in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/registration/controllers/registration.c.php on line 37
+[12-Oct-2016 16:16:28 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[12-Oct-2016 16:16:44 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[12-Oct-2016 16:17:00 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[12-Oct-2016 16:17:17 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129

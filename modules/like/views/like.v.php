@@ -11,12 +11,11 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 
-
 $id = $_GET['id'];
 ?>
 
 <section class="" id="Score">
-	<?php have_liked($db, $_SESSION['user_id']); ?>
+    <?php have_liked($db, $_SESSION['user_id']); ?>
 </section>
 
 <script type="text/javascript">

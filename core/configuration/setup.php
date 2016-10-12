@@ -23,34 +23,34 @@ $conn = null;
 
 try
 {
-	$conn = new PDO("mysql:host=$DB_host;dbname=$DB_name", $DB_user, $DB_pass);
-	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+  $conn = new PDO("mysql:host=$DB_host;dbname=$DB_name", $DB_user, $DB_pass);
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-	$sql_create_utable = "CREATE TABLE `$DB_name`.`users`(
-   `user_id` 		 	INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
-   `pseudo` 		 	VARCHAR( 255 ) NOT NULL ,
-   `firstname` 		 	VARCHAR( 255 ) NOT NULL ,
-   `lastname` 		 	VARCHAR( 255 ) NOT NULL ,
-   `birthdate`			DATE NOT NULL ,
-   `location` 		 	VARCHAR( 255 ),
-   `email` 			 	VARCHAR( 60 ) NOT NULL ,
-   `password` 		 	VARCHAR( 255 ) NOT NULL ,
-   `last_connection` 	TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-   `last_deconnection` 	TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-   `user_ip`			VARCHAR( 15 ),
-   `activate` 		 	SMALLINT,
-   `restore_key` 	 	VARCHAR( 255 ),
-   `register_key` 	 	VARCHAR( 255 ),
+  $sql_create_utable = "CREATE TABLE `$DB_name`.`users`(
+   `user_id`      INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+   `pseudo`       VARCHAR( 255 ) NOT NULL ,
+   `firstname`      VARCHAR( 255 ) NOT NULL ,
+   `lastname`       VARCHAR( 255 ) NOT NULL ,
+   `birthdate`      DATE NOT NULL ,
+   `location`       VARCHAR( 255 ),
+   `email`        VARCHAR( 60 ) NOT NULL ,
+   `password`       VARCHAR( 255 ) NOT NULL ,
+   `last_connection`  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   `last_deconnection`  TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+   `user_ip`      VARCHAR( 15 ),
+   `activate`       SMALLINT,
+   `restore_key`    VARCHAR( 255 ),
+   `register_key`     VARCHAR( 255 ),
     UNIQUE (`firstname`),
     UNIQUE (`lastname`),
     UNIQUE (`email`)
-	) ENGINE = MYISAM ";
-	$conn->exec($sql_create_utable);
-	echo "Table users created successfuly.\n";
+  ) ENGINE = InnoDB";
+  $conn->exec($sql_create_utable);
+  echo "Table users created successfuly.\n";
 }
 catch(PDOException $e)
 {
-	echo $e->getMessage() . "\n";
+  echo $e->getMessage() . "\n";
 }
 
 try
@@ -129,9 +129,14 @@ catch(PDOException $e)
 }
 try
 {
-  $sql_creat_associative_tag_table ="CREATE TABLE `$DB_name`.`assoc_tag`(
-  `user__id`  INT( 11 ) NOT NULL,
-  `tag_id`    INT( 11 ) NOT NULL)";
+  $sql_creat_associative_tag_table = "CREATE TABLE `$DB_name`.`tagsAsso`(
+  `user_id` INT(11) not null,
+  `tag_id`  INT(11) not null, 
+  Foreign key (user_id) 
+  References users(user_id),
+  foreign key (tag_id) 
+  references tags(tag_id)
+  )engine=InnoDB";
   $conn->exec($sql_creat_associative_tag_table);
   echo "Table assoc_tag created successfuly.\n";
 }
@@ -141,7 +146,9 @@ catch(PDOException $e)
 }
 try
 {
-	$sql_create_city_table = "CREATE TABLE IF NOT EXISTS `villes_france_free` (
+  $conn = new PDO("mysql:host=$DB_host", $DB_user, $DB_pass);
+  $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+	$sql_create_city_table = "CREATE TABLE IF NOT EXISTS `$DB_name`.`villes_france_free` (
   `ville_id` mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
   `ville_departement` varchar(3) DEFAULT NULL,
   `ville_slug` varchar(255) DEFAULT NULL,
@@ -187,7 +194,7 @@ try
 	echo "Table city created successfuly.\n";
 
 
-	$sql_import_city_data ="LOAD DATA INFILE '~/work/PHP/Matcha_Reworked_2/core/configuration/villes_france.csv' INTO TABLE villes_france_free FIELDS TERMINATED BY ',' ENCLOSED BY '\"' ";
+	$sql_import_city_data ="LOAD DATA INFILE '/nfs/2014/a/aliandie/Downloads/workspace/core/configuration/villes_france.csv' INTO TABLE matcha.villes_france_free FIELDS TERMINATED BY ',' ENCLOSED BY '\"' ";
 	$conn->exec($sql_import_city_data);
 	echo "City data imported successfuly.\n";
 }

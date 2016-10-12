@@ -13,60 +13,48 @@
 $user_id = $_SESSION['user_id'];
 ?>
 
+<div id="owned_not"></div>
+
 
 
 <script>
-(function($){ 
+// window.onload = get_notif(show_result);
 
-	$.fn.notif = function(options){
-		var options = $.extend({
-			html :  '<div class="notifs">\
-						<div class="left">\
-							<div class="icon"></div>\
-						</div>\
-						<div class="right">\
-							<h2>Titre</h2>\
-							<p>descriptions</p>\
-						</div>\
-					</div> '
-					}, options);
-
-					return this.each(function(){
-						var $this = $(this);
-						var $notifs = $('> .notif', this);
-						console.log(notifs);
-						if ($notifs.length == 0)
-						{
-							$notifs = $('<div class="notif"/>');
-							$this.append($notifs);
-						}
-					})
-				}
-	$('Notifications').notif({title:'Mon titre', content: 'Mon content'});
-})(jQuery);
-</script>
-<!-- <script>
-window.onload = get_notif(show_result);;
 function show_result(result)
 {
-	 $("#notifs").html(result).show();
+	 $("#owned_not").html(result).show();
 }
 function get_notif(callback)
 {
-	var id = '<?php  $user_id; ?>';
+	var id = '<?php echo $user_id; ?>';
 	var data = "id=" + id;
 	var xhr = new XMLHttpRequest();
-	    xhr.onreadystatechange = function()
+
+	xhr.onreadystatechange = function()
 	{
 		if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200)
 		{
 			if (callback)
 				callback(xhr.responseText);
-		}
+				// console.log(JSON.parse(xhr.responseText)[0]);
+				// $('.test').notif({title:'Mon titre', content:'Mon contenu'});
+			}
 	};
   	xhr.open('POST', "modules/notification/controllers/get_notif.php", true);
   	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
   	xhr.send(data);
+	// console.log('coucou');
+  	// setTimeout('get_notif(show_result)', 2000); 
 }
 
-</script> -->
+function delete_history(id)
+{
+	var data = "id=" + id;
+	console.log(data);
+	var xhr = new XMLHttpRequest();
+  	xhr.open('POST', "modules/notification/controllers/delete_history.php", true);
+  	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+  	xhr.send(data);
+}
+get_notif(show_result);
+</script>

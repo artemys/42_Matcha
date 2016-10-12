@@ -60,135 +60,37 @@ function get_user_infos($conn, $user_id)
 /* GET_MATCH_BY_SCORE                                                                        */
 /* ***************************************************************************************** */
 
-function get_user_match_by_score($conn, $infos)
+function get_user_match($conn, $query, $array, $id)
 {
 	try
 	{
-		$stmt = $conn->prepare("SELECT user_id FROM profils 
-								WHERE :gender = user_sexuality 
-								AND :sexuality = user_gender 
-								AND user_score BETWEEN :scoreless AND :scoremore 
-								ORDER BY user_score DESC");
-		$stmt->execute(array(":scoreless"=>$infos[1], ":scoremore"=>$infos[0], ":gender"=>$infos[6], ":sexuality"=>$infos[7]));
-		
-		echo '<table id="Suggestions">';
-		while($row = $stmt->fetch(PDO::FETCH_ASSOC))
-		{
-			print_res($conn, $row['user_id']);
-		}
-		echo '</table>';
-	}
-	catch(PDOExeption $e)
-	{
-		echo $e->getMessage();
-	}
-}
+		$stmt = $conn->prepare($query);
+		$stmt->execute($array);
 
-/* ***************************************************************************************** */
-/* GET_MATCH_BY_LOC                                                                          */
-/* ***************************************************************************************** */
-
-function get_user_match_by_loc($conn, $user_id, $infos)
-{
-	try
-	{
-		$stmt     = $conn->prepare("SELECT user_id FROM profils 
-									WHERE  
-									DEGREES(ACOS((SIN(RADIANS(:ulat))*SIN(RADIANS(user_public_lat)))+(COS(RADIANS(:ulat))*COS(RADIANS(user_public_lat))*COS(RADIANS(:ulong - user_public_long))))) * 111.13384 
-									BETWEEN :klmless AND :klmmore 
-									AND user_sexuality = :gender
-									AND user_gender    = :sexuality 
-									AND user_id       != :id
-									ORDER BY DEGREES(ACOS((SIN(RADIANS(:ulat))*SIN(RADIANS(user_public_lat)))+(COS(RADIANS(:ulat))*COS(RADIANS(user_public_lat))*COS(RADIANS(:ulong - user_public_long))))) * 111.13384");
-		$stmt->execute(array(':ulong'=>$infos[5], ':ulat'=>$infos[4], ':klmless'=>0, ':klmmore'=>20, ":gender"=>$infos[6], ":sexuality"=>$infos[7], ":id"=>$infos[8]));
 		$count = $stmt->rowCount();
-			file_put_contents("test52.txt", $count);
-
-		echo '<table id="Suggestions">';
-		while($row = $stmt->fetch(PDO::FETCH_ASSOC))
+		if ($count > 0)
 		{
-			print_res($conn, $row['user_id']);
-		}
-		echo '</table>';
-	}
-	catch(PDOExeption $e)
-	{
-		echo $e->getMessage();
-	}
-}
-
-/* ***************************************************************************************** */
-/* GET_MATCH_BY_AGE                                                                          */
-/* ***************************************************************************************** */
-
-function get_user_match_by_age($conn, $infos)
-{
-	try
-	{
-		$stmt = $conn->prepare("SELECT users.user_id FROM users 
-			                    INNER JOIN profils ON users.user_id = profils.user_id 
-			                    WHERE :gender = profils.user_sexuality 
-			                    AND :sexuality = profils.user_gender 
-			                    AND YEAR(birthdate) BETWEEN :max AND :min 
-			                    ORDER BY users.birthdate");
-
-		$stmt->execute(array(":max"=>$infos[2], ":min"=>$infos[3], ":gender"=>$infos[6], ":sexuality"=>$infos[7]));
-		echo '<table id="Suggestions">';
-		while($row = $stmt->fetch(PDO::FETCH_ASSOC))
-		{
-			print_res($conn, $row['user_id']);
-		}
-		echo '</table>';
-	}
-	catch(PDOExeption $e)
-	{
-		echo $e->getMessage();
-	}
-}
-
-/* ***************************************************************************************** */
-/* GET_MATCH_BY_TAGS                                                                         */
-/* ***************************************************************************************** */
-
-function get_user_match_by_tags($conn, $infos, $start_match)
-{
-	$i = 0;
-	$j = 0;
-	$res = array();
-	$tab = explode(',', $infos[9]);
-
-	$size = count($tab) - 1;
-	try
-	{
-		$stmt = $conn->prepare("SELECT user_id FROM profils 
-			                    WHERE user_tags LIKE :tag  
-			                    AND :gender = user_sexuality 
-			                    AND :sexuality = user_gender 
-			                    ORDER BY user_tags DESC");
-		$stmt->execute(array(":tag"=>'%'. $tab[$start_match] . ',' . '%', ":gender"=>$infos[6], ":sexuality"=>$infos[7]));
-
-		while ($row = $stmt->fetch(PDO::FETCH_ASSOC))
-		{
-			if ($row['user_id'] != $infos[8])
+			echo '<table id="Suggestions">';
+			while($row = $stmt->fetch(PDO::FETCH_ASSOC))
 			{
-				$res[$j] = $row['user_id'];
-				$j++;
+				if ($row['user_id'] != $id)
+				{
+					print_res($conn, $row['user_id']);
+				}
 			}
+			echo '</table>';
+		}
+		else
+		{
+			echo "You have no suggestions. You can complete you're profil to have suggestions";
 		}
 	}
 	catch(PDOExeption $e)
 	{
 		echo $e->getMessage();
 	}
-	if (isset($res))
-	{
-		return ($res);
-	}
-	else
-	{
-		return (NULL);
-	}
 }
+
 
 /* ***************************************************************************************** */
 /* GET_MATCH_BY_ALL                                                                          */
@@ -198,22 +100,18 @@ function get_match_by_all($conn, $user_id, $orderby, $infos)
 {
 	try
 	{
-		$i = 0;
-		while (($tags_match = get_user_match_by_tags($conn, $infos, $i)) == NULL)
-		{
-			$i++;
-		}
 		$stmt   	   = $conn->prepare("SELECT * FROM users 
 			                             INNER JOIN profils ON users.user_id = profils.user_id 
-			                             WHERE :orientation = profils.user_gender 
+			                             WHERE :orientation = profils.user_gender
+			                             AND users.user_id IN (SELECT user_id FROM tagsAsso WHERE tag_id in (SELECT tag_id where user_id = :id))
 			                             AND :gender = profils.user_sexuality 
 			                             AND DEGREES(ACOS((SIN(RADIANS(:ulat)) * SIN(RADIANS(profils.user_public_lat)))+(COS(RADIANS(:ulat)) * COS(RADIANS(profils.user_public_lat)) * COS(RADIANS(:ulong - profils.user_public_long))))) * 111.13384 
 			                             BETWEEN 0 AND 20 
-			                             AND profils.user_score 
+			                             AND profils.user_score
 			                             BETWEEN :scoreless AND :scoremore 
 			                             AND profils.user_id != :id 
 			                             AND YEAR(users.birthdate) 
-			                             BETWEEN :agemore AND :ageless 
+			                             BETWEEN :agemore AND :ageless
 			                             ORDER BY ".$orderby."");
 		$stmt->execute(array(":orientation"=>$infos[7], ":gender"=>$infos[6], "ulong"=>$infos[5], ":ulat"=>$infos[4], ":scoreless"=>$infos[1], ":scoremore"=>$infos[0], ":id"=>$infos[8], ":ageless"=>$infos[3], "agemore"=>$infos[2]));
 		$count         = $stmt->rowCount();
@@ -226,10 +124,7 @@ function get_match_by_all($conn, $user_id, $orderby, $infos)
 			echo '<table id="Suggestions">';
 			while ($row2 = $stmt->fetch(PDO::FETCH_ASSOC))
 			{
-				if (in_array($row2['user_id'], $tags_match) == true && $row2['user_id'] != $row['user_id'])
-				{
-					print_res($conn, $row2['user_id']);
-				}
+				print_res($conn, $row2['user_id']);
 			}
 			echo '</table>';
 		}
@@ -246,36 +141,47 @@ function get_match_by_all($conn, $user_id, $orderby, $infos)
 
 function get_match_by_type($conn, $user_id, $orderby, $infos)
 {
-	if ($orderby == 'user_score')
+	if (strcmp($orderby, "user_score") == 0)
 	{
-		get_user_match_by_score($conn, $infos);
+		$query = "SELECT user_id FROM profils 
+		WHERE :gender = user_sexuality AND :sexuality = user_gender 
+		AND user_score BETWEEN :scoreless AND :scoremore 
+		ORDER BY user_score DESC";
+		$array = array(":scoreless"=>$infos[1], ":scoremore"=>$infos[0], ":gender"=>$infos[6], ":sexuality"=>$infos[7]);
 	}
-	else if ($orderby == 'birthdate')
+	else if (strcmp($orderby, "birthdate") == 0)
 	{
-		get_user_match_by_age($conn, $infos);
+		$query = "SELECT users.user_id FROM users INNER JOIN profils ON users.user_id = profils.user_id 
+		WHERE :gender = profils.user_sexuality AND :sexuality = profils.user_gender 
+		AND YEAR(birthdate) BETWEEN :max AND :min 
+		ORDER BY users.birthdate";
+		$array = array(":max"=>$infos[2], ":min"=>$infos[3], ":gender"=>$infos[6], ":sexuality"=>$infos[7]);
 	}
-	else if ($orderby == 'user_public_lat')
+	else if (strcmp($orderby, "user_public_lat") == 0)
 	{
-		get_user_match_by_loc($conn, $user_id, $infos);
+		$query = "SELECT user_id FROM profils 
+		WHERE DEGREES(ACOS((SIN(RADIANS(:ulat))*SIN(RADIANS(user_public_lat)))+(COS(RADIANS(:ulat))*COS(RADIANS(user_public_lat))*COS(RADIANS(:ulong - user_public_long))))) * 111.13384  BETWEEN :klmless AND :klmmore  
+		AND user_sexuality = :gender AND user_gender = :sexuality 
+		AND user_id != :id 
+		ORDER BY DEGREES(ACOS((SIN(RADIANS(:ulat))*SIN(RADIANS(user_public_lat)))+(COS(RADIANS(:ulat))*COS(RADIANS(user_public_lat))*COS(RADIANS(:ulong - user_public_long))))) * 111.13384";
+		$array = array(':ulong'=>$infos[5], ':ulat'=>$infos[4], ':klmless'=>0, ':klmmore'=>20, ":gender"=>$infos[6], ":sexuality"=>$infos[7], ":id"=>$infos[8]);
 	}
-	else if ($orderby == 'user_tags')
+	else if (strcmp($orderby, "user_tags") == 0)
 	{
-		$i = 0;
-		while (($tags_match    = get_user_match_by_tags($conn, $infos, $i)) == NULL)
-		{
-			$i++;
-		}
-		$i = 0;
-		while ($tags_match[$i])
-		{
-			print_res($conn, $tags_match[$i]);
-			$i++;
-		}
+		$query = "SELECT DISTINCT user_id FROM tagsAsso
+		WHERE tag_id in (SELECT tag_id from tagsAsso WHERE user_id = :user_id)";
+		$array = array(':user_id'=>$infos[8]);
 	}
 	else
 	{
-		get_user_match_by_loc($conn, $user_id, $infos);
+		$query = "SELECT user_id FROM profils 
+		WHERE DEGREES(ACOS((SIN(RADIANS(:ulat))*SIN(RADIANS(user_public_lat)))+(COS(RADIANS(:ulat))*COS(RADIANS(user_public_lat))*COS(RADIANS(:ulong - user_public_long))))) * 111.13384  BETWEEN :klmless AND :klmmore  
+		AND user_sexuality = :gender AND user_gender = :sexuality 
+		AND user_id != :id 
+		ORDER BY DEGREES(ACOS((SIN(RADIANS(:ulat))*SIN(RADIANS(user_public_lat)))+(COS(RADIANS(:ulat))*COS(RADIANS(user_public_lat))*COS(RADIANS(:ulong - user_public_long))))) * 111.13384";
+		$array = array(':ulong'=>$infos[5], ':ulat'=>$infos[4], ':klmless'=>0, ':klmmore'=>20, ":gender"=>$infos[6], ":sexuality"=>$infos[7], ":id"=>$infos[8]);
 	}
+	get_user_match($conn, $query, $array, $infos[8]);
 }
 
 /* ***************************************************************************************** */
@@ -294,7 +200,7 @@ function print_res($conn, $id)
 		$stmt = $conn->prepare("SELECT photo_path FROM photo WHERE photo_auteur = :id");
 		$stmt->execute(array(":id"=>$id));
 		$photo = $stmt->fetch(PDO::FETCH_ASSOC);
-
+		
 		echo '<tr id="'.$id.'">';
 		if (isset($row['pseudo']))
 		{
@@ -324,11 +230,11 @@ function print_res($conn, $id)
 
 /* ***************************************************************************************** */
 
-$host = "localhost";
-$name = "matcha";
-$user = "root";
-$pass = "";
-$conn = new PDO('mysql:host='. $host.';dbname='.$name, $user, $pass);
+$host  = "localhost";
+$name  = "matcha";
+$user  = "root";
+$pass  = "";
+$conn  = new PDO('mysql:host='. $host.';dbname='.$name, $user, $pass);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $orderby = htmlspecialchars($_POST['orderby']);

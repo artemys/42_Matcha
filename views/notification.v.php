@@ -12,7 +12,7 @@
 /* ***************************************************************************************** */
 ?>
 
-<section class="content" id="Notification">
+<section class="content" id="Nf">
 
 	<?php include(NOTIFICATION); ?>
 

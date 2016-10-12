@@ -1,0 +1,916 @@
+[03-Oct-2016 16:42:53 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[03-Oct-2016 16:42:53 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[03-Oct-2016 17:45:15 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[03-Oct-2016 17:45:15 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[03-Oct-2016 17:45:20 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[03-Oct-2016 17:46:01 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[03-Oct-2016 18:07:07 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/controllers/logout.c.php on line 18
+[03-Oct-2016 18:07:15 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/controllers/logout.c.php on line 18
+[03-Oct-2016 18:09:54 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/picture/controllers/picture.c.php on line 18
+[03-Oct-2016 18:14:37 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:50:11 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:50:11 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:50:35 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:50:35 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:51:53 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:51:53 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:52:15 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:52:15 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:52:18 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:52:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:52:24 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:52:24 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:52:25 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:52:34 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:52:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:52:37 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:52:39 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:52:39 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:52:59 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:52:59 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:53:01 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:53:01 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:53:06 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:53:06 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:53:07 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:53:53 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:53:53 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:53:58 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:53:58 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:53:58 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:54:08 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:54:09 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:54:10 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:54:10 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:54:14 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[04-Oct-2016 16:54:14 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[04-Oct-2016 16:54:15 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:54:23 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:54:24 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 16:54:32 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 37
+[04-Oct-2016 17:26:17 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 79
+[04-Oct-2016 17:26:17 Europe/Paris] PHP Fatal error:  Call to a member function notif_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 79
+[04-Oct-2016 17:26:18 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 37
+[04-Oct-2016 17:26:18 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 44
+[04-Oct-2016 17:26:18 Europe/Paris] PHP Fatal error:  Call to a member function notif_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 44
+[04-Oct-2016 17:28:02 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 80
+[04-Oct-2016 17:28:02 Europe/Paris] PHP Fatal error:  Call to a member function notif_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 80
+[04-Oct-2016 17:28:36 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 39
+[04-Oct-2016 17:28:36 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 17:28:36 Europe/Paris] PHP Fatal error:  Call to a member function notif_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 17:28:36 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 81
+[04-Oct-2016 17:28:36 Europe/Paris] PHP Fatal error:  Call to a member function notif_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 81
+[04-Oct-2016 18:01:53 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[04-Oct-2016 18:02:06 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 39
+[04-Oct-2016 18:02:06 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 18:02:06 Europe/Paris] PHP Fatal error:  Call to a member function notif_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 18:03:49 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 81
+[04-Oct-2016 18:03:49 Europe/Paris] PHP Fatal error:  Call to a member function notif_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 81
+[04-Oct-2016 18:03:49 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 39
+[04-Oct-2016 18:03:49 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 18:03:49 Europe/Paris] PHP Fatal error:  Call to a member function notif_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 18:04:07 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 81
+[04-Oct-2016 18:04:07 Europe/Paris] PHP Fatal error:  Call to a member function notif_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 81
+[04-Oct-2016 18:04:07 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 39
+[04-Oct-2016 18:04:07 Europe/Paris] PHP Fatal error:  Call to undefined method User::notif_entry() in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 18:27:22 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 81
+[04-Oct-2016 18:27:22 Europe/Paris] PHP Fatal error:  Call to a member function notify_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 81
+[04-Oct-2016 18:27:26 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 39
+[04-Oct-2016 18:27:26 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 18:27:26 Europe/Paris] PHP Fatal error:  Call to a member function notify_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 18:29:00 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 39
+[04-Oct-2016 18:29:25 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 82
+[04-Oct-2016 18:29:25 Europe/Paris] PHP Fatal error:  Call to a member function notify_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 82
+[04-Oct-2016 18:29:25 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 39
+[04-Oct-2016 18:29:25 Europe/Paris] PHP Notice:  Undefined variable: not in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 18:29:25 Europe/Paris] PHP Fatal error:  Call to a member function notify_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 46
+[04-Oct-2016 18:40:15 Europe/Paris] PHP Fatal error:  Call to a member function notify_entry() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 83
+[05-Oct-2016 14:32:20 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:32:20 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:32:20 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/modules/picture/controllers/picture.c.php on line 191
+[05-Oct-2016 14:32:20 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php on line 31
+[05-Oct-2016 14:32:24 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:32:24 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:32:27 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:32:27 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:32:52 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:32:52 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:32:54 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:32:54 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:32:59 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:32:59 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:33:00 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:33:09 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:33:11 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:33:19 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:33:20 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:33:31 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:33:36 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:35:00 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:35:01 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:35:01 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:35:06 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:35:06 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:35:07 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:35:07 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:35:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:35:22 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:35:24 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:35:24 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:35:29 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 14:35:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 14:35:33 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:35:47 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 38
+[05-Oct-2016 14:36:25 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 38
+[05-Oct-2016 14:41:23 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(21): db_call('SELECT user_lik...', Object(Database), '':scored'=>1')
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(161): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[05-Oct-2016 14:43:36 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(21): db_call('SELECT user_lik...', Object(Database), '':scored'=>1')
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(162): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[05-Oct-2016 14:45:04 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(21): db_call('SELECT user_lik...', Object(Database), '":scored"=>$sco...')
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(164): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[05-Oct-2016 14:45:58 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 14:46:06 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(21): db_call('SELECT user_lik...', Object(Database), '":scored"=>$sco...')
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(164): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[05-Oct-2016 14:47:27 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(21): db_call('SELECT user_lik...', Object(Database), '":scored"=>$sco...')
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(165): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[05-Oct-2016 14:48:13 Europe/Paris] PHP Fatal error:  Call to undefined method User::db_call() in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 21
+[05-Oct-2016 14:49:16 Europe/Paris] PHP Fatal error:  Call to undefined method User::db_call() in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 21
+[05-Oct-2016 14:49:39 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(21): db_call('SELECT user_lik...', Object(Database), '":scored"=>$sco...')
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(164): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[05-Oct-2016 14:51:19 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:124
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(124): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(22): db_call('SELECT user_lik...', Object(Database), '":scored"=>$sco...')
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(165): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 124
+[05-Oct-2016 14:52:50 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:124
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(124): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(22): db_call('SELECT user_lik...', Object(Database), '":scored"=>1')
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(165): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 124
+[05-Oct-2016 14:58:59 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 44
+[05-Oct-2016 14:58:59 Europe/Paris] PHP Fatal error:  Call to a member function db_call() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 50
+[05-Oct-2016 14:59:30 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 44
+[05-Oct-2016 14:59:30 Europe/Paris] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 124
+[05-Oct-2016 15:00:53 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 44
+[05-Oct-2016 15:00:53 Europe/Paris] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 124
+[05-Oct-2016 15:02:06 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 44
+[05-Oct-2016 15:02:06 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: ',2'' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:124
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(124): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(50): db_call('UPDATE profils ...', Object(Database), Array)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(165): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 124
+[05-Oct-2016 15:02:13 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 44
+[05-Oct-2016 15:02:13 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: ',2'' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:124
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(124): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(50): db_call('UPDATE profils ...', Object(Database), Array)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(165): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 124
+[05-Oct-2016 15:05:37 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 44
+[05-Oct-2016 15:05:37 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: ',2'' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:124
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(124): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(50): db_call('UPDATE profils ...', Object(Database), Array)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(173): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 124
+[05-Oct-2016 15:08:02 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 44
+[05-Oct-2016 15:08:02 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:125
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(125): PDOStatement->fetch(2)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(50): db_call('UPDATE profils ...', Object(Database), Array)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(173): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(98): include('/nfs/2014/a/ali...')
+#7 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 125
+[05-Oct-2016 15:13:05 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 42
+[05-Oct-2016 15:15:54 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 39
+[05-Oct-2016 15:16:51 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 41
+[05-Oct-2016 15:17:13 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 15:17:13 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 15:17:17 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 15:17:17 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 15:17:33 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 15:17:33 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 15:17:35 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 15:17:35 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 15:17:41 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 15:17:42 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 15:17:43 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 15:17:50 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 15:17:51 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 15:17:59 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 15:18:03 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 41
+[05-Oct-2016 15:18:40 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 41
+[05-Oct-2016 15:27:12 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 42
+[05-Oct-2016 15:30:51 Europe/Paris] PHP Warning:  Missing argument 4 for db_call(), called in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 80 and defined in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 118
+[05-Oct-2016 15:30:51 Europe/Paris] PHP Notice:  Undefined variable: row in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 125
+[05-Oct-2016 15:30:51 Europe/Paris] PHP Notice:  Undefined variable: row in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 129
+[05-Oct-2016 15:35:24 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:35:28 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:35:58 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:36:55 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:36:56 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:37:30 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:37:31 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:39:58 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:40:37 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:40:38 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:41:09 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:54:20 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:54:29 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 15:54:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 15:54:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/views/like.v.php on line 19
+[05-Oct-2016 15:54:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/views/like.v.php on line 22
+[05-Oct-2016 15:54:29 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/modules/picture/controllers/picture.c.php on line 191
+[05-Oct-2016 15:54:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php on line 31
+[05-Oct-2016 15:54:36 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 15:54:36 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 15:54:42 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 15:54:42 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 15:54:42 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 15:54:49 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:54:50 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:54:51 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 15:57:04 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 15:57:16 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 16:01:16 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 16:01:34 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 16:26:53 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 16:35:20 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 17:01:52 Europe/Paris] PHP Notice:  Undefined index: id in /nfs/2014/a/aliandie/Downloads/workspace/modules/notification/views/notification.v.php on line 13
+[05-Oct-2016 17:02:07 Europe/Paris] PHP Notice:  Undefined index: id in /nfs/2014/a/aliandie/Downloads/workspace/modules/notification/views/notification.v.php on line 13
+[05-Oct-2016 17:25:21 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 17:25:21 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 17:25:29 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 17:25:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 17:25:31 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 17:27:29 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 17:27:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 17:27:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 17:27:37 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 17:27:39 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 17:27:53 Europe/Paris] PHP Notice:  Undefined index: id in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/views/like.v.php on line 14
+[05-Oct-2016 17:29:11 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 17:29:12 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 17:29:28 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 17:29:49 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 17:32:02 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 18:05:31 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 18:05:42 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 18:06:03 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 18:06:13 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 18:06:13 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 18:06:20 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[05-Oct-2016 18:06:20 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[05-Oct-2016 18:06:21 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[05-Oct-2016 18:06:37 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[05-Oct-2016 18:31:46 Europe/Paris] PHP Notice:  Undefined variable: row in /nfs/2014/a/aliandie/Downloads/workspace/modules/notification/views/notification.v.php on line 45
+[05-Oct-2016 18:31:52 Europe/Paris] PHP Notice:  Undefined variable: row in /nfs/2014/a/aliandie/Downloads/workspace/modules/notification/views/notification.v.php on line 45
+[05-Oct-2016 18:32:03 Europe/Paris] PHP Notice:  Undefined variable: row in /nfs/2014/a/aliandie/Downloads/workspace/modules/notification/views/notification.v.php on line 45
+[06-Oct-2016 12:13:56 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 12:13:56 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 12:14:01 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 12:14:01 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 12:14:02 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 13:55:18 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 13:55:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 13:55:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/notification/views/notification.v.php on line 13
+[06-Oct-2016 13:55:19 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 13:55:19 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 13:55:19 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/notification/views/notification.v.php on line 13
+[06-Oct-2016 13:55:21 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 13:55:21 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 13:55:27 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 13:55:27 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 13:55:29 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:08:13 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:08:37 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:11:41 Europe/Paris] PHP Notice:  Undefined variable: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 127
+[06-Oct-2016 14:11:42 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:11:42 Europe/Paris] PHP Notice:  Undefined variable: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 127
+[06-Oct-2016 14:11:42 Europe/Paris] PHP Notice:  Undefined variable: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 127
+[06-Oct-2016 14:12:45 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:13:30 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:13:47 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:14:07 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:14:30 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 14:14:30 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 14:14:30 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 14:14:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 14:14:37 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 14:14:37 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 14:14:38 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:15:11 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:16:05 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:16:24 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:16:37 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:17:40 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:18:05 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:18:28 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:18:47 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:43:56 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:45:21 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 14:45:54 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:05:58 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:06:51 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:08:32 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:09:30 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:09:51 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:10:10 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 15:10:10 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 15:10:10 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 15:10:10 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/notification/views/notification.v.php on line 13
+[06-Oct-2016 15:10:14 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 15:10:14 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 15:10:14 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 15:10:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 15:10:22 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 15:10:22 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 15:10:23 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:10:59 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:14:00 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:14:21 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:15:01 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:15:18 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:15:48 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:16:22 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:25:14 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:25:21 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:25:22 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:25:30 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:25:30 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:25:35 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:25:43 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:29:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 15:29:37 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 15:29:37 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 15:29:37 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/online/controllers/online.c.php on line 18
+[06-Oct-2016 15:29:56 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 15:29:56 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 15:29:56 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 15:29:56 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/views/like.v.php on line 18
+[06-Oct-2016 15:29:56 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/modules/picture/controllers/picture.c.php on line 191
+[06-Oct-2016 15:29:56 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php on line 31
+[06-Oct-2016 15:29:58 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 15:29:58 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 15:29:58 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 15:30:10 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 15:30:10 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 15:30:10 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 15:30:10 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:30:32 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:30:52 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:31:09 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:31:17 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:31:43 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:33:20 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:33:32 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:33:38 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:33:52 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:34:21 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:34:45 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:34:49 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:34:59 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:35:00 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:35:02 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:35:20 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:40:18 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:41:13 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:41:25 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:41:43 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:41:47 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:42:54 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:43:04 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:43:09 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 15:43:20 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 15:43:43 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 16:12:55 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:16:07 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:16:10 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:16:24 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 16:16:24 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 16:16:24 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 16:16:29 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 16:16:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 16:16:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 16:16:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/views/like.v.php on line 18
+[06-Oct-2016 16:16:29 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/modules/picture/controllers/picture.c.php on line 191
+[06-Oct-2016 16:16:29 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php on line 31
+[06-Oct-2016 16:16:35 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 16:16:35 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 16:16:35 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 16:16:41 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 16:16:41 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 16:16:41 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 16:16:41 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 16:16:48 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:17:00 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:17:30 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:17:53 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:18:08 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:18:16 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:47:55 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 16:48:08 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 16:50:14 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:50:35 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 16:51:39 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 16:52:40 Europe/Paris] PHP Parse error:  parse error, expecting `"function (T_FUNCTION)"' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 77
+[06-Oct-2016 16:52:42 Europe/Paris] PHP Parse error:  parse error, expecting `"function (T_FUNCTION)"' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 77
+[06-Oct-2016 16:52:55 Europe/Paris] PHP Parse error:  parse error, expecting `"function (T_FUNCTION)"' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 77
+[06-Oct-2016 16:52:58 Europe/Paris] PHP Parse error:  parse error, expecting `"function (T_FUNCTION)"' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 77
+[06-Oct-2016 16:52:59 Europe/Paris] PHP Parse error:  parse error, expecting `"function (T_FUNCTION)"' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 77
+[06-Oct-2016 16:53:33 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:53:40 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:53:50 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:54:01 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:54:07 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:56:44 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 16:56:44 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 16:56:44 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 16:56:50 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 16:56:50 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 16:56:50 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 16:56:51 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 16:56:51 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 16:56:51 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 16:56:51 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 16:56:57 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 16:56:57 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 16:56:57 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[06-Oct-2016 16:56:57 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 16:57:03 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:57:24 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 16:57:34 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 16:57:36 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:00:09 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:00:15 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:00:24 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:00:48 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:00:53 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 17:00:55 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:00:57 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:01:15 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 17:01:36 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:01:38 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:03:06 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 17:03:10 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:03:12 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:03:25 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 17:03:29 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:04:32 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:05:10 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:05:20 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:06:48 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[06-Oct-2016 17:08:24 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[06-Oct-2016 17:22:27 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[06-Oct-2016 17:22:27 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[06-Oct-2016 17:22:27 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[07-Oct-2016 16:26:01 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[07-Oct-2016 16:26:01 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[07-Oct-2016 16:26:01 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[07-Oct-2016 16:26:11 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[07-Oct-2016 16:26:11 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[07-Oct-2016 16:26:11 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[07-Oct-2016 16:26:12 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[07-Oct-2016 16:26:55 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[07-Oct-2016 16:26:55 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[07-Oct-2016 16:26:55 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[07-Oct-2016 16:26:59 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[07-Oct-2016 16:26:59 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[07-Oct-2016 16:26:59 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[07-Oct-2016 16:27:01 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[07-Oct-2016 16:30:38 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[07-Oct-2016 16:30:38 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[07-Oct-2016 16:30:38 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[11-Oct-2016 15:03:28 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[11-Oct-2016 15:03:28 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[11-Oct-2016 15:03:28 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[11-Oct-2016 15:03:33 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[11-Oct-2016 15:03:33 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[11-Oct-2016 15:03:33 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[11-Oct-2016 15:03:34 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[11-Oct-2016 15:07:25 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[11-Oct-2016 15:26:18 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[11-Oct-2016 15:26:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[11-Oct-2016 15:26:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[11-Oct-2016 15:26:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/views/like.v.php on line 18
+[11-Oct-2016 15:26:18 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/modules/picture/controllers/picture.c.php on line 191
+[11-Oct-2016 15:26:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php on line 31
+[11-Oct-2016 15:26:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[11-Oct-2016 15:26:23 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[11-Oct-2016 15:26:23 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[11-Oct-2016 15:26:23 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[11-Oct-2016 15:26:27 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[11-Oct-2016 15:26:27 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[11-Oct-2016 15:26:27 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[11-Oct-2016 15:26:28 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[11-Oct-2016 16:12:06 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/picture/controllers/picture.c.php on line 18
+[11-Oct-2016 16:13:38 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/Downloads/workspace/modules/picture/controllers/picture.c.php on line 18
+[11-Oct-2016 16:14:08 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[11-Oct-2016 16:14:49 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[11-Oct-2016 16:15:44 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:23:41 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:23:53 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:30:29 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:30:40 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:31:10 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:33:30 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:51:54 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 15:51:54 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 15:51:54 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 15:51:59 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 15:51:59 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 15:51:59 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 15:52:00 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:52:05 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:52:10 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:52:56 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:54:02 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:54:10 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:54:14 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:54:15 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 15:54:15 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 15:54:15 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 15:54:21 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 15:54:21 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 15:54:21 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 15:54:22 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:54:28 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:55:47 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:55:55 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:56:01 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:56:36 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:57:27 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:57:32 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:57:36 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:58:39 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 15:59:28 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:06:27 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:06:34 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:10:08 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:10:13 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:16:01 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:16:06 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:16:06 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:16:06 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:16:25 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:16:25 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:16:25 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:16:28 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:16:28 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:16:28 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:16:43 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:16:43 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:16:43 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:17:00 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:17:00 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:17:00 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:17:16 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:17:16 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:17:16 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:17:18 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:17:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:17:18 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:17:24 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:17:24 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:17:24 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:17:25 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:17:27 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:17:30 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:17:43 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:17:48 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:18:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:18:22 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:18:22 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:21:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:21:26 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:21:26 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:21:30 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:21:30 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:21:30 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:21:31 Europe/Paris] PHP Fatal error:  Cannot use try without catch or finally in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 32
+[12-Oct-2016 16:21:48 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 26
+[12-Oct-2016 16:21:59 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:22:03 Europe/Paris] PHP Notice:  Undefined variable: tag_user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 25
+[12-Oct-2016 16:22:04 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:25:33 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:25:37 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 21
+[12-Oct-2016 16:25:37 Europe/Paris] PHP Notice:  Undefined variable: tag_user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 26
+[12-Oct-2016 16:25:38 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:26:17 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:26:21 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 21
+[12-Oct-2016 16:26:21 Europe/Paris] PHP Notice:  Undefined variable: tag_user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 26
+[12-Oct-2016 16:26:22 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:26:59 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:27:07 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 21
+[12-Oct-2016 16:27:07 Europe/Paris] PHP Notice:  Undefined variable: tag_user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 26
+[12-Oct-2016 16:27:09 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:30:14 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 81
+[12-Oct-2016 16:30:24 Europe/Paris] PHP Notice:  Undefined variable: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 73
+[12-Oct-2016 16:30:25 Europe/Paris] PHP Notice:  Undefined variable: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 73
+[12-Oct-2016 16:30:25 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:30:25 Europe/Paris] PHP Notice:  Undefined variable: user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 73
+[12-Oct-2016 16:30:56 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:32:49 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:32:49 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:32:49 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:36:49 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:36:55 Europe/Paris] PHP Notice:  Undefined offset: 0 in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 76
+[12-Oct-2016 16:36:56 Europe/Paris] PHP Notice:  Undefined offset: 0 in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 76
+[12-Oct-2016 16:36:56 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:36:56 Europe/Paris] PHP Notice:  Undefined offset: 0 in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 76
+[12-Oct-2016 16:37:29 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:37:50 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:38:42 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:39:18 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:39:34 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:39:38 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 21
+[12-Oct-2016 16:39:38 Europe/Paris] PHP Notice:  Undefined variable: tag_user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 26
+[12-Oct-2016 16:39:39 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:39:48 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:39:48 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:39:48 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:39:54 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:39:54 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:39:54 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:39:55 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:40:00 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 21
+[12-Oct-2016 16:40:00 Europe/Paris] PHP Notice:  Undefined variable: tag_user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 26
+[12-Oct-2016 16:40:01 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:40:09 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:41:32 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:41:36 Europe/Paris] PHP Notice:  Undefined variable: tag_user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 26
+[12-Oct-2016 16:41:37 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:42:06 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:42:09 Europe/Paris] PHP Notice:  Undefined variable: tag_user_id in /nfs/2014/a/aliandie/Downloads/workspace/modules/tag/controllers/tag.c.php on line 26
+[12-Oct-2016 16:42:10 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:43:16 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:51:16 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:55:51 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:55:51 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:55:51 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:55:56 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:55:56 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:55:56 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:55:58 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:56:02 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:56:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:56:26 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:56:26 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:56:36 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 16:56:36 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 16:56:36 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 16:56:40 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 16:56:46 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 17:02:25 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 17:02:50 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 17:03:18 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 17:03:20 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 17:03:29 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 17:05:10 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 17:05:10 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 17:05:10 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 17:05:21 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 17:05:21 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 17:05:21 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 17:05:22 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 17:05:32 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:00:47 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[12-Oct-2016 18:00:59 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 18:00:59 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 18:00:59 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 18:01:04 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 18:01:04 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 18:01:04 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 18:01:04 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:01:08 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:01:20 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:01:23 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:01:35 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:01:36 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:01:49 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[12-Oct-2016 18:01:58 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:02:09 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:03:03 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:03:26 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[12-Oct-2016 18:04:32 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:06:01 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:06:11 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[12-Oct-2016 18:06:26 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:50:04 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 18:50:17 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 19:43:56 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 19:50:13 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 19:50:13 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 19:50:13 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 19:50:21 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 64
+[12-Oct-2016 19:50:21 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 65
+[12-Oct-2016 19:50:21 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 66
+[12-Oct-2016 19:50:22 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 19:50:42 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[12-Oct-2016 19:51:15 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 34
+[12-Oct-2016 20:03:37 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:03:37 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(43): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(115): like(Object(User), Object(Database), '2', '1')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#7 {main}
+  th in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:03:53 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:03:53 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(43): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(115): like(Object(User), Object(Database), '1', '2')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#7 {main}
+  th in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:05:02 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(114): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#6 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:05:24 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:05:24 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(114): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#6 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:05:44 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:05:44 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(114): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#6 {main}
+  thrown in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:06:25 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:06:25 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(43): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(115): like(Object(User), Object(Database), '1', '2')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#7 {main}
+  th in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:06:33 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:06:33 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(43): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(115): like(Object(User), Object(Database), '1', '2')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#7 {main}
+  th in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:06:56 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:06:56 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(43): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(115): like(Object(User), Object(Database), '1', '2')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#7 {main}
+  th in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:07:23 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:07:23 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(43): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(115): like(Object(User), Object(Database), '1', '2')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#7 {main}
+  th in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:07:30 Europe/Paris] PHP Warning:  Missing argument 4 for save_user_ip(), called in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 72 and defined in /nfs/2014/a/aliandie/Downloads/workspace/controllers/home.c.php on line 39
+[12-Oct-2016 20:07:37 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:07:37 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php:123
+Stack trace:
+#0 /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php(123): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(43): db_call('SELECT guest_id...', Object(Database), Array, 1)
+#2 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php(115): like(Object(User), Object(Database), '1', '2')
+#3 /nfs/2014/a/aliandie/Downloads/workspace/modules/like/index.php(15): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/Downloads/workspace/views/profils.v.php(24): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/Downloads/workspace/controllers/profils.c.php(17): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/Downloads/workspace/index.php(100): include('/nfs/2014/a/ali...')
+#7 {main}
+  th in /nfs/2014/a/aliandie/Downloads/workspace/core/php/user.class.php on line 123
+[12-Oct-2016 20:08:04 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 33
+[12-Oct-2016 20:11:20 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 36
+[12-Oct-2016 20:11:56 Europe/Paris] PHP Notice:  Undefined variable: liked in /nfs/2014/a/aliandie/Downloads/workspace/modules/like/controllers/like.c.php on line 36

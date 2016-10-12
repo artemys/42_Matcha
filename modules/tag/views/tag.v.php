@@ -28,7 +28,7 @@
       </form>
     </section>
     Your current tags :
-    <?php get_user_tag($db, $_SESSION['user']); ?>
+    <?php get_user_tag($db, $_SESSION['user_id']); ?>
 </section>
 
  <script type="text/javascript">

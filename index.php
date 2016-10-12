@@ -63,6 +63,7 @@ require_once('core/php/geoip/geoip.inc');
 		include(HEADER);
 		echo $_SESSION['user'];
 		echo $_SESSION['user_id'];
+		$user_id = $_SESSION['user_id'];
 		// if (!isset($_GET['nav']) || $_GET['nav'] == 'Signin' || $_GET['nav'] == 'Signup')
 		// {
 		// 	include(CONTROLLERS.'/selector.c.php');
@@ -79,6 +80,7 @@ require_once('core/php/geoip/geoip.inc');
 		?>
 
 		<section id="Content">
+			<div class="test"></div>
 
 			<?php
 				include(SIDE);
@@ -111,9 +113,54 @@ require_once('core/php/geoip/geoip.inc');
 
 			?>
 
+
 		</section>
 
 		<?php include(FOOTER); ?>
 	</body>
 
 </html>
+<script type="text/javascript" src="core/javascript/mustache.js"></script>
+<script type="text/javascript" src="core/javascript/jquery.notif.js"></script>
+<!-- <script type="text/javascript" src="core/javascript/notif.js"></script> -->
+<script>
+function get_notif()
+{
+	var id = '<?php echo $_SESSION['user_id']; ?>';
+	var data = "id=" + id;
+	var xhr = new XMLHttpRequest();
+
+	xhr.onreadystatechange = function()
+	{
+		if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200)
+		{
+			// if (callback)
+				// callback(xhr.responseText);
+				console.log(JSON.parse(xhr.responseText)[2]);
+				var t =  JSON.parse(xhr.responseText)[0];
+				var c =  JSON.parse(xhr.responseText)[1];
+				var owner_id = JSON.parse(xhr.responseText)[2];
+				if (t && c && owner_id == id)
+				{
+					$('.test').notif({title: t, content: c});
+				}
+		}
+	};
+  	xhr.open('POST', "core/php/check_notif.php", true);
+  	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
+  	xhr.send(data);
+  	// setTimeout('get_notif()', 3000); 
+}
+get_notif();
+</script>
+
+
+
+
+
+
+
+
+
+
+

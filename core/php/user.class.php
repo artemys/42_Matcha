@@ -114,4 +114,27 @@ class User
 	}
 
 	}
+	/* ***************************************************************** */
+	function db_call($sql, $db, $array_param, $row)
+	{
+		try
+		{
+			$stmt = $db->conn->prepare($sql);
+			$stmt->execute($array_param);
+			if ($row == 1)
+			{
+				$row = $stmt->fetch(PDO::FETCH_ASSOC);
+			}
+			return($row);
+		}
+		catch(PDOExeption $e)
+		{
+			echo $e->getMessage();
+		}
+	}
+	function test($str)
+	{
+		echo $str;
+		file_put_contents("test.txt", $str);
+	}
 ?>

@@ -1,0 +1,21 @@
+#CitySearch
+{
+	float: right;
+	width: 170px;
+
+}
+#SettingPopup
+{
+	float: left;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.20);
+	background: rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+#messageBox{
+	margin-top: 252px;
+    position: relative;
+}
+}

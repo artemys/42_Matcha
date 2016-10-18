@@ -11,18 +11,9 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 
-date_default_timezone_set('Europe/Paris');
-// Afficher les erreurs à l'écran
-ini_set('display_errors', 1);
-// Enregistrer les erreurs dans un fichier de log
-ini_set('log_errors', 1);
-// Nom du fichier qui enregistre les logs (attention aux droits à l'écriture)
-ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
-// Afficher les erreurs et les avertissements
-
 function ft_error($string)
 {
-	echo "<div class='margin_top_20 text-center col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 alert alert-danger'>".$string."</div>";
+	echo "<div class='alert alert-danger'>".$string."</div>";
 }
 
 
@@ -39,12 +30,11 @@ function ft_register($db, $username, $name_a, $name_b, $birthdate, $mail, $passw
 		$stmt->execute(array(":username"=>$username, ":name_a"=>$name_a, ":name_b"=>$name_b, ":birthdate"=>$birthdate, ":mail"=>$mail, ":new_password"=>$new_password, ":activate"=>$activate));
 		$stmt = $db->conn->prepare("INSERT INTO profils(user_id) SELECT user_id FROM users WHERE pseudo = :username AND email = :mail");
 		$stmt->execute(array(":username"=>$username, ":mail"=>$mail));
-		// $stmt = $db->conn->prepare("INSERT INTO photo(photo_path, ")
 		return $stmt;
 	}
 	catch(PDOException $e)
 	{
-		echo $e->getMessage();
+		ft_error($e->getMessage());
 	}
 }
 
@@ -127,6 +117,7 @@ function ft_check_is_already_taken($db, $username, $mail, $name_a, $name_b, $bir
 		}
 		else
 		{
+			echo "<div class='alert alert-success'>Great ! You are register on Matcha, Check you're mail to get you're account activate </div>";
 			ft_send_validation_mail($db, $username, $mail, $name_a, $name_b, $birthdate, $mail, $password_a);
 		}
 	}
@@ -159,7 +150,9 @@ if (isset($_POST['validate']))
 				if (filter_var($mail, FILTER_VALIDATE_EMAIL))
 				{
 					if (ft_check_is_already_taken($db, $username, $mail, $name_a, $name_b, $birthdate, $mail, $password_a))
-						ft_error("operationreussie");
+					{
+						echo "<div class='alert alert-success'>Great ! You are register on Matcha, Check you're mail to get you're account activate </div>";
+					}
 				}
 				else ft_error("Please enter a validate email");
 			}

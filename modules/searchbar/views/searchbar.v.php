@@ -13,17 +13,17 @@
 ?>
 
 <div id="searcher" name="searchbox">
-	<input type="text" id="field" onkeyup="search('field');">
+	<input type="text" id="field" onkeyup="search('field', event);">
 </div>
-<div id="selected"></div>
 <script>
 
 var array = new Array();
 var id_array = new Array();
-function search(id)
+function search(id, event)
 {
 	var str = document.getElementById(id);
 	var i = 0;
+	event = event || window.event;
 	var x = event.keyCode;
 	
 	var data = "str=" + str.value + "&array=" + array;

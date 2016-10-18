@@ -11,13 +11,8 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 
-// Afficher les erreurs à l'écran
-ini_set('display_errors', 1);
-// Enregistrer les erreurs dans un fichier de log
-ini_set('log_errors', 1);
-// Nom du fichier qui enregistre les logs (attention aux droits à l'écriture)
-ini_set('error_log', dirname(__file__) . '/log_error_php.txt');
-// Afficher les erreurs et les avertissements
+/* ***************************************************************************************** */
+/* SAVE USER LOC           																	 */
 /* ***************************************************************************************** */
 function get_save_user_localisation($db, $user_id)
 {
@@ -30,16 +25,6 @@ function get_save_user_localisation($db, $user_id)
 	{
 			echo $e->getMessage();
 	}
-
-	// $gi = geoip_open("core/php/geoip/GeoIP.dat",GEOIP_STANDARD);
-	// file_put_contents("geoloc.txt", $_SERVER['REMOTE_ADDR'], FILE_APPEND);
-	// // echo geoip_country_code_by_addr($gi, "24.24.24.24") . "\t" .
-	//    file_put_contents("geoloc.txt", geoip_country_name_by_addr($gi, 62.210.32.237) . "\n", FILE_APPEND);
-	//  // file_put_contents("geoloc.txt", geoip_country_code_by_addr($gi, $_SERVER['REMOTE_ADDR']));
-	//      // geoip_country_name_by_addr($gi, "80.24.24.24") . "\n";
-
-	// geoip_close($gi);
-	
 }
 
 /* ***************************************************************************************** */
@@ -109,8 +94,7 @@ if (isset($_POST['validate']) && isset($_POST['username']) && isset($_POST['pass
 	{
 		$error = "Wrong details";
 	}
-	echo '<div class="margin_top_20 text-center col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 alert alert-danger">'.$error.'</div>';
-
+	echo '<div class="alert alert-danger">'.$error.'</div>';
 }
 
 

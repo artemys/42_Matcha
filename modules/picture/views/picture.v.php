@@ -17,7 +17,7 @@ if (isset($_GET['id']))
 }
 else
 {
-	$img_owner = get_user_id($db, $_SESSION['user']);
+	$img_owner = $_SESSION['user_id'];
 }
 ?>
 

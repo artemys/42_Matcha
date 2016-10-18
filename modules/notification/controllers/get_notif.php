@@ -1,5 +1,6 @@
 <?php
 
+
 function get_old_notifs($conn, $id)
 {
 	try
@@ -33,6 +34,5 @@ $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $id   = $_POST['id'];
 get_old_notifs($conn, $id);
-
 
 ?>

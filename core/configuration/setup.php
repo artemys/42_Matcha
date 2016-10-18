@@ -206,7 +206,7 @@ catch(PDOException $e)
 try
 {
   $sql_create_notif_table = "CREATE TABLE `$DB_name`.`notif`(
-  `notif_id`       INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `notif_id`  INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
   `owner_id`  INT( 11 ) NOT NULL,
   `guest_id`  INT( 11 ) NOT NULL,
   `content`   VARCHAR( 22 ),

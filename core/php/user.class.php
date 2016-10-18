@@ -110,7 +110,6 @@ class User
 			echo $e->getMessage();
 		}
 	}
-	// echo 'coucou';
 	}
 
 	}

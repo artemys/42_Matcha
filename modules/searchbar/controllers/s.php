@@ -27,7 +27,7 @@
 						$tab = explode(",", $tag_list);
 						if ($row['tag_name'] && !in_array($row['tag_name'], $tab))
 						{
-	        				echo '<input readonly type="select" value="'.$row["tag_name"].'" id="'.$row['tag_id'].'" class="resultats" 	onfocus="this.select();"  onBlur="setId(this.id); " onclick="this.select();" />';
+	        				echo '<input readonly type="select" value="'.$row["tag_name"].'" id="'.$row['tag_id'].'" class="resultats" 	onfocus="this.select();"  onBlur="setId(this.id); " onclick="this.select();" /><br />';
 
 	        				$i++;
 	        			}

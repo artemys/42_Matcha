@@ -62,3 +62,13 @@ Stack trace:
 [12-Oct-2016 16:16:44 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
 [12-Oct-2016 16:17:00 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
 [12-Oct-2016 16:17:17 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 13:54:47 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 13:55:10 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 13:55:35 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 13:55:58 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 13:56:20 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 13:56:40 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 15:54:50 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 15:56:15 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 15:56:52 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 129
+[13-Oct-2016 16:48:07 Europe/Paris] PHP Notice:  Undefined index: user_id in /nfs/2014/a/aliandie/Downloads/workspace/index.php on line 128

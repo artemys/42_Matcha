@@ -16,41 +16,38 @@ $user_id = $_SESSION['user_id'];
 
 <section class='module' id='settings'> <!-- changer en unrequire-->
 	<section id="SettingPopup">
-		<form method="post" action="index.php?nav=Home">
+		<div class="title">Change you're informations here</div>
+		<form method="post" action="index.php?nav=Settings">
 	
 			<table>
 				<tr>
 					<td><label for="username">Username</label></td>
-					<td><input type="text" 		name="new_username" required /></td>
+					<td><input type="text" 		name="new_username"  /></td>
 				</tr>
 	
 				<tr>
 					<td><label for="name_a">First Name</label></td>
-					<td><input type="text" 		name="new_name_a" required /></td>
+					<td><input type="text" 		name="new_name_a"  /></td>
 				</tr>
 
 				<tr>
 					<td><label for="name_b">Last Name</label></td>
-					<td><input type="text" 		name="new_name_b" required /></td>
+					<td><input type="text" 		name="new_name_b"  /></td>
 				</tr>
 
 				<tr>
 					<td><label for="mail">Mail</label></td>
-					<td><input type="text" 		name="new_mail" required /></td>
-				</tr>
-
-				<tr>
-					
+					<td><input type="text" 		name="new_mail"  /></td>
 				</tr>
 
 				<tr>
 					<td><label for="password_a">New_Password</label></td>
-					<td><input type="password" 	name="new_password_a" required /></td>
+					<td><input type="password" 	name="new_password_a"  /></td>
 				</tr>
 
 				<tr>
 					<td><label for="password_b">New_Password Confirmation</label></td>
-					<td><input type="password" 	name="new_password_b" required /></td>
+					<td><input type="password" 	name="new_password_b" /></td>
 				</tr>
 
 				<tr>
@@ -58,13 +55,14 @@ $user_id = $_SESSION['user_id'];
 				</tr>
 			</table>
 		</form>
-		<div id="searcher" class="search">
-			<input type="text" id="field" onkeyup="search('field')">
-			<div id="res"></div>
-		</div>
 	</section>
-
+	<div id="CitySearch" class="searcher">
+	<div class="title">Select new city here</div>
+		<input type="text" id="field" onkeyup="search('field')">
+		<div id="res"></div>
+	</div>
 </section>
+	<div style="display: none;" onclick="this.remove();" id="messageBox" class="alert alert-success"></div>
 
 <script type="text/javascript">
 
@@ -110,7 +108,8 @@ function send_data()
 	       {
 	       		$("#res").html(html).hide();
 	            res.value = "";
-
+			 	$('#messageBox').html("Location successfully modified");
+			 	$('#messageBox').show();
 	       }
 	   });
 }

@@ -14,7 +14,7 @@
 $id = $_GET['id'];
 ?>
 
-<section class="" id="Score">
+<section class="modules" id="Like">
     <?php have_liked($db, $_SESSION['user_id']); ?>
 </section>
 

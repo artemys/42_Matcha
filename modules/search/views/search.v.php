@@ -12,74 +12,78 @@
 /* ***************************************************************************************** */
 $user_id = $_SESSION['user_id'];
 ?>
-<section class="content" id="Search">
-	<table class="tableaux">
-		<tr>
-			<td><label for="score_interval_less">Score-</label></td>
-			<td><input id="Sml" type="number" name="score_interval_less" placeholder="Enter a minimum score" min="0" ></td>
-			<td><label for="score_interval_more">Score+</label></td>
-			<td><input id="Smm" type="number" name="score_interval_more" placeholder="Enter a maximun score" min="0" ></td>
-		</tr>
-		<tr>
-			<td><label for="age_interval_less">Age-</label></td>
-			<td><input id="Aml" type="number" name="age_interval_less" placeholder="Enter a minimun age" min="0"></td>
-			<td><label for="age_interval_more">Age+</label></td>
-			<td><input id="Amm" type="number" name="age_interval_more" placeholder="Enter a maximun age" min="0"  ></td>
-		</tr>
-		<tr>
-			<td><label for="klm_interval_less">Klm-</label></td>
-			<td><input id="Kml" type="number" name="klm_interval_less" placeholder="Enter the minimum km" min="0"></td>
-			<td><label for="klm_interval_more">Klm+</label></td>
-			<td><input id="Kmm" type="number" name="klm_interval_more" placeholder="Enter the maximum km" min="0" ></td>
-		</tr>
-		<tr>
-			<td><label for="searchbox">Tag</label></td>
-			<td>
-				<?php include (SEARCHBAR); ?>
-			</td>
-		</tr>
-	</table>
+	<section class="parambox tableaux">
+		<table>
+			<tr>
+				<td><label class="title" for="score_interval_less">Score</label></td>
+				<td><input id="Sml" type="number" name="score_interval_less" placeholder="Enter a minimum score" min="0" ></td>
+				<td><input id="Smm" type="number" name="score_interval_more" placeholder="Enter a maximun score" min="0" ></td>
+			</tr>
+			<tr>
+				<td><label class="title pr16" for="age_interval_less">Age</label></td>
+				<td><input id="Aml" type="number" name="age_interval_less" placeholder="Enter a minimun age" min="0"></td>
+				<td><input id="Amm" type="number" name="age_interval_more" placeholder="Enter a maximun age" min="0"></td>
+			</tr>
+			<tr>
+				<td><label class="title pr16" for="klm_interval_less">Klm</label></td>
+				<td><input id="Kml" type="number" name="klm_interval_less" placeholder="Enter the minimum km" min="0"></td>
+				<td><input id="Kmm" type="number" name="klm_interval_more" placeholder="Enter the maximum km" min="0"></td>
+			</tr>
+			<tr>
+				<td><label class="title pr18" for="searchbox">Tag</label></td>
+				<td><?php include (SEARCHBAR); ?><div id="res"></div></td>
+				<td><div id="selected"></div></td>
+				<td><input hidden type="text" id="selectiontags" name="selection"></td>
+			</tr>
+		</table>
+		<input type="submit" id="lauchsearch" name="valider" value="Valider" onclick="send_tag_list(); process_data(show_result, 'order_res', 'user_true_lat DESC');"/>
+	</section>
 
-	<div id="res"></div>
-	<input type="submit" id="lauchsearch" name="valider" value="Valider" onclick="send_tag_list(); process_data(show_result, 'order_res', 'user_public_lat DESC');"/>
-	<input hidden type="text" id="selectiontags" name="selection" value="">
+	<section style="float: right;">
+		<table class="" id="OrderBy" style="display: block">
+			<tr>
+				<td>
+					<button id="Order"  style="display: block" onclick="visibility('Screen', 'block'); visibility('ScreenBy', 'block'); visibility('Order', 'none');  visibility('OrderBy', 'none'); process_data(show_result, 'screen_res', null);">Order By</button>
+				</td>
+			</tr>
+			<tr>
+				<td><button id="O_scr"  onclick="process_data(show_result, 'order_res', 'user_score DESC');">Score</button></td>
+			</tr>
+			<tr>
+				<td><button id="O_age"  onclick="process_data(show_result, 'order_res', 'birthdate');" >Age</button></td>
+			</tr>
+			<tr>
+				<td><button id="O_loc"  onclick="process_data(show_result, 'order_res', 'user_public_lat');">Location</button></td>
+			</tr>
+			<tr>
+				<td><button id="O_tag"  onclick="process_data(show_result, 'order_res', 'user_tags');">Tag</button></td>
+			</tr>
+		</table>
 
-
-	<button id="Order"  style="display: block" onclick="visibility('Screen', 'block'); visibility('ScreenBy', 'block'); visibility('Order', 'none');  visibility('OrderBy', 'none'); process_data(show_result, 'screen_res', null);">Order By</button>
-	<button id="Screen" style="display: none"  onclick="visibility('Screen', 'none');  visibility('ScreenBy', 'none');  visibility('Order', 'block'); visibility('OrderBy', 'block'); ">Screen By</button>
-
-
-	<table class="tableaux" id="OrderBy" style="display: block">
-		<tr>
-			<td><button id="O_scr"  onclick="process_data(show_result, 'order_res', 'user_score DESC');">Score</button></td>
-		</tr>
-		<tr>
-			<td><button id="O_age"  onclick="process_data(show_result, 'order_res', 'birthdate');" >Age</button></td>
-		</tr>
-		<tr>
-			<td><button id="O_loc"  onclick="process_data(show_result, 'order_res', 'user_public_lat');">Location</button></td>
-		</tr>
-		<tr>
-			<td><button id="O_tag"  onclick="process_data(show_result, 'order_res', 'user_tags');">Tag</button></td>
-		</tr>
-	</table>
-
-	<table class="tableaux" id="ScreenBy" style="display: none">
-		<tr>
-			<td><button id="scr"  onclick="screenby('scr_res', 'age_res', 'loc_res', 'tag_res');">Score</button></td>
-		</tr>
-		<tr>
-			<td><button id="age"  onclick="screenby('age_res', 'scr_res', 'loc_res', 'tag_res');">Age</button></td>
-		</tr>
-		<tr>
-			<td><button id="loc"  onclick="screenby('loc_res', 'scr_res', 'age_res', 'tag_res');">Location</button></td>
-		</tr>
-		<tr>
-			<td><button id="tag"  onclick="screenby('tag_res', 'scr_res', 'age_res', 'loc_res');">Tag</button></td>
-		</tr>
-	</table>
-	<section id="test"></section>
-</section>
+		<table class="tableaux" id="ScreenBy" style="display: none">
+			<tr>
+				<td>
+					<button id="Screen" style="display: none"  onclick="visibility('Screen', 'none');  visibility('ScreenBy', 'none');  visibility('Order', 'block'); visibility('OrderBy', 'block'); ">Screen By</button>
+				</td>
+			</tr>
+			<tr>
+				<td><button id="scr"  onclick="screenby('scr_res', 'age_res', 'loc_res', 'tag_res');">Score</button></td>
+			</tr>
+			<tr>
+				<td><button id="age"  onclick="screenby('age_res', 'scr_res', 'loc_res', 'tag_res');">Age</button></td>
+			</tr>
+			<tr>
+				<td><button id="loc"  onclick="screenby('loc_res', 'scr_res', 'age_res', 'tag_res');">Location</button></td>
+			</tr>
+			<tr>
+				<td><button id="tag"  onclick="screenby('tag_res', 'scr_res', 'age_res', 'loc_res');">Tag</button></td>
+			</tr>
+		</table>
+	</section>
+	<section class="finalSearch">
+		<div id="result-title" class="title">Resultat from you're search</div>
+		<section id="test"></section>
+	</section>
 
 <script type="text/javascript">
 function show_result(result)
@@ -113,11 +117,9 @@ function process_data(callback, display, order)
 			 name4 + "=" + value4 + "&" + 
 			 name5 + "=" + value5 + "&" + 
 			 name6 + "=" + value6 + 
-
 			 "&id="    + id    + 
 			 "&order=" + order + 
 			 "&tags="  + tags;
-			 
 	var xhr = new XMLHttpRequest();
 	    xhr.onreadystatechange = function()
 	{
@@ -133,20 +135,34 @@ function process_data(callback, display, order)
 }
 function screenby(show, hide1, hide2, hide3)
 {
-	show  = document.getElementById(show);
 
+
+	show  = document.getElementById(show);
 	hide1 = document.getElementById(hide1);
 	hide2 = document.getElementById(hide2);
 	hide3 = document.getElementById(hide3);
 	hide4 = document.getElementById('default');
 
-	show.style.display  = 'block';
-
-	hide1.style.display = 'none';
-	hide2.style.display = 'none';
-	hide3.style.display = 'none';
-	hide4.style.display = 'none';
-
+	if(show != null)
+	{
+		show.style.display  = 'block';
+	}
+	if (hide1 != null)
+	{
+		hide1.style.display = 'none';
+	}
+	if (hide2 != null)
+	{
+		hide2.style.display = 'none';
+	}	
+	if (hide3 != null)
+	{
+		hide3.style.display = 'none';
+	}	
+	if (hide4 != null)
+	{
+		hide4.style.display = 'none';
+	}
 }
 function visibility(id, state) 
 {

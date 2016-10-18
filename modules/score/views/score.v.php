@@ -10,9 +10,8 @@
 /*   Updated: 2015/10/10 10:00:00 by aliandie                        ###   ########.fr       */
 /*                                                                                           */
 /* ***************************************************************************************** */
-
 ?>
-
 <section class="module" id="Score">
-	<div>  </div>
+	<div id="scoreValue"><?php get_user_score($_GET['id'], $db); ?></div>
 </section>
+

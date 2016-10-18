@@ -11,52 +11,16 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 
-function get_user_score($db, $user_id)
+function get_user_score($id, $db)
 {
-	try
-	{
-		// if (isset($_GET['id']))
-		// {
-		// 	$user_id = $_GET['id'];
-		// }
-		// else if (isset($_SESSION['user_id']))
-		// {
-		// 	$user_id = $_SESSION['user_id'];
-		// }
-		// if (isset($user_id))
-		// {
-			$stmt = $db->conn->prepare("SELECT user_score FROm profils WHERE user_id = :user_id");
-			$stmt->execute(array(':user_id'=>$user_id));
-			$row = $stmt->fetch(PDO::FETCH_ASSOC);
-			if (isset($row))
-			{
-				return ($row['user_score']);
-			}
-			else
-			{
-				return (0);
-			}
-		// }
-	}
-	catch(PDOExeption $e)
-	{
-		echo $e->getMessage();
-	}
+	
+		$sql = "SELECT user_score from profils where user_id = :id";
+		$array_param = array(':id'=>$id);
+		$row = db_call($sql, $db, $array_param, 1);
+		echo $row['user_score'];
 }
 
 /* ***************************************************************************************** */
-if (isset($_GET['id']))
-{
-	$user_id = $_GET['id'];
-}
-else if (isset($_SESSION['user_id']))
-{
-	$user_id = $_SESSION['user_id'];
-}
-if (isset($user_id))
-{
-	get_user_score($db, $user_id);
-}
 
 /* ***************************************************************************************** */
 

@@ -11,21 +11,6 @@
 /*                                                                                           */
 /* ***************************************************************************************** */
 
-function get_user_id($db, $img_owner)
-{
-	try
-	{
-		$stmt = $db->conn->prepare("SELECT user_id FROM users WHERE :img_owner = pseudo");
-		$stmt->execute(array(':img_owner'=>$img_owner));
-		$row = $stmt->fetch(PDO::FETCH_ASSOC);
-		file_put_contents("niketamere.txt" , $row['user_id']);
-		return ($row['user_id']);
-	}	
-	catch(PDOException $e)
-	{
-		echo $e->getMessage();
-	}
-}
 
 /* ***************************************************************************************** */
 
@@ -57,18 +42,18 @@ function check_photo()
 		$uploadOk = 1;
 		$imageFileType = pathinfo($targetFile, PATHINFO_EXTENSION);
 
-		// if (file_exists($_FILES["fileToUpload"]["tmp_name"]))
-		// {
-		// 	$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
-		// 	if ($check !== false)
-		// 	{
-		// 		$uploadOk = 1;
-		// 	}
-		// 	else
-		// 	{
-		// 		$uploadOk = 0;
-		// 	}
-		// }
+		if (file_exists($_FILES["fileToUpload"]["tmp_name"]))
+		{
+			$check = getimagesize($_FILES["fileToUpload"]["tmp_name"]);
+			if ($check !== false)
+			{
+				$uploadOk = 1;
+			}
+			else
+			{
+				$uploadOk = 0;
+			}
+		}
 		if ($_FILES["fileToUpload"]["size"] > 500000)
 		{
    			$uploadOk = 0;
@@ -80,7 +65,6 @@ function check_photo()
 		if (file_exists("Uploads/".$_FILES["fileToUpload"]["name"]))
 		{
 			$uploadOk = 0;
-			//error
 		}
 		if ($uploadOk == 0)
 		{
@@ -94,7 +78,6 @@ function check_photo()
    		}
    	 	else
     	{
-    		//error
 		}
 	}	
 }
@@ -177,7 +160,7 @@ function set_pic_as_profil_picture($db, $img_owner, $photo_number)
 {
 	try
 	{
-		$stmt = $db->conn->prepare("UPDATE photo AS rule1 JOIN photo AS rule2 ON ( rule1.photo_number = 0 AND rule2.photo_number = :photo_number ) SET rule1.photo_number = rule2.photo_number, rule2.photo_number = 0 WHERE rule1.photo_auteur = :img_owner AND rule2.photo_auteur = :img_owner"); // SA MERE LA TEPUUUUU
+		$stmt = $db->conn->prepare("UPDATE photo AS rule1 JOIN photo AS rule2 ON ( rule1.photo_number = 0 AND rule2.photo_number = :photo_number ) SET rule1.photo_number = rule2.photo_number, rule2.photo_number = 0 WHERE rule1.photo_auteur = :img_owner AND rule2.photo_auteur = :img_owner"); 
 		$stmt->execute(array(':photo_number'=>$photo_number, ':img_owner'=>$img_owner));
 	}
 	catch(PDOException $e)
@@ -188,7 +171,7 @@ function set_pic_as_profil_picture($db, $img_owner, $photo_number)
 
 /* ***************************************************************************************** */
 
-$img_owner = get_user_id($db, $_SESSION['user']);
+$img_owner = $_SESSION['user_id'];
 $new_photo_number = get_existing_photo($db, $img_owner);
 
 

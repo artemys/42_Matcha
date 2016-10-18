@@ -1,0 +1,44 @@
+.buttonBox{
+	float: right;
+}
+
+/*#searcher{
+	float: left;
+}*/
+
+
+.FinalMatch{
+	/*margin: 32%;*/
+	float: left;
+}
+
+#sugg
+{
+	width: 328px;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.20);
+	background: rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+/*#Order{
+	margin-left: 3px;
+}
+#Screen{
+	margin-left: 3px;
+}*/
+
+.searcher
+{
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid rgba(255, 255, 255, 0.20);
+	background: rgba(0, 0, 0, 0.05);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+#matchContent
+{
+	margin-top: 20px;
+}

@@ -11,7 +11,6 @@ function get_new_notif($conn, $id)
 			array_push($data, $row['content']);
 			array_push($data, $row['pseudo']);
 			array_push($data, $row['owner_id']);
-
 		}
 		print json_encode($data);
 		$stmt = $conn->prepare("UPDATE notif SET seen = 0 WHERE owner_id = :id");

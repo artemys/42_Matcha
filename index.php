@@ -50,7 +50,6 @@ require_once('core/php/geoip/geoip.inc');
 	<head>
 		<meta charset="utf-8" />
 		<title>Matcha</title>
-
 		<link rel="stylesheet" href="/core/design/matcha.css" />
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
@@ -80,7 +79,7 @@ require_once('core/php/geoip/geoip.inc');
 		?>
 
 		<section id="Content">
-			<div class="test"></div>
+			<div class="Notfi"></div>
 
 			<?php
 				include(SIDE);
@@ -142,7 +141,7 @@ function get_notif()
 				var owner_id = JSON.parse(xhr.responseText)[2];
 				if (t && c && owner_id == id)
 				{
-					$('.test').notif({title: t, content: c});
+					$('.Notfi').notif({title: t, content: c});
 				}
 		}
 	};

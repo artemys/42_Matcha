@@ -18,13 +18,13 @@
 
 		<table>
 
-			<tr><td><label for="username">Username  </label><input type="text"     name="username"   required /></td></tr>
-			<tr><td><label for="username">Mail      </label><input type="text"     name="mail"       required /></td></tr>
-			<tr><td><label for="username">First name</label><input type="text"     name="name_a"     required /></td></tr>
-			<tr><td><label for="username">Last name </label><input type="text"     name="name_b"     required /></td></tr>
-			<tr><td><label for="username">Birth     </label><input type="date"     name="birthdate"  required /></td></tr>
-			<tr><td><label for="username">Password  </label><input type="password" name="password_a" required /></td></tr>
-			<tr><td><label for="username">Password  </label><input type="password" name="password_b" required /></td></tr>
+			<tr><td><label for="username">Username  </label><input type="text"     name="username"   placeholder="" required /></td></tr>
+			<tr><td><label for="username">Mail      </label><input type="text"     name="mail"       placeholder="" required /></td></tr>
+			<tr><td><label for="username">First name</label><input type="text"     name="name_a"     placeholder="" required /></td></tr>
+			<tr><td><label for="username">Last name </label><input type="text"     name="name_b"     placeholder="" required /></td></tr>
+			<tr><td><label for="username">Birth     </label><input type="date"     name="birthdate"  placeholder="YYYY-MM-DD" required /></td></tr>
+			<tr><td><label for="username">Password  </label><input type="password" name="password_a" placeholder="" required /></td></tr>
+			<tr><td><label for="username">Password  </label><input type="password" name="password_b" placeholder="" required /></td></tr>
 
 			<tr><td><input type="submit" name="validate" /></td></tr>
 

@@ -12,7 +12,7 @@
 /* ***************************************************************************************** */
 ?>
 
-<section class="" id="Tag">
+<section class="modules" id="Tag">
 	<section class="title">Tags</section>
     Choose existing tag
     <div id="searcher" class="searcher">

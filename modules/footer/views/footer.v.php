@@ -13,7 +13,6 @@
 ?>
 
 <footer class="module" id="Footer">
-	
-	<!-- CODE -->
-
+	<div id="copyright">© Copyright Matcha 2016 Aliandie</div>
+	<div id="contact">Contact: aliandie@student.42.fr</div>
 </footer>

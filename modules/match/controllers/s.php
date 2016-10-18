@@ -28,14 +28,14 @@
         				$i++;
         			}
 	        	}
-	        	if ($i > 0)
-	        	{
-	        		echo '<button  id="choose">selectionner</button>';
-	        	}
-	        	else
-	        	{
-	    			echo '<div>No matching records.</div>';
-	        	}
+	       //  	if ($i > 0)
+	       //  	{
+	       //  		echo '<button  id="choose">selectionner</button>';
+	       //  	}
+	       //  	else
+	       //  	{
+	    			// echo '<div>No matching records.</div>';
+	       //  	}
 			}
 			else
 	    	{
@@ -48,5 +48,3 @@
 	    }
 	}	
 ?>
-
-<!-- onclick="(window.location='?nav=Signin')" -->

@@ -15,9 +15,9 @@
 <section class="content" id="Search">
 
 <?php
-
  	$usero = new User();
 	//ne pas oublier de checker si l'id existe et si c'est pas l'id du gars qui est co//
+	include(SCORE);
 	include(ONLINE);
 	if ($usero->get_user_pic($db, $_GET['id']))
 	{
@@ -25,11 +25,8 @@
 		include(CHAT);
 	}
 	include(PICTURE); 
-	include(SCORE);
 	include(INFORMATION);
 	include(DESCRIPTION);
 	$usero->notify_entry($db, $_GET['id'], $_SESSION['user_id'], 'visite');
 	?>
-
-	
 </section>

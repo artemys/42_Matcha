@@ -13,39 +13,39 @@
 $user_id = $_SESSION['user_id'];
 
 ?>
-<section class='modules'>
-	<section class="" id="Match">
-
-		<div id="searcher" class="searcher">
+	<section class="modules" id="Match">
+	<div class="title">Search users</div>
+		<div class="searcher">
 		<input type="text" id="field" onkeyup="search('field');">
 			<div id="res"></div>
 		</div>
 
-		<button id="Order" onclick="set_table_id('Screen'); visibility('Screen','block'); visibility('Order','none');">Order By</button>
-		<button id="Screen" style="display: none;" onclick="set_table_id('Order'); visibility('Screen','none');visibility('Order','block');">Screen By</button>
-
-		<table id="OrderBy">
-			<tr>
-				<td><button id="user_score"      onclick="get_suggestions(this.id, show_result, $(this).closest('table').attr('id'));">Score</button></td>
-			</tr>
-			<tr>
-				<td><button id="birthdate"       onclick="get_suggestions(this.id, show_result, $(this).closest('table').attr('id'));">Age</button></td>
-			</tr>
-			<tr>
-				<td><button id="user_public_lat" onclick="get_suggestions(this.id, show_result, $(this).closest('table').attr('id'));">Location</button></td>
-			</tr>
-			<tr>
-				<td><button id="user_tags"       onclick="get_suggestions(this.id, show_result, $(this).closest('table').attr('id'));">Tag</button></td>
-			</tr>
-		</table>
-
-		<section>
-			<label for="Meetable">Your suggestions</label>
-			<div id="sugg"></div>
+		<section id="matchContent">
+			<section class="buttonBox">
+				<button id="Order" onclick="set_table_id('Screen'); visibility('Screen','block'); visibility('Order','none');">Order By</button>
+				<button id="Screen" style="display: none;" onclick="set_table_id('Order'); visibility('Screen','none');visibility('Order','block');">Screen By</button>
+				<table id="OrderBy">
+					<tr>
+						<td><button id="user_score"      onclick="get_suggestions(this.id, show_result, $(this).closest('table').attr('id'));">Score</button></td>
+					</tr>
+					<tr>
+						<td><button id="birthdate"       onclick="get_suggestions(this.id, show_result, $(this).closest('table').attr('id'));">Age</button></td>
+					</tr>
+					<tr>
+						<td><button id="user_public_lat" onclick="get_suggestions(this.id, show_result, $(this).closest('table').attr('id'));">Location</button></td>
+					</tr>
+					<tr>
+						<td><button id="user_tags"       onclick="get_suggestions(this.id, show_result, $(this).closest('table').attr('id'));">Tag</button></td>
+					</tr>
+				</table>
+			</section>
+			<section class="FinalMatch">
+				<div class="title">Your suggestions</div>
+				<div id="sugg"></div>
+			</section>
 		</section>
-
 	</section>
-</secion>
+
 <script>
 
 window.onload = get_suggestions('user_public_lat', show_result);

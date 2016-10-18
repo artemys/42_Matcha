@@ -28,6 +28,9 @@
 					</td>
 					<?php } 
 						else { ?>
+					<td> 
+						<?php echo get_user_gender($db, $_SESSION['user_id']); ?>
+					</td>
 					<td>
 						<select id="Gender" name="gender">
 							<option value ="1" >a men</option>
@@ -44,10 +47,13 @@
 					</td>
 					<?php	if (isset($_GET['id'])) { ?>
 					<td>
-					<?php echo get_user_sexuality($db, $_GET['id']); ?>
+						<?php echo get_user_sexuality($db, $_GET['id']); ?>
 					</td>
 					<?php } 
-						else { ?>
+							else { ?>
+					<td>
+					 <?php echo get_user_sexuality($db, $_SESSION['user_id']); ?>
+					</td>
 					<td>
 						<select id="Sexuality" name="sexuality">
 							<option value ="1" >is a man</option>

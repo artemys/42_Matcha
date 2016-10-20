@@ -24,10 +24,15 @@ function like($user, $db, $user_id, $scored)
 	if (isset($row['user_like']))
 	{
 		$array = explode(',', $row['user_like']);
+		file_put_contents("test1.txt", "u_i= ".$user_id . "a= ", FILE_APPEND);
+		file_put_contents("test1.txt", $array, FILE_APPEND);
+
 		if (in_array($user_id, $array))
 		{
 			$liked = true;
-			$user->notify_entry($db, $scored, $user_id, "contected");
+			// file_put_contents("test5.txt", "coucou");
+			// $user->notify_entry($db, $scored, $user_id, "contected");
+			// $user->notify_entry($db, $user_id, $scored, "contected");
 		}
 	}
 	else
@@ -53,8 +58,9 @@ function like($user, $db, $user_id, $scored)
 			$array = explode(',', $row['user_like']);
 			if (in_array($scored, $array))
 			{
-				$liked = true;
 				$user->notify_entry($db, $scored, $user_id, "contected");
+				$user->notify_entry($db, $user_id, $scored, "contected");
+
 			}
 		}
 	}
@@ -82,6 +88,7 @@ function dislike($user, $db, $user_id, $scored)
 			if (in_array($scored, $array))
 			{
 				$user->notify_entry($db, $scored, $user_id, "not contected");
+				$user->notify_entry($db, $user_id, $scored, "not contected");
 			}
 		}
 		$array = array();

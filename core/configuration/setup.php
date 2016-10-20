@@ -218,6 +218,21 @@ catch(PDOException $e)
 {
   echo $e->getMessage() . "\n";
 }
+try
+{
+  $sql_create_chat_table = "CREATE TABLE `$DB_name`.`chat`(
+  `id`  INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  `r_id` INT( 11 ) NOT NULL,
+  `s_id` INT( 11 ) NOT NULL,
+  `message` VARCHAR ( 255 ),
+  `date` TIMESTAMP DEFAULT CURRENT_TIMESTAMP)";
+  $conn->exec($sql_create_chat_table);
+  echo "Table chat created successfuly.\n";
+}
+catch(PDOException $e)
+{
+  echo $e->getMessage() . "\n";
+}
 system("mkdir ../../Uploads");
 
 if (!file_exists("../../Uploads/"))

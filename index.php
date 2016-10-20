@@ -111,8 +111,7 @@ require_once('core/php/geoip/geoip.inc');
 				}
 
 			?>
-
-
+			<div class="Chatbox"></div>
 		</section>
 
 		<?php include(FOOTER); ?>
@@ -148,8 +147,9 @@ function get_notif()
   	xhr.open('POST', "core/php/check_notif.php", true);
   	xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded; charset=UTF-8');
   	xhr.send(data);
-  	// setTimeout('get_notif()', 3000); 
+  	// setTimeout('get_notif()', 2000); 
 }
+
 get_notif();
 </script>
 

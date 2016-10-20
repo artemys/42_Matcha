@@ -23,7 +23,8 @@
 @import url('matcha/stylesheets/score.css'         );
 @import url('matcha/stylesheets/tag.css'           );
 @import url('matcha/stylesheets/match.css'         );
-@import url('matcha/stylesheets/settings.css'       );
+@import url('matcha/stylesheets/settings.css'      );
+@import url('matcha/stylesheets/chat.css'          );
 
 /* ************************************************************************** */
 

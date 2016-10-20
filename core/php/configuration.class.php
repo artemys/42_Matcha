@@ -46,6 +46,5 @@ define('PROFILS',		 MODULES.'/profils/index.php',		  false);
 define('SCORE',		 	 MODULES.'/score/index.php',  		  false);
 
 
-
 /* ***************************************************************************************** */
 ?>

@@ -194,7 +194,7 @@ try
 	echo "Table city created successfuly.\n";
 
 
-	$sql_import_city_data ="LOAD DATA INFILE '/Users/aliandie/workspace2/core/configuration/villes_france.csv' INTO TABLE matcha.villes_france_free FIELDS TERMINATED BY ',' ENCLOSED BY '\"' ";
+	$sql_import_city_data ="LOAD DATA INFILE '~/matcha/core/configuration/villes_france.csv' INTO TABLE matcha.villes_france_free FIELDS TERMINATED BY ',' ENCLOSED BY '\"' ";
 	$conn->exec($sql_import_city_data);
 	echo "City data imported successfuly.\n";
 }

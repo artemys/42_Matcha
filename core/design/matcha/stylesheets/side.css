@@ -1,0 +1,46 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   side.css 		                                    :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aliandie <aliandie@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/10/10 10:00:00 by aliandie          #+#    #+#             */
+/*   Updated: 2015/10/10 10:00:00 by aliandie         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#Side
+{
+	width: 100px;
+	height: 100%;
+	float: left;
+	position: relative;
+	z-index: 50;
+	border-right: 1px solid rgba(255, 255, 255, 0.10);
+	background: url('../assets/background_c.png') repeat-y;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+#Side ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+#Side li
+{
+	height: 100px;
+	width: 100px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.30);
+	border-top: 1px solid rgba(255, 255, 255, 0.10);
+}
+
+#Side li:first-child
+{
+	border-top: none;
+}
+
+/* ************************************************************************** */

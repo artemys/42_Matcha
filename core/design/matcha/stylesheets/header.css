@@ -1,0 +1,60 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   header.css                                         :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: aliandie <aliandie@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2015/10/10 10:00:00 by aliandie          #+#    #+#             */
+/*   Updated: 2015/10/10 10:00:00 by aliandie         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#Header
+{
+	height: 100px;
+	position: relative;
+	z-index: 100;
+	border-bottom: 1px solid rgb(145, 30, 65);
+	background: url('../assets/background_a.png') repeat-x;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+#Header .left
+{
+	height: 100px;
+	width: 280px;
+	line-height: 100px;
+	float: left;
+	background: url('../assets/header.png') no-repeat;
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+}
+
+#Header .right
+{
+	float: right;
+}
+
+#Header h1
+{
+	margin: 0;
+	font-size: 32px;
+	font-family: 'Arial';
+	color: rgb(215, 215, 215);
+}
+
+#Header ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#Header li
+{
+	height: 100px;
+	width: 100px;
+	background: url('../assets/disconnect.png') no-repeat;
+}
+
+/* ************************************************************************** */

@@ -1,0 +1,486 @@
+[01-Aug-2016 18:10:15 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:13:44 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:13:58 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:15:19 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:15:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:19:16 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:19:38 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:20:42 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:49:44 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:49:45 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:49:53 Europe/Paris] PHP Notice:  Use of undefined constant MODULES - assumed 'MODULES' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:49:53 Europe/Paris] PHP Notice:  Use of undefined constant VIEWS - assumed 'VIEWS' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:49:53 Europe/Paris] PHP Warning:  include(MODULES/logout/VIEWS/logout.v.php): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:49:53 Europe/Paris] PHP Warning:  include(): Failed opening 'MODULES/logout/VIEWS/logout.v.php' for inclusion (include_path='.:') in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:49:53 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:49:53 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:58:19 Europe/Paris] PHP Notice:  Use of undefined constant MODULES - assumed 'MODULES' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:19 Europe/Paris] PHP Notice:  Use of undefined constant VIEWS - assumed 'VIEWS' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:19 Europe/Paris] PHP Warning:  include(MODULES/logout/VIEWS/logout.v.php): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:19 Europe/Paris] PHP Warning:  include(): Failed opening 'MODULES/logout/VIEWS/logout.v.php' for inclusion (include_path='.:') in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:19 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:58:19 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:58:20 Europe/Paris] PHP Notice:  Use of undefined constant MODULES - assumed 'MODULES' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:20 Europe/Paris] PHP Notice:  Use of undefined constant VIEWS - assumed 'VIEWS' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:20 Europe/Paris] PHP Warning:  include(MODULES/logout/VIEWS/logout.v.php): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:20 Europe/Paris] PHP Warning:  include(): Failed opening 'MODULES/logout/VIEWS/logout.v.php' for inclusion (include_path='.:') in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:20 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:58:20 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:58:24 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:58:26 Europe/Paris] PHP Notice:  Use of undefined constant MODULES - assumed 'MODULES' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:26 Europe/Paris] PHP Notice:  Use of undefined constant VIEWS - assumed 'VIEWS' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:26 Europe/Paris] PHP Warning:  include(MODULES/logout/VIEWS/logout.v.php): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:26 Europe/Paris] PHP Warning:  include(): Failed opening 'MODULES/logout/VIEWS/logout.v.php' for inclusion (include_path='.:') in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:58:26 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:58:26 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:59:25 Europe/Paris] PHP Notice:  Use of undefined constant MODULES - assumed 'MODULES' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:25 Europe/Paris] PHP Notice:  Use of undefined constant VIEWS - assumed 'VIEWS' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:25 Europe/Paris] PHP Warning:  include(MODULES/logout/VIEWS/logout.v.php): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:25 Europe/Paris] PHP Warning:  include(): Failed opening 'MODULES/logout/VIEWS/logout.v.php' for inclusion (include_path='.:') in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:25 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:59:25 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:59:27 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:59:29 Europe/Paris] PHP Notice:  Use of undefined constant MODULES - assumed 'MODULES' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:29 Europe/Paris] PHP Notice:  Use of undefined constant VIEWS - assumed 'VIEWS' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:29 Europe/Paris] PHP Warning:  include(MODULES/logout/VIEWS/logout.v.php): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:29 Europe/Paris] PHP Warning:  include(): Failed opening 'MODULES/logout/VIEWS/logout.v.php' for inclusion (include_path='.:') in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:29 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:59:29 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:59:30 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 18:59:31 Europe/Paris] PHP Notice:  Use of undefined constant MODULES - assumed 'MODULES' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:31 Europe/Paris] PHP Notice:  Use of undefined constant VIEWS - assumed 'VIEWS' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:31 Europe/Paris] PHP Warning:  include(MODULES/logout/VIEWS/logout.v.php): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:31 Europe/Paris] PHP Warning:  include(): Failed opening 'MODULES/logout/VIEWS/logout.v.php' for inclusion (include_path='.:') in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 18:59:31 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 18:59:31 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 19:10:00 Europe/Paris] PHP Notice:  Use of undefined constant MODULES - assumed 'MODULES' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 19:10:00 Europe/Paris] PHP Notice:  Use of undefined constant VIEWS - assumed 'VIEWS' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 19:10:00 Europe/Paris] PHP Warning:  include(MODULES/logout/VIEWS/logout.v.php): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 19:10:00 Europe/Paris] PHP Warning:  include(): Failed opening 'MODULES/logout/VIEWS/logout.v.php' for inclusion (include_path='.:') in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 19:10:00 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 19:10:00 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 19:12:21 Europe/Paris] PHP Notice:  Use of undefined constant MODULES - assumed 'MODULES' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 19:12:21 Europe/Paris] PHP Notice:  Use of undefined constant VIEWS - assumed 'VIEWS' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 19:12:21 Europe/Paris] PHP Warning:  include(MODULES/logout/VIEWS/logout.v.php): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 19:12:21 Europe/Paris] PHP Warning:  include(): Failed opening 'MODULES/logout/VIEWS/logout.v.php' for inclusion (include_path='.:') in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 23
+[01-Aug-2016 19:12:21 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 19:12:21 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 25
+[01-Aug-2016 19:12:23 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:12:25 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:12:28 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:12:30 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:12:30 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:12:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:12:49 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:13:03 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:13:36 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:13:55 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:13:57 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:16:00 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:16:03 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:17:52 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:17:59 Europe/Paris] PHP Fatal error:  Call to undefined function redirect() in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/core/php/user.class.php on line 34
+[01-Aug-2016 19:18:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:18:36 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/core/php/user.class.php on line 34
+[01-Aug-2016 19:18:36 Europe/Paris] PHP Fatal error:  Call to a member function redirect() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/core/php/user.class.php on line 34
+[01-Aug-2016 19:19:30 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[01-Aug-2016 19:19:37 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/core/php/user.class.php on line 34
+[01-Aug-2016 19:19:37 Europe/Paris] PHP Fatal error:  Call to a member function redirect() on a non-object in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/core/php/user.class.php on line 34
+[01-Aug-2016 19:20:00 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[02-Aug-2016 11:45:36 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[02-Aug-2016 11:47:51 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[02-Aug-2016 11:48:23 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/views/home.v.php on line 21
+[02-Aug-2016 13:54:25 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 19
+[02-Aug-2016 13:54:40 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 19
+[02-Aug-2016 13:54:50 Europe/Paris] PHP Fatal error:  Cannot use try without catch or finally in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 23
+[02-Aug-2016 13:54:50 Europe/Paris] PHP Fatal error:  Cannot use try without catch or finally in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 23
+[02-Aug-2016 13:55:13 Europe/Paris] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 37
+[02-Aug-2016 13:55:31 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 37
+[02-Aug-2016 13:55:43 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 37
+[02-Aug-2016 14:07:56 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 96
+[02-Aug-2016 14:07:56 Europe/Paris] PHP Notice:  Undefined variable: targetDir in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 96
+[02-Aug-2016 14:07:56 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 99
+[02-Aug-2016 14:07:56 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 33
+[02-Aug-2016 14:07:56 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 50
+[02-Aug-2016 14:07:56 Europe/Paris] PHP Notice:  Undefined variable: imageFileType in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 54
+[02-Aug-2016 14:07:56 Europe/Paris] PHP Notice:  Undefined variable: imageFileType in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 54
+[02-Aug-2016 14:07:56 Europe/Paris] PHP Notice:  Undefined variable: imageFileType in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 54
+[02-Aug-2016 14:09:04 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 96
+[02-Aug-2016 14:09:04 Europe/Paris] PHP Notice:  Undefined variable: targetDir in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 96
+[02-Aug-2016 14:09:04 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 99
+[02-Aug-2016 14:09:04 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 33
+[02-Aug-2016 14:09:04 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 50
+[02-Aug-2016 14:17:56 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 102
+[02-Aug-2016 14:17:56 Europe/Paris] PHP Notice:  Undefined variable: targetDir in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 102
+[02-Aug-2016 14:17:56 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 105
+[02-Aug-2016 14:17:56 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 39
+[02-Aug-2016 14:17:56 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 56
+[02-Aug-2016 14:18:08 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 102
+[02-Aug-2016 14:18:08 Europe/Paris] PHP Notice:  Undefined variable: targetDir in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 102
+[02-Aug-2016 14:18:08 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 105
+[02-Aug-2016 14:18:08 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 39
+[02-Aug-2016 14:18:08 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 56
+[02-Aug-2016 14:20:42 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 102
+[02-Aug-2016 14:20:42 Europe/Paris] PHP Notice:  Undefined variable: targetDir in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 102
+[02-Aug-2016 14:20:42 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 105
+[02-Aug-2016 14:20:42 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 39
+[02-Aug-2016 14:20:42 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 56
+[02-Aug-2016 14:20:59 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 102
+[02-Aug-2016 14:20:59 Europe/Paris] PHP Notice:  Undefined variable: targetDir in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 102
+[02-Aug-2016 14:20:59 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 105
+[02-Aug-2016 14:20:59 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 39
+[02-Aug-2016 14:20:59 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 56
+[02-Aug-2016 14:23:06 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 103
+[02-Aug-2016 14:23:06 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 105
+[02-Aug-2016 14:23:06 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 39
+[02-Aug-2016 14:23:06 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 56
+[02-Aug-2016 14:31:38 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 103
+[02-Aug-2016 14:32:24 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 103
+[02-Aug-2016 14:34:00 Europe/Paris] PHP Notice:  Undefined index: filetoupload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 103
+[02-Aug-2016 14:47:49 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 115
+[02-Aug-2016 14:48:04 Europe/Paris] PHP Notice:  Undefined variable: targetDir in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 102
+[02-Aug-2016 14:48:04 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 105
+[02-Aug-2016 14:48:04 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:48:04 Europe/Paris] PHP Warning:  move_uploaded_file(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:48:04 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phpVHAsuh' to '' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:48:19 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 105
+[02-Aug-2016 14:48:19 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:48:19 Europe/Paris] PHP Warning:  move_uploaded_file(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:48:19 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phpkeptUc' to '' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:48:50 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:48:50 Europe/Paris] PHP Warning:  move_uploaded_file(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:48:50 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phpfyI2vt' to '' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:49:12 Europe/Paris] PHP Notice:  Undefined variable: targetFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:49:12 Europe/Paris] PHP Warning:  move_uploaded_file(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:49:12 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/php8BN49U' to '' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:49:36 Europe/Paris] PHP Notice:  Undefined variable: targetFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:49:36 Europe/Paris] PHP Warning:  move_uploaded_file(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:49:36 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phpekiYkg' to '' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:49:37 Europe/Paris] PHP Notice:  Undefined variable: targetFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:49:37 Europe/Paris] PHP Warning:  move_uploaded_file(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:49:37 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phpU5EqMN' to '' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:50:29 Europe/Paris] PHP Warning:  move_uploaded_file(Uploads/13340620_10209567966705407_1918005975_o.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:50:29 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phpnTCVPK' to 'Uploads/13340620_10209567966705407_1918005975_o.jpg' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:51:35 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 73
+[02-Aug-2016 14:51:35 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 74
+[02-Aug-2016 14:51:35 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 14:51:35 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 14:51:35 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 14:51:35 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 14:51:35 Europe/Paris] PHP Notice:  Undefined variable: file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 110
+[02-Aug-2016 14:51:50 Europe/Paris] PHP Warning:  move_uploaded_file(Uploads/13340620_10209567966705407_1918005975_o.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 14:51:50 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phpIixPls' to 'Uploads/13340620_10209567966705407_1918005975_o.jpg' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 71
+[02-Aug-2016 15:08:38 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 73
+[02-Aug-2016 15:08:38 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 74
+[02-Aug-2016 15:08:38 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 15:08:38 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 15:08:38 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:08:38 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:08:38 Europe/Paris] PHP Notice:  Undefined variable: file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 110
+[02-Aug-2016 15:09:04 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 73
+[02-Aug-2016 15:09:04 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 74
+[02-Aug-2016 15:09:04 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 15:09:04 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 15:09:04 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:09:04 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:09:04 Europe/Paris] PHP Notice:  Undefined variable: file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 110
+[02-Aug-2016 15:09:30 Europe/Paris] PHP Notice:  Undefined variable: target_file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 74
+[02-Aug-2016 15:09:30 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 15:09:30 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 15:09:30 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:09:30 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:09:30 Europe/Paris] PHP Notice:  Undefined variable: file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 110
+[02-Aug-2016 15:09:45 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 15:09:45 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 15:09:45 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:09:45 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:09:45 Europe/Paris] PHP Notice:  Undefined variable: file in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 110
+[02-Aug-2016 15:10:23 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, string given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 15:10:23 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, string given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:26:29 Europe/Paris] PHP Warning:  exif_imagetype(13340620_10209567966705407_1918005975_o.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 109
+[02-Aug-2016 15:26:29 Europe/Paris] PHP Warning:  exif_imagetype(13340620_10209567966705407_1918005975_o.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 113
+[02-Aug-2016 15:26:29 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, string given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 117
+[02-Aug-2016 15:26:29 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, string given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 118
+[02-Aug-2016 15:27:13 Europe/Paris] PHP Warning:  filesize() expects parameter 1 to be a valid path, resource given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 119
+[02-Aug-2016 15:47:49 Europe/Paris] PHP Parse error:  parse error, expecting `'{'' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 101
+[02-Aug-2016 15:57:38 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 15:57:46 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 15:58:16 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 16:04:47 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 17:29:11 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 125
+[02-Aug-2016 17:47:27 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 20
+[02-Aug-2016 17:48:58 Europe/Paris] PHP Fatal error:  Cannot redeclare get_existing_photo() (previously declared in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php:20) in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 34
+[02-Aug-2016 17:49:46 Europe/Paris] PHP Fatal error:  Cannot redeclare get_existing_photo() (previously declared in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php:20) in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 34
+[02-Aug-2016 17:50:14 Europe/Paris] PHP Notice:  Undefined index: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 107
+[02-Aug-2016 17:55:41 Europe/Paris] PHP Notice:  exif_imagetype(): Read error! in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 127
+[02-Aug-2016 17:55:41 Europe/Paris] PHP Notice:  exif_imagetype(): Read error! in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 131
+[02-Aug-2016 17:55:41 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 135
+[02-Aug-2016 17:55:41 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 135
+[02-Aug-2016 17:55:41 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 136
+[02-Aug-2016 17:55:41 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 136
+[02-Aug-2016 17:58:05 Europe/Paris] PHP Notice:  exif_imagetype(): Read error! in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 134
+[02-Aug-2016 17:58:05 Europe/Paris] PHP Notice:  exif_imagetype(): Read error! in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 138
+[02-Aug-2016 17:58:05 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 142
+[02-Aug-2016 17:58:05 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 142
+[02-Aug-2016 17:58:05 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 143
+[02-Aug-2016 17:58:05 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 143
+[02-Aug-2016 18:00:20 Europe/Paris] PHP Notice:  exif_imagetype(): Read error! in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 134
+[02-Aug-2016 18:00:20 Europe/Paris] PHP Notice:  exif_imagetype(): Read error! in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 138
+[02-Aug-2016 18:00:20 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 142
+[02-Aug-2016 18:00:20 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 142
+[02-Aug-2016 18:00:20 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 143
+[02-Aug-2016 18:00:20 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 143
+[02-Aug-2016 18:07:19 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 108
+[02-Aug-2016 18:25:21 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 18:26:00 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 18:26:27 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 18:26:58 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 18:27:13 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 18:27:25 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 18:57:06 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[02-Aug-2016 19:01:29 Europe/Paris] PHP Parse error:  parse error, expecting `','' or `';'' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 42
+[02-Aug-2016 19:01:41 Europe/Paris] PHP Fatal error:  Call to undefined function file_exist() in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 35
+[03-Aug-2016 12:12:24 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 34
+[03-Aug-2016 13:22:46 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 169
+[03-Aug-2016 13:35:38 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[03-Aug-2016 13:56:05 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 128
+[03-Aug-2016 14:16:13 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 39
+[03-Aug-2016 14:18:13 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 41
+[03-Aug-2016 14:21:48 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 84
+[03-Aug-2016 14:23:31 Europe/Paris] PHP Notice:  Undefined variable: img_owner in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 132
+[03-Aug-2016 14:25:38 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 38
+[03-Aug-2016 14:26:00 Europe/Paris] PHP Notice:  Undefined variable: photo_number in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 147
+[03-Aug-2016 14:26:00 Europe/Paris] PHP Warning:  exif_imagetype(Uploads/Uploads/13335477_10209575391611025_410438958_n.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 152
+[03-Aug-2016 14:26:00 Europe/Paris] PHP Warning:  exif_imagetype(Uploads/Uploads/13335477_10209575391611025_410438958_n.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 156
+[03-Aug-2016 14:26:00 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 160
+[03-Aug-2016 14:26:00 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 160
+[03-Aug-2016 14:26:00 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 161
+[03-Aug-2016 14:26:00 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 161
+[03-Aug-2016 14:26:00 Europe/Paris] PHP Warning:  filesize(): stat failed for Uploads/Uploads/13335477_10209575391611025_410438958_n.jpg in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 162
+[03-Aug-2016 14:26:00 Europe/Paris] PHP Notice:  Undefined variable: photo_number in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 163
+[03-Aug-2016 14:26:46 Europe/Paris] PHP Notice:  Undefined variable: photo_number in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 147
+[03-Aug-2016 14:26:46 Europe/Paris] PHP Warning:  exif_imagetype(Uploads/Uploads/10366063_1043575359035577_9016829247162163597_n.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 152
+[03-Aug-2016 14:26:46 Europe/Paris] PHP Warning:  exif_imagetype(Uploads/Uploads/10366063_1043575359035577_9016829247162163597_n.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 156
+[03-Aug-2016 14:26:46 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 160
+[03-Aug-2016 14:26:46 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 160
+[03-Aug-2016 14:26:46 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 161
+[03-Aug-2016 14:26:46 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 161
+[03-Aug-2016 14:26:46 Europe/Paris] PHP Warning:  filesize(): stat failed for Uploads/Uploads/10366063_1043575359035577_9016829247162163597_n.jpg in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 162
+[03-Aug-2016 14:26:46 Europe/Paris] PHP Notice:  Undefined variable: photo_number in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 163
+[03-Aug-2016 14:27:34 Europe/Paris] PHP Notice:  Undefined variable: targetFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 148
+[03-Aug-2016 14:27:34 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 150
+[03-Aug-2016 14:27:34 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[03-Aug-2016 14:27:34 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 158
+[03-Aug-2016 14:27:34 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 158
+[03-Aug-2016 14:27:34 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 159
+[03-Aug-2016 14:27:34 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 159
+[03-Aug-2016 14:31:55 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 150
+[03-Aug-2016 14:31:55 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[03-Aug-2016 14:31:55 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 158
+[03-Aug-2016 14:31:55 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 158
+[03-Aug-2016 14:31:55 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 159
+[03-Aug-2016 14:31:55 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 159
+[03-Aug-2016 15:35:00 Europe/Paris] PHP Warning:  move_uploaded_file(Uploads/12809909_10208757052233052_43512911_o.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 76
+[03-Aug-2016 15:35:00 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phprmUK7k' to 'Uploads/12809909_10208757052233052_43512911_o.jpg' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 76
+[03-Aug-2016 15:36:22 Europe/Paris] PHP Warning:  move_uploaded_file(Uploads/12809909_10208757052233052_43512911_o.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 76
+[03-Aug-2016 15:36:22 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phpJmUOqK' to 'Uploads/12809909_10208757052233052_43512911_o.jpg' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 76
+[03-Aug-2016 15:36:24 Europe/Paris] PHP Warning:  move_uploaded_file(Uploads/12809909_10208757052233052_43512911_o.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 76
+[03-Aug-2016 15:36:24 Europe/Paris] PHP Warning:  move_uploaded_file(): Unable to move '/private/var/folders/zz/zyxvpxvq6csfxvn_n00017ww0009z7/T/phpCPn9T0' to 'Uploads/12809909_10208757052233052_43512911_o.jpg' in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 76
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 148
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 148
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 152
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 152
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 156
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 156
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 157
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 157
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 158
+[03-Aug-2016 15:36:48 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 159
+[03-Aug-2016 15:37:09 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[03-Aug-2016 15:38:08 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[03-Aug-2016 15:43:28 Europe/Paris] PHP Warning:  getimagesize(12809909_10208757052233052_43512911_o.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 149
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 149
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 153
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 153
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 157
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 157
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 158
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 158
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 159
+[03-Aug-2016 15:46:14 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 160
+[03-Aug-2016 15:47:59 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 136
+[03-Aug-2016 15:48:13 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[03-Aug-2016 15:49:11 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[03-Aug-2016 15:49:46 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 150
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 150
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Warning:  exif_imagetype(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 158
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Warning:  imagesx() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 158
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Notice:  Undefined variable: img in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 159
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Warning:  imagesy() expects parameter 1 to be resource, null given in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 159
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 160
+[03-Aug-2016 15:49:56 Europe/Paris] PHP Notice:  Undefined variable: file_path in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 161
+[03-Aug-2016 15:53:52 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[03-Aug-2016 16:56:12 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 123
+[03-Aug-2016 16:56:12 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 17
+[03-Aug-2016 16:56:12 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 20
+[03-Aug-2016 16:56:12 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 21
+[03-Aug-2016 16:56:12 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 22
+[03-Aug-2016 16:56:12 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 23
+[03-Aug-2016 16:56:12 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[03-Aug-2016 16:56:12 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 37
+[03-Aug-2016 16:56:30 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 37
+[03-Aug-2016 16:56:30 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 53
+[03-Aug-2016 16:56:30 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[03-Aug-2016 16:56:30 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 37
+[03-Aug-2016 16:57:19 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 139
+[03-Aug-2016 16:58:57 Europe/Paris] PHP Notice:  Undefined variable: targetFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 38
+[03-Aug-2016 16:58:57 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 54
+[03-Aug-2016 16:58:57 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[03-Aug-2016 16:58:57 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 37
+[03-Aug-2016 16:59:10 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 55
+[03-Aug-2016 16:59:10 Europe/Paris] PHP Notice:  Undefined variable: imageFileType in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 59
+[03-Aug-2016 16:59:10 Europe/Paris] PHP Notice:  Undefined variable: imageFileType in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 59
+[03-Aug-2016 16:59:10 Europe/Paris] PHP Notice:  Undefined variable: imageFileType in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 59
+[03-Aug-2016 16:59:10 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[03-Aug-2016 16:59:10 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 37
+[03-Aug-2016 16:59:34 Europe/Paris] PHP Notice:  Undefined index: fileToUpload in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 55
+[03-Aug-2016 16:59:34 Europe/Paris] PHP Notice:  Undefined variable: imageFileType in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 59
+[03-Aug-2016 16:59:34 Europe/Paris] PHP Notice:  Undefined variable: imageFileType in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 59
+[03-Aug-2016 16:59:34 Europe/Paris] PHP Notice:  Undefined variable: imageFileType in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 59
+[03-Aug-2016 16:59:34 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[03-Aug-2016 16:59:34 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 37
+[03-Aug-2016 17:00:13 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 173
+[03-Aug-2016 17:00:53 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[03-Aug-2016 17:00:53 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 37
+[03-Aug-2016 17:01:25 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 37
+[03-Aug-2016 17:03:07 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[03-Aug-2016 17:03:17 Europe/Paris] PHP Notice:  Undefined index: UploadedFile in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[03-Aug-2016 17:07:00 Europe/Paris] PHP Notice:  Undefined variable: targetDir in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 39
+[03-Aug-2016 17:11:40 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 43
+[03-Aug-2016 17:18:37 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 43
+[03-Aug-2016 17:23:56 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 43
+[03-Aug-2016 17:38:03 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 43
+[03-Aug-2016 17:39:28 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 44
+[03-Aug-2016 17:40:30 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 45
+[03-Aug-2016 17:40:41 Europe/Paris] PHP Warning:  getimagesize(): Filename cannot be empty in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 45
+[03-Aug-2016 17:50:00 Europe/Paris] PHP Warning:  getimagesize(13340620_10209567966705407_1918005975_o.jpg): failed to open stream: No such file or directory in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 45
+[03-Aug-2016 18:09:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 125
+[03-Aug-2016 18:09:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 17
+[03-Aug-2016 18:09:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 20
+[03-Aug-2016 18:09:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 21
+[03-Aug-2016 18:09:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 22
+[03-Aug-2016 18:09:22 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 23
+[03-Aug-2016 18:16:31 Europe/Paris] PHP Fatal error:  Call to undefined function toggle_visibility() in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 166
+[03-Aug-2016 18:17:27 Europe/Paris] PHP Fatal error:  Call to undefined function toggle_visibility() in /nfs/2014/a/aliandie/Downloads/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 179
+[04-Aug-2016 16:06:38 Europe/Paris] PHP Notice:  Undefined variable: photo_number in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 149
+[04-Aug-2016 16:06:56 Europe/Paris] PHP Notice:  Undefined variable: photo_number in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 149
+[04-Aug-2016 18:26:29 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[04-Aug-2016 18:27:05 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[04-Aug-2016 18:27:08 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[04-Aug-2016 18:27:42 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 47
+[04-Aug-2016 18:27:42 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 48
+[04-Aug-2016 18:29:04 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 48
+[04-Aug-2016 18:29:45 Europe/Paris] PHP Fatal error:  Call to undefined function file_existe() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 46
+[04-Aug-2016 18:30:04 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 48
+[04-Aug-2016 18:53:00 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 48
+[04-Aug-2016 18:53:48 Europe/Paris] PHP Notice:  getimagesize(): Read error! in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 46
+[05-Aug-2016 12:27:22 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 113
+[05-Aug-2016 16:54:36 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[05-Aug-2016 16:54:36 Europe/Paris] PHP Fatal error:  Call to a member function prepare() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 20
+[09-Aug-2016 10:23:45 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 41
+[09-Aug-2016 10:23:45 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 41
+[09-Aug-2016 10:24:33 Europe/Paris] PHP Fatal error:  Call to undefined function is_loggedin() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 41
+[09-Aug-2016 10:30:15 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 41
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 19
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 24
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 28
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 32
+[09-Aug-2016 10:39:37 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[09-Aug-2016 10:45:15 Europe/Paris] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 52
+[09-Aug-2016 10:46:56 Europe/Paris] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 52
+[09-Aug-2016 10:47:56 Europe/Paris] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/core/php/user.class.php on line 31
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 154
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 18
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 23
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 28
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 32
+[09-Aug-2016 17:47:32 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 36
+[10-Aug-2016 15:53:27 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 163
+[10-Aug-2016 17:33:54 Europe/Paris] PHP Notice:  Undefined index: BioDescr in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 17
+[10-Aug-2016 19:01:37 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 34
+[10-Aug-2016 19:02:07 Europe/Paris] PHP Fatal error:  Call to undefined function execute() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 19
+[11-Aug-2016 10:38:49 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 19
+[11-Aug-2016 12:05:31 Europe/Paris] PHP Fatal error:  Call to undefined function get_user_desc() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/views/description.v.php on line 19
+[11-Aug-2016 12:08:28 Europe/Paris] PHP Notice:  Undefined index: bio_descr in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/controllers/description.c.php on line 39
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 172
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 16
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 19
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 20
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 21
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 22
+[11-Aug-2016 13:42:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/views/description.v.php on line 19
+[11-Aug-2016 13:51:07 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php on line 66
+[11-Aug-2016 13:56:54 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECT user_id FROM users WHERE  pseudo = 'poney')' at line 1' in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php:34
+Stack trace:
+#0 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php(34): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/views/information.v.php(22): get_user_gender(Object(Database), 'poney')
+#2 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php(109): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/index.php(14): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/views/home.v.php(27): i in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php on line 34
+[11-Aug-2016 13:58:00 Europe/Paris] PHP Fatal error:  Call to undefined function save_user_informations() in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/controllers/information.c.php on line 99
+[11-Aug-2016 15:46:06 Europe/Paris] PHP Notice:  Undefined index: user_tags in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 32
+[11-Aug-2016 15:49:31 Europe/Paris] PHP Parse error:  parse error in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 33
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/controllers/picture.c.php on line 172
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 16
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 19
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 20
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 21
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/picture/views/picture.v.php on line 22
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/views/information.v.php on line 23
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/information/views/information.v.php on line 27
+[12-Aug-2016 10:49:26 Europe/Paris] PHP Notice:  Undefined index: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/description/views/description.v.php on line 19
+[12-Aug-2016 11:25:24 Europe/Paris] PHP Warning:  str_split() expects parameter 2 to be long, string given in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 85
+[12-Aug-2016 11:27:04 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 91
+[12-Aug-2016 11:27:04 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['0']' at line 1' in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php:91
+Stack trace:
+#0 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(91): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/views/tag.v.php(20): get_user_tag(Object(Database), 'coucou')
+#2 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(129): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/index.php(14): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/views/home.v.php(30): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/controllers/home.c.php(18): include('/n in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 91
+[12-Aug-2016 11:27:57 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php:91
+Stack trace:
+#0 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(91): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/views/tag.v.php(20): get_user_tag(Object(Database), 'coucou')
+#2 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(129): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/index.php(14): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/views/home.v.php(30): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/controllers/home.c.php(18): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/index.php(81): include('/nfs/2014/a/a in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 91
+[12-Aug-2016 11:28:58 Europe/Paris] PHP Notice:  Undefined offset: 1 in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 87
+[12-Aug-2016 11:33:23 Europe/Paris] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php:91
+Stack trace:
+#0 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(91): PDOStatement->execute(Array)
+#1 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/views/tag.v.php(20): get_user_tag(Object(Database), 'poney')
+#2 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php(129): include('/nfs/2014/a/ali...')
+#3 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/index.php(14): include('/nfs/2014/a/ali...')
+#4 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/views/home.v.php(30): include('/nfs/2014/a/ali...')
+#5 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/controllers/home.c.php(18): include('/nfs/2014/a/ali...')
+#6 /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/index.php(81): include('/nfs/2014/a/al in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 91
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 11:41:54 Europe/Paris] PHP Notice:  Array to string conversion in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/tag/controllers/tag.c.php on line 94
+[12-Aug-2016 15:34:44 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:34:44 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:39:16 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:39:16 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:39:19 Europe/Paris] PHP Notice:  Undefined variable: user in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24
+[12-Aug-2016 15:39:19 Europe/Paris] PHP Fatal error:  Call to a member function is_loggedin() on a non-object in /nfs/2014/a/aliandie/work/PHP/Matcha_Reworked_2/modules/logout/controllers/logout.c.php on line 24

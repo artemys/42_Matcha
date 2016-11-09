@@ -12,3 +12,6 @@ Comptes utilisateur avancés.
 Web temps réel.
 Géolocalisation. 
 Sécurité / Validation de données. 
+
+Initialisation de la DB : core/configuration/setup.php
+
